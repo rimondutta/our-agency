@@ -1,0 +1,1401 @@
+[
+  {
+    "serviceId": "ecommerce-seo",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "Upto 40 Title / Meta Tags Optimization",
+          "Quickwin Keywords Analysis",
+          "Site Speed Optimization",
+          "12000 Content Submission",
+          "4 Guest Blogs/Articles",
+          "Social Bookmarking of Upto 65 Links",
+          "Classified Submission",
+          "Search Engine Submission",
+          "3 Forum Postings",
+          "Email & Phone Support"
+        ],
+        "blockedFeatures": [
+          "E-Commerce Platform Listing and Optimisation",
+          "Web 2.0 Profile Creation",
+          "Website Designing Consultation",
+          "Mobile App Development",
+          "Quick Commerce Platform Listing and Optimisation"
+        ],
+        "checkoutLink": "https://buy.stripe.com/3cs2aIfVRcabaze8xa",
+        "priceOriginal": null,
+        "priceDiscounted": 1000,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "Upto 100 Title / Meta Tags Optimization",
+          "Quickwin Keywords Analysis",
+          "Site Speed Optimization",
+          "25000 Content Submission",
+          "8 Guest Blogs/Articles",
+          "Social Bookmarking of Upto 130 Links",
+          "Classified Submission",
+          "Search Engine Submission",
+          "6 Forum Postings",
+          "Email & Phone Support",
+          "E-Commerce Platform Listing and Optimisation",
+          "Web 2.0 Profile Creation",
+          "Website Designing Consultation"
+        ],
+        "blockedFeatures": [
+          "Mobile App Development",
+          "Quick Commerce Platform Listing and Optimisation"
+        ],
+        "checkoutLink": "https://buy.stripe.com/00gaHebFBcab22I5kZ",
+        "priceOriginal": null,
+        "priceDiscounted": 1950,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "Site Wide Title/Meta Tags Optimization",
+          "Quickwin Keywords Analysis",
+          "Site Speed Optimization",
+          "55000 Content Submission",
+          "16 Guest Blogs/Articles",
+          "Social Bookmarking of Upto 130 Links",
+          "Classified Submission",
+          "Search Engine Submission",
+          "12 Forum Postings",
+          "Email & Phone Support",
+          "E-Commerce Platform Listing and Optimisation",
+          "3 Web 2.0 Profile Creation",
+          "Website Designing Consultation",
+          "Mobile App Development",
+          "Quick Commerce Platform Listing and Optimisation"
+        ],
+        "blockedFeatures": [],
+        "checkoutLink": "https://buy.stripe.com/dR63eM8tpcab9vaeVA",
+        "priceOriginal": null,
+        "priceDiscounted": 3450,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "Upto 40 Title / Meta Tags Optimization",
+          "Quickwin Keywords Analysis",
+          "Site Speed Optimization",
+          "12000 Content Submission",
+          "4 Guest Blogs/Articles",
+          "Social Bookmarking of Upto 65 Links",
+          "Classified Submission",
+          "Search Engine Submission",
+          "3 Forum Postings",
+          "Email & Phone Support"
+        ],
+        "blockedFeatures": [
+          "E-Commerce Platform Listing and Optimisation",
+          "Web 2.0 Profile Creation",
+          "Website Designing Consultation",
+          "Mobile App Development",
+          "Quick Commerce Platform Listing and Optimisation"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 11000,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/bIYeXubFBeij22I28Y"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "Upto 100 Title / Meta Tags Optimization",
+          "Quickwin Keywords Analysis",
+          "Site Speed Optimization",
+          "25000 Content Submission",
+          "8 Guest Blogs/Articles",
+          "Social Bookmarking of Upto 130 Links",
+          "Classified Submission",
+          "Search Engine Submission",
+          "6 Forum Postings",
+          "Email & Phone Support",
+          "E-Commerce Platform Listing and Optimisation",
+          "Web 2.0 Profile Creation",
+          "Website Designing Consultation"
+        ],
+        "blockedFeatures": [
+          "Mobile App Development",
+          "Quick Commerce Platform Listing and Optimisation"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 21450,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/28odTqbFB0rtcHm7tj"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "Site Wide Title/Meta Tags Optimization",
+          "Quickwin Keywords Analysis",
+          "Site Speed Optimization",
+          "55000 Content Submission",
+          "16 Guest Blogs/Articles",
+          "Social Bookmarking of Upto 130 Links",
+          "Classified Submission",
+          "Search Engine Submission",
+          "12 Forum Postings",
+          "Email & Phone Support",
+          "E-Commerce Platform Listing and Optimisation",
+          "3 Web 2.0 Profile Creation",
+          "Website Designing Consultation",
+          "Mobile App Development",
+          "Quick Commerce Platform Listing and Optimisation"
+        ],
+        "blockedFeatures": [],
+        "priceOriginal": null,
+        "priceDiscounted": 38940,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "local-seo",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "1 Location",
+          "5 Targeted Keywords",
+          "4 Local Business Listings",
+          "15 Local Classified Listings",
+          "Google Analytics setup",
+          "Google Search Console setup",
+          "Google My Business: Setup and Verification",
+          "Email & Phone Support"
+        ],
+        "blockedFeatures": [
+          "Google Map Integration on Website",
+          "Google My Business: Optimization",
+          "Conversion Rate Analysis",
+          "Dedicated Project Manager"
+        ],
+        "checkoutLink": "https://buy.stripe.com/14k02AgZV2zB4aQ4gF",
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "2 Location",
+          "12 Targeted Keywords",
+          "8 Local Business Listings",
+          "30 Local Classified Listings",
+          "Google Analytics setup",
+          "Google Search Console setup",
+          "Google My Business: Setup and Verification",
+          "Email & Phone Support",
+          "Google Map Integration on Website",
+          "Google My Business: Optimization",
+          "Conversion Rate Analysis",
+          "Dedicated Project Manager"
+        ],
+        "blockedFeatures": [],
+        "checkoutLink": "https://buy.stripe.com/cN202AdNJ6PR8r63cC",
+        "priceOriginal": null,
+        "priceDiscounted": 1000,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "3 Location",
+          "25 Targeted Keywords",
+          "16 Local Business Listings",
+          "50 Local Classified Listings",
+          "Google Analytics setup",
+          "Google Search Console setup",
+          "Google My Business: Setup and Verification",
+          "Email & Phone Support",
+          "Google Map Integration on Website",
+          "Google My Business: Optimization",
+          "Conversion Rate Analysis",
+          "Dedicated Project Manager"
+        ],
+        "blockedFeatures": [],
+        "checkoutLink": "https://buy.stripe.com/bIYdTqeRNfmnbDi28z",
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "1 Location",
+          "5 Targeted Keywords",
+          "4 Local Business Listings",
+          "15 Local Classified Listings",
+          "Google Analytics setup",
+          "Google Search Console setup",
+          "Google My Business: Setup and Verification",
+          "Email & Phone Support"
+        ],
+        "blockedFeatures": [
+          "Google Map Integration on Website",
+          "Google My Business: Optimization",
+          "Conversion Rate Analysis",
+          "Dedicated Project Manager"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 5500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/cN22aI4d90rtaze8xj"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "2 Location",
+          "12 Targeted Keywords",
+          "8 Local Business Listings",
+          "30 Local Classified Listings",
+          "Google Analytics setup",
+          "Google Search Console setup",
+          "Google My Business: Setup and Verification",
+          "Email & Phone Support",
+          "Google Map Integration on Website",
+          "Google My Business: Optimization",
+          "Conversion Rate Analysis",
+          "Dedicated Project Manager"
+        ],
+        "blockedFeatures": [],
+        "priceOriginal": null,
+        "priceDiscounted": 11000,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/aEU8z6aBx3DF9vabJw"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "3 Location",
+          "25 Targeted Keywords",
+          "16 Local Business Listings",
+          "50 Local Classified Listings",
+          "Google Analytics setup",
+          "Google Search Console setup",
+          "Google My Business: Setup and Verification",
+          "Email & Phone Support",
+          "Google Map Integration on Website",
+          "Google My Business: Optimization",
+          "Conversion Rate Analysis",
+          "Dedicated Project Manager"
+        ],
+        "blockedFeatures": [],
+        "priceOriginal": null,
+        "priceDiscounted": 17600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/cN27v24d98XZ36M8xl"
+      }
+    ]
+  },
+  {
+    "serviceId": "performance-marketing",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "Upto 4 Marketing Services/Month",
+          "Consulting & Strategy Development",
+          "Campaign Execution & Optimization",
+          "Bi-Weekly Performance meeting review sessions",
+          "Weekly activities + KPI reports",
+          "Monthly analytics & insights report",
+          "Email/Chat Support"
+        ],
+        "blockedFeatures": [
+          "Google data studio dashboard",
+          "Marketing plan development",
+          "Quarterly performance presentation",
+          "Dedicated FT Senior Digital Strategist",
+          "Online reputation monitoring"
+        ],
+        "checkoutLink": "https://buy.stripe.com/cN2dTq7pl4HJ9va8x4",
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "Upto 6 Marketing Services/Month",
+          "Consulting & Strategy Development",
+          "Campaign Execution & Optimization",
+          "Weekly Performance meeting review sessions",
+          "Weekly activities + KPI reports",
+          "Monthly analytics & insights report",
+          "Email/Chat Support",
+          "Google data studio dashboard",
+          "Marketing plan development"
+        ],
+        "blockedFeatures": [
+          "Quarterly performance presentation",
+          "Dedicated FT Senior Digital Strategist",
+          "Online reputation monitoring"
+        ],
+        "checkoutLink": "https://buy.stripe.com/00g6qY10X1vx4aQ00z",
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "Upto 6 Marketing Services/Month",
+          "Consulting & Strategy Development",
+          "Campaign Execution & Optimization",
+          "Twice A Week Performance meeting review sessions",
+          "Weekly activities + KPI reports",
+          "Monthly analytics & insights report",
+          "Email/Chat Support",
+          "Google data studio dashboard",
+          "Marketing plan development",
+          "Quarterly performance presentation",
+          "Dedicated FT Senior Digital Strategist",
+          "Online reputation monitoring"
+        ],
+        "blockedFeatures": [],
+        "checkoutLink": "https://buy.stripe.com/aEUbLi3952zBePu6oY",
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "Upto 4 Marketing Services/Month",
+          "Consulting & Strategy Development",
+          "Campaign Execution & Optimization",
+          "Bi-Weekly Performance meeting review sessions",
+          "Weekly activities + KPI reports",
+          "Monthly analytics & insights report",
+          "Email/Chat Support"
+        ],
+        "blockedFeatures": [
+          "Google data studio dashboard",
+          "Marketing plan development",
+          "Quarterly performance presentation",
+          "Dedicated FT Senior Digital Strategist",
+          "Online reputation monitoring"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 5500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/fZe5mU5hd6PRaze00T"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "Upto 6 Marketing Services/Month",
+          "Consulting & Strategy Development",
+          "Campaign Execution & Optimization",
+          "Weekly Performance meeting review sessions",
+          "Weekly activities + KPI reports",
+          "Monthly analytics & insights report",
+          "Email/Chat Support",
+          "Google data studio dashboard",
+          "Marketing plan development"
+        ],
+        "blockedFeatures": [
+          "Quarterly performance presentation",
+          "Dedicated FT Senior Digital Strategist",
+          "Online reputation monitoring"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 10450,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/bIY02AfVR0rtfTyeVO"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "Upto 6 Marketing Services/Month",
+          "Consulting & Strategy Development",
+          "Campaign Execution & Optimization",
+          "Twice A Week Performance meeting review sessions",
+          "Weekly activities + KPI reports",
+          "Monthly analytics & insights report",
+          "Email/Chat Support",
+          "Google data studio dashboard",
+          "Marketing plan development",
+          "Quarterly performance presentation",
+          "Dedicated FT Senior Digital Strategist",
+          "Online reputation monitoring"
+        ],
+        "blockedFeatures": [],
+        "priceOriginal": null,
+        "priceDiscounted": 17600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/28o3eMdNJ8XZaze00V"
+      }
+    ]
+  },
+  {
+    "serviceId": "social-media-marketing",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "5 Posts/Month",
+          "2 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 5 Hashtags",
+          "Upto 5000 Characters For Captions / Month"
+        ],
+        "blockedFeatures": [
+          "Pixel Integration",
+          "Twitter",
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "checkoutLink": "https://buy.stripe.com/4gw5mUfVR7TV8r69AV",
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "15 Posts/Month",
+          "4 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 15 Hashtags",
+          "Upto 10000 Characters For Captions / Month",
+          "Pixel Integration",
+          "Twitter"
+        ],
+        "blockedFeatures": [
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "checkoutLink": "https://buy.stripe.com/aEU4iQcJF4HJ36M28v",
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "30 Posts/Month",
+          "10 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 30 Hashtags",
+          "Upto 10000 Characters For Captions / Month",
+          "Pixel Integration",
+          "Twitter",
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "blockedFeatures": [],
+        "checkoutLink": "https://buy.stripe.com/aEU7v2cJFcab9va7sQ",
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "5 Posts/Month",
+          "2 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 5 Hashtags",
+          "Upto 5000 Characters For Captions / Month"
+        ],
+        "blockedFeatures": [
+          "Pixel Integration",
+          "Twitter",
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 5500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/bIY5mU8tp1vx6iY3d8"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "15 Posts/Month",
+          "4 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 15 Hashtags",
+          "Upto 10000 Characters For Captions / Month",
+          "Pixel Integration",
+          "Twitter"
+        ],
+        "blockedFeatures": [
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 10450,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/4gw4iQ10Xeij4aQdRN"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "30 Posts/Month",
+          "10 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 30 Hashtags",
+          "Upto 10000 Characters For Captions / Month",
+          "Pixel Integration",
+          "Twitter",
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "blockedFeatures": [],
+        "priceOriginal": null,
+        "priceDiscounted": 17600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "https://buy.stripe.com/bIYbLi8tpeij5eU7tq"
+      }
+    ]
+  },
+  {
+    "serviceId": "influencer-marketing",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "ecommerce-marketing",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "artificial-intelligence",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet To Decide"],
+        "blockedFeatures": ["Yet To Decide"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet To Decide"],
+        "blockedFeatures": ["Yet To Decide"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet To Decide"],
+        "blockedFeatures": ["Yet To Decide"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": [
+          "5 Posts/Month",
+          "2 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 5 Hashtags",
+          "Upto 5000 Characters For Captions / Month"
+        ],
+        "blockedFeatures": [
+          "Pixel Integration",
+          "Twitter",
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": [
+          "5 Posts/Month",
+          "2 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 5 Hashtags",
+          "Upto 5000 Characters For Captions / Month"
+        ],
+        "blockedFeatures": [
+          "Pixel Integration",
+          "Twitter",
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": [
+          "5 Posts/Month",
+          "2 Stories/Month",
+          "Original Content Creation for SMM",
+          "Upto 5 Hashtags",
+          "Upto 5000 Characters For Captions / Month"
+        ],
+        "blockedFeatures": [
+          "Pixel Integration",
+          "Twitter",
+          "LinkedIn",
+          "Google Analytics Implementation",
+          "Customer Enquiries & Relations"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "shopify-development",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1200,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 2100,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 3000,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "woocommerce-development",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "web-application-development",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "wordpress-development",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "mobile-application-development",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  },
+  {
+    "serviceId": "dropshipping",
+    "monthlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": [
+          "Google Map Integration on Website",
+          "Search Trends Analysis",
+          "Google My Business: Optimization"
+        ],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Monthly",
+        "checkoutLink": "#"
+      }
+    ],
+    "yearlyPlans": [
+      {
+        "id": 1,
+        "title": "STARTUP",
+        "description": "Perfect for individuals or small teams ready to turn bold ideas into real-world impact.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 500,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 2,
+        "title": "BUSINESS",
+        "description": "Designed for growing companies looking to scale operations and expand their reach.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 950,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      },
+      {
+        "id": 3,
+        "title": "ENTERPRISE",
+        "description": "Tailored solutions for large organizations with advanced needs and custom requirements.",
+        "features": ["Yet to be decided"],
+        "blockedFeatures": ["Yet to be decided"],
+        "priceOriginal": null,
+        "priceDiscounted": 1600,
+        "currency": "USD",
+        "billingCycle": "Yearly",
+        "checkoutLink": "#"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "sid": "local-seo",
+    "imgsrc": "/assets/img/services/sxo.svg",
+    "name": "SEO",
+    "desc": "Great rankings mean nothing without great user experience. Our SXO approach delivers both traffic and performance."
+  },
+  {
+    "sid": "performance-marketing",
+    "imgsrc": "/assets/img/services/pm.svg",
+    "name": "Performance Marketing",
+    "desc": "Results you can measure. We run data-driven campaigns that convert clicks into revenue across every platform."
+  },
+  {
+    "sid": "dropshipping",
+    "imgsrc": "/assets/img/services/drop.svg",
+    "name": "Dropshipping",
+    "desc": "From product research to fulfillment, our data-backed approach turns dropshipping into a real business."
+  }
+]

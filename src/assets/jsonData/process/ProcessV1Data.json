@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Research",
+    "thumb": "5.png",
+    "thumbLight": "27.png",
+    "text": "We thoroughly explore your brand, industry trends, and audience behavior to uncover valuable insights and opportunities."
+  },
+  {
+    "id": 2,
+    "title": "Analysis",
+    "thumb": "6.png",
+    "thumbLight": "28.png",
+    "text": "We evaluate the collected data to identify strengths, weaknesses, and market gaps, ensuring our strategies are precise and impactful."
+  },
+  {
+    "id": 3,
+    "title": "Implementation",
+    "thumb": "7.png",
+    "thumbLight": "29.png",
+    "text": "With a clear plan in place, we bring the strategy to life, focusing on delivering tangible results and lasting brand growth."
+  },
+  {
+    "id": 4,
+    "title": "Handover",
+    "thumb": "8.png",
+    "thumbLight": "30.png",
+    "text": "Once everything is in place, we hand over full control—complete with access, documentation, and guidance—so you're ready to run and grow with confidence."
+  }
+]

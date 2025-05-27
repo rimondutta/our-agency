@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "icon": "/sxo_dr.svg",
+    "iconLight": "/sxo_dr.svg",
+    "title": "SEO",
+    "text": "Great rankings mean nothing without great user experience. Our SXO approach delivers both traffic and performance.",
+    "activeClass": ""
+  },
+  {
+    "id": 2,
+    "icon": "/website tool development_dr.svg",
+    "iconLight": "24.png",
+    "title": "Website Development",
+    "text": "We build sleek, scalable digital products tailored to your brand — from high-performing websites to powerful mobile apps.",
+    "activeClass": ""
+  },
+  {
+    "id": 3,
+    "icon": "pm_dr.svg",
+    "iconLight": "25.png",
+    "title": "Performance Marketing",
+    "text": "Results you can measure. We run data-driven campaigns that convert clicks into revenue across every platform.",
+    "activeClass": ""
+  },
+  {
+    "id": 4,
+    "icon": "social media marketing_dr.svg",
+    "iconLight": "26.png",
+    "title": "Social Media Marketing",
+    "text": "Grow your presence, spark engagement, and turn followers into loyal customers with platform-specific strategies.",
+    "activeClass": ""
+  }
+]

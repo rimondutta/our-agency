@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "activeClass": "out",
+        "serviceid":"marketing",
+        "icon": "12.png",
+        "iconLight": "31.png",
+        "titleFirst": "Marketing",
+        "titleLast": "",
+        "text": "Marketing powers your digital growth. We are digital marketing experts who design strategies that boost visibility, attract the right audience, and drive lasting impact.",
+        "number": "01"
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "serviceid":"development",
+        "icon": "13.png",
+        "iconLight": "32.png",
+        "titleFirst": "Development",
+        "titleLast": "",
+        "text": "From website design and development to AI tools and mobile apps, our website development services offer tailored solutions designed to help your business thrive.",
+        "number": "02"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "serviceid":"dropshipping",
+        "icon": "15.png",
+        "iconLight": "34.png",
+        "titleFirst": "Dropshipping",
+        "titleLast": "",
+        "text": "Build a profitable brand by selling the right products– sourced from reliable suppliers and backed by profit margins that make your business sustainable .",
+        "number": "03"
+    }
+]

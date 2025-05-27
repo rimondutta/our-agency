@@ -1,0 +1,144 @@
+{
+  "monthlyPlans": [
+    {
+      "id": 1,
+      "title": "STARTUP",
+      "description": "Let top creative talent come to you by posting your job listing on #1 Design Jobs Board.",
+      "features": [
+        "5 Posts/Month",
+        "2 Stories/Month",
+        "Original Content Creation for SMM",
+        "Upto 5 Hashtags",
+        "Upto 5000 Characters For Captions / Month"
+      ],
+      "blockedFeatures": [
+        "Pixel Integration",
+        "Twitter",
+        "LinkedIn",
+        "Google Analytics Implementation",
+        "Customer Enquiries & Relations"
+      ],
+      "priceOriginal": null,
+      "priceDiscounted": 500,
+      "currency": "USD",
+      "billingCycle": "Monthly"
+    },
+    {
+      "id": 2,
+      "title": "BUSINESS",
+      "description": "Let top creative talent come to you by posting your job listing on #1 Design Jobs Board.",
+      "features": [
+       "5 Posts/Month",
+        "2 Stories/Month",
+        "Original Content Creation for SMM",
+        "Upto 5 Hashtags",
+        "Upto 5000 Characters For Captions / Month"
+      ],
+      "blockedFeatures": [
+        "Pixel Integration",
+        "Twitter",
+        "LinkedIn",
+        "Google Analytics Implementation",
+        "Customer Enquiries & Relations"
+      ],
+      "priceOriginal": null,
+      "priceDiscounted": 950,
+      "currency": "USD",
+      "billingCycle": "Monthly"
+    },
+    {
+      "id": 3,
+      "title": "ENTERPRISE",
+      "description": "Let top creative talent come to you by posting your job listing on #1 Design Jobs Board.",
+      "features": [
+        "5 Posts/Month",
+        "2 Stories/Month",
+        "Original Content Creation for SMM",
+        "Upto 5 Hashtags",
+        "Upto 5000 Characters For Captions / Month"
+      ],
+      "blockedFeatures": [
+        "Pixel Integration",
+        "Twitter",
+        "LinkedIn",
+        "Google Analytics Implementation",
+        "Customer Enquiries & Relations"
+      ],
+      "priceOriginal": null,
+      "priceDiscounted": 1600,
+      "currency": "USD",
+      "billingCycle": "Monthly"
+    }
+  ],
+  "yearlyPlans": [
+    {
+      "id": 1,
+      "title": "STARTUP",
+      "description": "Let top creative talent come to you by posting your job listing on #1 Design Jobs Board.",
+      "features": [
+        "5 Posts/Month",
+        "2 Stories/Month",
+        "Original Content Creation for SMM",
+        "Upto 5 Hashtags",
+        "Upto 5000 Characters For Captions / Month"
+      ],
+      "blockedFeatures": [
+        "Pixel Integration",
+        "Twitter",
+        "LinkedIn",
+        "Google Analytics Implementation",
+        "Customer Enquiries & Relations"
+      ],
+      "priceOriginal": null,
+      "priceDiscounted": 500,
+      "currency": "USD",
+      "billingCycle": "Monthly"
+    },
+    {
+      "id": 2,
+      "title": "BUSINESS",
+      "description": "Let top creative talent come to you by posting your job listing on #1 Design Jobs Board.",
+      "features": [
+       "5 Posts/Month",
+        "2 Stories/Month",
+        "Original Content Creation for SMM",
+        "Upto 5 Hashtags",
+        "Upto 5000 Characters For Captions / Month"
+      ],
+      "blockedFeatures": [
+        "Pixel Integration",
+        "Twitter",
+        "LinkedIn",
+        "Google Analytics Implementation",
+        "Customer Enquiries & Relations"
+      ],
+      "priceOriginal": null,
+      "priceDiscounted": 950,
+      "currency": "USD",
+      "billingCycle": "Monthly"
+    },
+    {
+      "id": 3,
+      "title": "ENTERPRISE",
+      "description": "Let top creative talent come to you by posting your job listing on #1 Design Jobs Board.",
+      "features": [
+       "5 Posts/Month",
+        "2 Stories/Month",
+        "Original Content Creation for SMM",
+        "Upto 5 Hashtags",
+        "Upto 5000 Characters For Captions / Month"
+      ],
+      "blockedFeatures": [
+        "Pixel Integration",
+        "Twitter",
+        "LinkedIn",
+        "Google Analytics Implementation",
+        "Customer Enquiries & Relations"
+      ],
+      "priceOriginal": null,
+      "priceDiscounted": 1600,
+      "currency": "USD",
+      "billingCycle": "Yearly"
+    }
+  ]
+}

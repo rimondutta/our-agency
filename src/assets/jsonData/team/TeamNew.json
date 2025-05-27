@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "thumb": "/rimon dutta 2.png",
+    "name": "Rimon Dutta",
+    "designation": "Founder, SEO Expert & Developer",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/rimon-dutta/",
+      "instagram": ""
+    }
+  },
+  {
+    "id": 2,
+    "thumb": "arif.png",
+    "name": "Ariful Islam",
+    "designation": "Digital Marketer and SEO Expert",
+    "social": {
+      "linkedin": "",
+      "instagram": ""
+    }
+  },
+  {
+    "id": 3,
+    "thumb": "joy devnath.png",
+    "name": "Joy Devnath",
+    "designation": "Digital Marketing Strategist, SEO Specialist, SMM Expert",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/joy-devnath-545209346/",
+      "instagram": ""
+    }
+  },
+  {
+    "id": 4,
+    "thumb": "rimon dutta 2.png",
+    "name": "Rimon Dutta",
+    "designation": "Assistant Director",
+    "social": {
+      "linkedin": "",
+      "instagram": ""
+    }
+  },
+  
+  {
+    "id": 5,
+    "thumb": "arif.png",
+    "name": "Ariful Islam",
+    "designation": "Sr. Project Manager",
+    "social": {
+      "linkedin": "",
+      "instagram": ""
+    }
+  }
+]

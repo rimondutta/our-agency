@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "thumb": "14.jpg",
+    "name": "Shubhranshu Srivastava",
+    "designation": "Founder, Director & CEO"
+  },
+  {
+    "id": 2,
+    "thumb": "15.jpg",
+    "name": "Sunny Kumar",
+    "designation": "Co-Founder, Director & COO"
+  },
+  {
+    "id": 3,
+    "thumb": "16.jpg",
+    "name": "Apoorv Dwivedi",
+    "designation": "Chief Technology Officer"
+  },
+  {
+    "id": 4,
+    "thumb": "16.jpg",
+    "name": "Sidharth Anant Shiv",
+    "designation": "Assistant Director"
+  }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "id": "dripnation",
+        "thumb": "/assets/img/portfolio/DripNation.jpg",
+        "title": "Drip Nation IL",
+        "tag": "Marketing"
+    },
+    {
+        "id": "alamocitypopcorn",
+        "thumb": "/assets/img/portfolio/Alamo city popcorn 1.jpg",
+        "title": "Alamo City Popcorn",
+        "tag": "UX Design"
+    },
+    {
+        "id": "eyecandybrownsalon",
+        "thumb": "/assets/img/portfolio/eyeCandy.jpg",
+        "title": "Eye Candy Brown Salon",
+        "tag": "Branding"
+    },
+    {
+        "id": "gourmetkitchenworks",
+        "thumb": "/assets/img/portfolio/gourmet kitchen 1.jpg",
+        "title": "Gourmet Kitchenworks",
+        "tag": "Business"
+    },{
+        "id": "gourmetkitchenworks",
+        "thumb": "/assets/img/portfolio/gk-thumb.jpg",
+        "tag": "Marketing",
+        "title": "Gourmet Kitchenworks"
+    },
+    {
+        "id": "eyecandybrownsalon",
+        "thumb": "/assets/img/portfolio/eyecandy-thumb.jpg",
+        "tag": "Creative",
+        "title": "Eye Candy Brown Salon"
+    },
+    {
+        "id": "laddersafetyrails",
+        "thumb": "/assets/img/portfolio/laddersafety-thumb.jpg",
+        "tag": "Design",
+        "title": "Ladder Safety Rails"
+    },
+    {
+        "id": "rehisk",
+        "thumb": "/assets/img/portfolio/rehisk-thumb.jpg",
+        "tag": "Business",
+        "title": "Rehisk"
+    },
+    {
+        "id": "alamocitypopcorn",
+        "thumb": "/assets/img/portfolio/Alamocitypopcorn-thumb.jpg",
+        "tag": "Business",
+        "title": "Alamo City Popcorn"
+    },
+    {
+        "id": "dripnation",
+        "thumb": "/assets/img/portfolio/drip-nation-thumb.jpg",
+        "tag": "Business",
+        "title": "Drip Nation IL"
+    }, 
+    {
+        "id": "candlepearls",
+        "thumb": "/assets/img/portfolio/pearl.jpg",
+        "tag": "Business",
+        "title": "Candle Pearls"
+    },
+    {
+        "id": "brewtheblend",
+        "thumb": "/assets/img/portfolio/brew the blend.jpg",
+        "tag": "Business",
+        "title": "Brew The Blend"
+    },
+     {
+        "id": "aquatic-ventures",
+        "thumb": "/assets/img/portfolio/aquatic venture banner img.jpg",
+        "tag": "Business",
+        "title": "Aquatic Venture"
+    },
+     {
+        "id": "axyloza",
+        "thumb": "/assets/img/portfolio/axyloza banner.jpg",
+        "tag": "Business",
+        "title": "Axyloza"
+    },
+     {
+        "id": "chameleon-transfer",
+        "thumb": "/assets/img/portfolio/chameleon transfer banner.jpg",
+        "tag": "Business",
+        "title": "Chameleon Transfer"
+    },
+    {
+        "id": "thrivewell-sports",
+        "thumb": "/assets/img/portfolio/thrivell sports banner 2.jpg",
+        "tag": "Business",
+        "title": "ThriveWell Sports"
+    }
+]

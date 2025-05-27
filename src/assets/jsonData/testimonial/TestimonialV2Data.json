@@ -1,0 +1,68 @@
+{
+    "quoteData": [
+        {
+            "id": 1,
+            "name": "JustinCASE",
+            "designation": "Envato Client",
+            "quote": "We have been very pleased with the quality of service and support offered by Quirktix in the five months of engagement.  Communications and response times are excellent as is the collaboration process.  We would gladly endorse them to others ."
+        },
+        {
+            "id": 2,
+            "name": "Marinela Makeup",
+            "designation": "Business Owner",
+            "quote": "We love working with them! Professional and so great to work with and great to communicate with.  Highly Recommended."
+        },
+        {
+            "id": 3,
+            "name": "Sole Design Studio",
+            "designation": "Creative Director",
+            "quote": "Quirktix provided an invaluable service to me with regards to Google advertising and SEO work. Starting with the basics they helped bring my site up in ranking, reworking product issues, enhancing SEO, writing a blog and setting up ads for Google. Their communication was excellent with meetings via Zoom each month and email in between. Whenever I had a question, they were responsive."
+        },
+        {
+            "id": 4,
+            "name": "JustinCASE",
+            "designation": "Envato Client",
+            "quote": "We have been very pleased with the quality of service and support offered by Quirktix in the five months of engagement.  Communications and response times are excellent as is the collaboration process.  We would gladly endorse them to others ."
+        },
+        {
+            "id": 5,
+            "name": "Marinela Makeup",
+            "designation": "Business Owner",
+            "quote": "We love working with them! Professional and so great to work with and great to communicate with.  Highly Recommended."
+        },
+        {
+            "id": 6,
+            "name": "Pleasure & Intimacy",
+            "designation": "Business Owner",
+            "quote": "I have been working with Quirktix for nearly a year.  They did an outstanding job at redesigning my store and they are very knowledge in SEO.  As an entrepreneur your emotions are on a bit of a rollercoaster but they have been steadfast in providing me with information and fixing issues calmly and they have been a very big support overall."
+        }
+
+        
+    ],
+    "navigationData": [
+        {
+            "id": 1,
+            "thumb": "/assets/img/testimonial/just in case.jpg"
+        },
+        {
+            "id": 2,
+            "thumb": "/assets/img/testimonial/marinela.jpg"
+        },
+        {
+            "id": 3,
+            "thumb": "/assets/img/testimonial/soledesign.jpg"
+        },
+        {
+            "id": 4,
+            "thumb": "/assets/img/testimonial/just in case.jpg"
+        },
+        {
+            "id": 5,
+            "thumb": "/assets/img/testimonial/marinela.jpg"
+        },
+        {
+            "id": 6,
+            "thumb": "/assets/img/testimonial/pleasure and intimacy.jpg"
+        }     
+    ]
+}

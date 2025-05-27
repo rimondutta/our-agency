@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" height="100px" width="100px" transform="rotate(0) scale(1, 1)">
+  <defs>
+    <style>.cls-1 { fill: #ffffff; stroke-width: 0px; }</style>
+  </defs>
+  <rect class="cls-1" x="1.27" y="37.96" width="4.55" height="8.99"/>
+  <rect class="cls-1" x="94.18" y="37.96" width="4.55" height="8.99"/>
+  <polygon class="cls-1" points="50.76 13.16 52.06 13.16 52.06 8.83 47.73 8.83 47.73 13.16 49.03 13.16 50.76 13.16"/>
+  <path class="cls-1" d="M83.46,19.22h-32.7v-6.06h-1.73v6.06H16.75c-4.01,0-7.26,3.25-7.26,7.36v64.32c0,.22.22.32.43.22l21.77-17s.11-.11.22-.11h51.33c4.01,0,7.26-3.25,7.26-7.36V26.26c0-3.9-3.14-7.04-7.04-7.04ZM39.17,53.44h-6.5v-15.49h6.5v15.49ZM67.43,53.44h-6.5v-15.49h6.5v15.49Z"/>
+</svg>

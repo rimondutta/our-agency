@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "titleFirst": "Custom Theme Design",
+    "titleLast": "Optimization",
+    "icon": "custom theme design.svg",
+    "text": "We design visually stunning and user-friendly Shopify themes that align with your brand identity, ensuring a seamless and engaging shopping experience across all devices.",
+    "number": "01"
+  },
+  {
+    "id": 2,
+    "titleFirst": "Store Setup & Configuration",
+    "titleLast": "Web Development",
+    "icon": "store setup.svg",
+    "text": "From product listings and payment gateways to shipping and taxes, we handle the complete setup of your Shopify store for a hassle-free launch.",
+    "number": "02"
+  },
+  {
+    "id": 3,
+    "titleFirst": "App Integration",
+    "titleLast": "from Professionals",
+    "icon": "app integration.svg",
+    "text": "We integrate essential Shopify apps for reviews, email marketing, upselling, analytics, and more—enhancing functionality and UI/UX without compromising speed.",
+    "number": "03"
+  },
+  {
+    "id": 4,
+    "titleFirst": "Conversion Rate Optimization",
+    "titleLast": "Latest Technology",
+    "icon": "conversion rate.svg",
+    "text": "Our team optimizes every element of your store—from layout to CTAs—to increase engagement, reduce drop-offs, and drive more sales.",
+    "number": "04"
+  },
+  {
+    "id": 5,
+    "titleFirst": "SEO & Speed Optimization",
+    "titleLast": "Latest Technology",
+    "icon": "seo and speed optimization.svg",
+    "text": "We improve your store’s visibility with on-page SEO best practices and boost performance through image compression, clean code, and fast-loading pages.",
+    "number": "04"
+  },
+  {
+    "id": 6,
+    "titleFirst": "Ongoing Support & Maintenance",
+    "titleLast": "Latest Technology",
+    "icon": "support and maintainance.svg",
+    "text": "Post-launch, we offer reliable support to resolve issues, implement updates, and keep your store running smoothly at all times",
+    "number": "04"
+  },
+   {
+    "id": 7,
+    "titleFirst": "Goal Definition",
+    "titleLast": "Latest Technology",
+    "icon": "support and maintainance.svg",
+    "text": "A user or system defines a high-level objective eg. generate and send weekly sales report",
+    "number": "04"
+  },
+   {
+    "id": 8,
+    "titleFirst": "Context Gathering",
+    "titleLast": "Latest Technology",
+    "icon": "support and maintainance.svg",
+    "text": "The agent collects relevant data from connected tools (e.g., CRM, email, databases, APIs) to understand the context of the task.",
+    "number": "04"
+  },
+   {
+    "id": 9,
+    "titleFirst": "Planning & Reasoning",
+    "titleLast": "Latest Technology",
+    "icon": "support and maintainance.svg",
+    "text": "Using a Large Language Model (LLM), the agent breaks down the goal into sub-tasks, decides the optimal sequence, and determines the tools or data sources required.",
+    "number": "04"
+  },
+   {
+    "id": 10,
+    "titleFirst": "Action Execution",
+    "titleLast": "Latest Technology",
+    "icon": "support and maintainance.svg",
+    "text": "The agent executes each task step-by-step—writing emails, querying databases, updating records, or generating content.", 
+    "number": "04"
+  },
+   {
+    "id": 11,
+    "titleFirst": "Monitoring & Error Handling",
+    "titleLast": "Latest Technology",
+    "icon": "support and maintainance.svg",
+    "text": "Agents track their own progress, detect errors or exceptions, and retry or adjust strategies as needed—without human intervention.",
+    "number": "04"
+  },
+   {
+    "id": 12,
+    "titleFirst": "Learning & Optimization",
+    "titleLast": "Latest Technology",
+    "icon": "support and maintainance.svg",
+    "text": "APA systems can learn from past interactions and optimize performance over time, using reinforcement learning or human feedback (RLHF).",
+    "number": "04"
+  }
+]

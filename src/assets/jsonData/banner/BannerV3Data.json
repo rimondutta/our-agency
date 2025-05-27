@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "thumb": "/assets/img/services/dropshipping/niche/Eco friendly products.png",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Eco-Friendly Products ",
+    "date": "18 October, 2024"
+  },
+  {
+    "id": 2,
+    "thumb": "/assets/img/services/dropshipping/niche/home fitness and wellness.png",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Home Fitness & Wellness",
+    "date": "18 January, 2024"
+  },
+  {
+    "id": 3,
+    "thumb": "/assets/img/services/dropshipping/niche/Pet accessories and toys.png",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Pet Accessories & Toys",
+    "date": "18 July, 2024"
+  },
+  {
+    "id": 4,
+    "thumb": "/assets/img/services/dropshipping/niche/tech.png",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Tech Gadgets & Accessories",
+    "date": "18 October, 2024"
+  },
+  {
+    "id": 5,
+    "thumb": "/assets/img/services/dropshipping/niche/Beauty and skincare.png",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Beauty & Skincare Tools",
+    "date": "18 January, 2024"
+  },
+  {
+    "id": 6,
+    "thumb": "/assets/img/services/dropshipping/niche/Home decor and organization.png",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Home Decor & Organizationt ",
+    "date": "18 July, 2024"
+  },
+  {
+    "id": 7,
+    "thumb": "/assets/img/thumb/lifestyle.jpg",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Lifestyle ",
+    "date": "18 October, 2024"
+  },
+  {
+    "id": 8,
+    "thumb": "/assets/img/thumb/clothing.jpg",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Clothing",
+    "date": "18 January, 2024"
+  },
+  {
+    "id": 9,
+    "thumb": "/assets/img/thumb/food and beverages.jpg",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Food & Beverage",
+    "date": "18 July, 2024"
+  },
+  {
+    "id": 10,
+    "thumb": "/assets/img/thumb/health and wellness.jpg",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Health & Wellness",
+    "date": "18 October, 2024"
+  },
+  {
+    "id": 11,
+    "thumb": "/assets/img/thumb/edtech learning platforms.jpg",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "EdTech & Learning Platforms",
+    "date": "18 January, 2024"
+  },
+  {
+    "id": 12,
+    "thumb": "/assets/img/thumb/beauty.jpg",
+    "thumbFull": "11-full.jpg",
+    "tag": "Marketing",
+    "title": "Beauty ",
+    "date": "18 July, 2024"
+  }
+]

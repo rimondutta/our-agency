@@ -1,0 +1,44 @@
+[
+    {
+        "id": "gourmetkitchenworks",
+        "thumb": "/assets/img/portfolio/gk-thumb.jpg",
+        "tag": "Marketing",
+        "date": "August, 2024",
+        "text": "Gourmet Kitchenworks"
+    },
+    {
+        "id": "eyecandybrownsalon",
+        "thumb": "/assets/img/portfolio/eyecandy-thumb.jpg",
+        "tag": "Creative",
+        "date": "March, 2023",
+        "text": "Eye Candy Brown Salon"
+    },
+    {
+        "id": "laddersafetyrails",
+        "thumb": "/assets/img/portfolio/laddersafety-thumb.jpg",
+        "tag": "Design",
+        "date": "November, 2024",
+        "text": "Ladder Safety Rails"
+    },
+    {
+        "id": "rehisk",
+        "thumb": "/assets/img/portfolio/rehisk-thumb.jpg",
+        "tag": "Business",
+        "date": "September, 2024",
+        "text": "Rehisk"
+    },
+    {
+        "id": "alamo-city-popcorn",
+        "thumb": "/assets/img/portfolio/Alamocitypopcorn-thumb.jpg",
+        "tag": "Business",
+        "date": "September, 2024",
+        "text": "Alamo City Popcorn"
+    },
+    {
+        "id": "drip-nation-il",
+        "thumb": "/assets/img/portfolio/drip-nation-thumb.jpg",
+        "tag": "Business",
+        "date": "September, 2024",
+        "text": "Drip Nation IL"
+    }
+]

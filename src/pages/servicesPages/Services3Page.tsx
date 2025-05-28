@@ -4,7 +4,6 @@ import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import ServicesV3 from "../../components/services/ServicesV3";
 import MostPopularServices from "../../components/services/MostPopularServices";
-import banner6 from "/assets/img/services/vaishnavi-pic-2.png"
 const Services3Page = () => {
   return (
     <>
@@ -18,7 +17,7 @@ const Services3Page = () => {
           <div className="row ">
             <div className="col-xl-12">
               <div className="service-single-thumb">
-                <img src={banner6} alt="Thumb" />
+
               </div>
             </div>
           </div>

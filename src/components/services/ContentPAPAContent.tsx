@@ -231,7 +231,7 @@ const ContentPapa = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
                   {/* Text */}
                   <div className="finetuneimage text-center p-2">
                     <img
-                      src="/assets/img/team/shubhsir shoot.png"
+                      src="/assets/img/team/rimon dutta 2.png"
                       alt="Blog"
                       className="img-fluid"
                       style={{

@@ -222,17 +222,7 @@ const AIContent = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
                     href=""
                   >
                     {" "}
-                    <div
-                      style={{ paddingTop: "40px", paddingBottom: "20px" }}
-                      className="drokimg rounded-4 text-center shadow-sm border border-secondary"
-                    >
-                      {/* <img
-                        src="/assets/img/services/white 1.png"
-                        style={{ width: "90%" }}
-                        alt=""
-                      /> */}
-                      {/* <div style={{backgroundColor:"white",color:"black",width:"40%",borderRadius:'10px',position:"absolute",top:"-20px",right:"0"}}>Click Here To Try Now</div> */}
-                    </div>
+                 
                   </a>
                   <div>
                     <h3
@@ -331,7 +321,7 @@ const AIContent = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
                   </div>
                   <div  className="finetuneimage text-center p-2">
                     <img
-                      src="/assets/img/team/shubhsir shoot.png"
+                      src="/assets/img/team/rimon dutta 2.png"
                       alt="Blog"
                       className="img-fluid"
                       style={{

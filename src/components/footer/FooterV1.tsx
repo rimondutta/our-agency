@@ -82,7 +82,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                     </li>
                     <li>
                      <a target="_blank" href="https://rimondutta.vercel.app/">
-                      Develop By Rimon Dutta
+                      DEVELOP BY RIMON DUTTA
                     </a>
                     </li>
                   </ul>

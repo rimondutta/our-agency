@@ -152,7 +152,7 @@ const AboutUsPage2 = () => {
                     threshold={0.2}
                     rootMargin="-50px"
                   >
-                    Meet Our Brains
+                    Meet Our Team
                   </SplitText>
                 </h1>
               </div>
@@ -188,7 +188,7 @@ const AboutUsPage2 = () => {
             <div className="row">
               <div className="col-lg-8 offset-lg-2 ">
                 <div className="site-heading text-center pt-4">
-                  <h1 className="split-text">
+                  {/* <h1 className="split-text">
                     <SplitText
                       delay={120}
                       animationFrom={{
@@ -205,7 +205,7 @@ const AboutUsPage2 = () => {
                     >
                       The Leardership Personnel
                     </SplitText>
-                  </h1>
+                  </h1> */}
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@ const AboutUsPage2 = () => {
           </div>
 
           <div style={{ padding: "40px 0px" }}>
-            <h1 className="text-center">Our Team</h1>
+            {/* <h1 className="text-center">Our Team</h1> */}
             <div
               className="team-grid"
               style={{

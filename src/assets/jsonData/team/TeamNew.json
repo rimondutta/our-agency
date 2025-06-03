@@ -3,7 +3,7 @@
     "id": 1,
     "thumb": "/rimon dutta 2.png",
     "name": "Rimon Dutta",
-    "designation": "Founder, SEO Expert & Developer",
+    "designation": "Founder, CEO & Full Stack Software Engineer",
     "social": {
       "linkedin": "https://www.linkedin.com/in/rimon-dutta/",
       "instagram": ""
@@ -31,9 +31,9 @@
   },
   {
     "id": 4,
-    "thumb": "rimon dutta 2.png",
-    "name": "Rimon Dutta",
-    "designation": "Assistant Director",
+    "thumb": "lorem.png",
+    "name": "Coming Soon",
+    "designation": "CMS Specialist",
     "social": {
       "linkedin": "",
       "instagram": ""
@@ -42,9 +42,9 @@
   
   {
     "id": 5,
-    "thumb": "arif.png",
-    "name": "Ariful Islam",
-    "designation": "Sr. Project Manager",
+    "thumb": "lorem.png",
+    "name": "Coming Soon",
+    "designation": "Graphic Designer",
     "social": {
       "linkedin": "",
       "instagram": ""

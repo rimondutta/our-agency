@@ -11,8 +11,8 @@
   },
   {
     "id": 2,
-    "thumb": "arif.png",
-    "name": "Ariful Islam",
+    "thumb": "lorem.png",
+    "name": "Anup Barua",
     "designation": "Digital Marketer And Business Analyst",
     "social": {
       "linkedin": "",
@@ -21,9 +21,9 @@
   },
   {
     "id": 3,
-    "thumb": "joy devnath.png",
-    "name": "Joy Devnath",
-    "designation": "Digital Marketing Strategist, SEO Specialist, SMM Expert",
+    "thumb": "lorem.png",
+    "name": "Lorem ipsum",
+    "designation": "SMM Expert",
     "social": {
       "linkedin": "https://www.linkedin.com/in/joy-devnath-545209346/",
       "instagram": ""

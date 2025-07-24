@@ -14,10 +14,10 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
         data-in="fadeInDown"
         data-out="fadeOutUp"
       >
-        {/* <li className="dropdown">
-                    <Link to="#" className=" active" data-toggle="dropdown" onClick={toggleSubMenu}>Home</Link>
+        <li className="dropdown">
+                    <Link to="/#" className=" active" data-toggle="dropdown" onClick={toggleSubMenu}>Home</Link>
                     
-                </li> */}
+                </li>
         <li className="dropdown">
           <Link
             to="/about-us"

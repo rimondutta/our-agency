@@ -78,9 +78,7 @@ const BannerV8 = ({ lightMode }: DataType) => {
                 <h4>Market Growth Experts</h4>
                 <div className="right">
                   <p>
-                    As digital boundaries expand, Quirktix stands
-                    strong—your trusted partner in achieving lasting success in
-                    a dynamic landscape
+                    Market Growth Experts is a digital agency focused on helping brands grow, connect, and succeed online. We blend strategy and creativity to drive real results and lasting impact.
                   </p>
                   <Link className="btn-animation mt-10" to="/about-us">
                     <i className="fas fa-arrow-right" /> <span>Know More</span>

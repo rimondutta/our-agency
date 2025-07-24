@@ -25,11 +25,11 @@
         "id": 3,
         "activeClass": "",
         "icon": "19.png",
-        "serviceid":"dropshipping",
-        "subTitle": "Innovations",
-        "title": "Dropshipping",
-        "text": "Build a profitable brand by selling the right products– sourced from reliable suppliers and backed by profit margins that make your business sustainable.",
-        "listData": ["High-Converting Products", "Verified Supplier Networks", "Profit-Focused Brand Strategy"],
+        "serviceid":"ecommerce-seo",
+        "subTitle": "Organic",
+        "title": "Search Engine Optimization",
+        "text": "We help businesses rank higher on search engines to attract more visitors and grow naturally with smart SEO strategies.",
+        "listData": ["Local SEO", "Ecommerce SEO", "Youtube SEO"],
         "illustration": "4.png"
     }
 ]

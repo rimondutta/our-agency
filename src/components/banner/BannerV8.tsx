@@ -75,7 +75,7 @@ const BannerV8 = ({ lightMode }: DataType) => {
           <div className="row">
             <div className="col-xl-7">
               <div className="d-grid">
-                <h4>Quirktix</h4>
+                <h4>Market Growth Experts</h4>
                 <div className="right">
                   <p>
                     As digital boundaries expand, Quirktix stands

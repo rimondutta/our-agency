@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "thumb": "/rimon dutta 2.png",
-    "name": "Rimon Dutta",
-    "designation": "Developer And Digital Marketer",
+    "thumb": "anupdada 1.png",
+    "name": "Anup Barua",
+    "designation": "Digital Marketer | Business Analyst ",
     "social": {
-      "linkedin": "https://www.linkedin.com/in/rimon-dutta/",
-      "instagram": ""
+      "linkedin": "https://www.linkedin.com/in/anupbaruaseoexpert/",
+      "instagram": "https://www.instagram.com/anupbarua.ctg/#"
     }
   },
   {
     "id": 2,
     "thumb": "lorem.png",
-    "name": "Anup Barua",
-    "designation": "Digital Marketer And Business Analyst",
+    "name": "Comming Soon",
+    "designation": "SMM Expert",
     "social": {
       "linkedin": "",
       "instagram": ""
@@ -21,21 +21,21 @@
   },
   {
     "id": 3,
-    "thumb": "lorem.png",
-    "name": "Lorem ipsum",
-    "designation": "SMM Expert",
+    "thumb": "rimon dutta 2.png",
+    "name": "Rimon Dutta",
+    "designation": "Developer And Marketer",
     "social": {
-      "linkedin": "https://www.linkedin.com/in/joy-devnath-545209346/",
-      "instagram": ""
+      "linkedin": "https://www.linkedin.com/in/rimon-dutta/",
+      "instagram": "https://www.instagram.com/rimon_dutta0/"
     }
   },
   {
     "id": 4,
-    "thumb": "lorem.png",
-    "name": "Coming Soon",
-    "designation": "CMS Specialist",
+    "thumb": "fahim 1.png",
+    "name": "MD FAHIM KOBIR",
+    "designation": "Search Engine Optimization Specialist",
     "social": {
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/md-fahim-kobir-58ba21345/",
       "instagram": ""
     }
   },
@@ -45,6 +45,26 @@
     "thumb": "lorem.png",
     "name": "Coming Soon",
     "designation": "Graphic Designer",
+    "social": {
+      "linkedin": "",
+      "instagram": ""
+    }
+  },
+  {
+    "id": 5,
+    "thumb": "lorem.png",
+    "name": "Coming Soon",
+    "designation": "Video Editor",
+    "social": {
+      "linkedin": "",
+      "instagram": ""
+    }
+  },
+  {
+    "id": 5,
+    "thumb": "lorem.png",
+    "name": "Coming Soon",
+    "designation": "Google Ads Specialist",
     "social": {
       "linkedin": "",
       "instagram": ""

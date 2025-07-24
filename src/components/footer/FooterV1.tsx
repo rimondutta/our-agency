@@ -26,15 +26,15 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                 </div>
                 <ul className="address-list">
                   <li>
-                    <h4>Kotowali</h4>
-                    <p>Chattogram, Bangladesh</p>
+                    <h4>Crafting Tomorrow’s Brands, Today.</h4>
+                    <p>We help businesses grow online with smart design, strong branding, and digital marketing. Our goal is to build modern brands that stand out and succeed.</p>
                   </li>
-                  {/* <li>
-                    <h4>Bangladesh</h4>
+                  <li>
+                    <h4>Location</h4>
                     <p>
-                      9A, Tower, kotowali
+                      Chattogram, Bangladesh.
                     </p>
-                  </li> */}
+                  </li>
                 </ul>
                 <ul>
                   {/* <li style={{ width: "70%", marginTop: "10px" }}>

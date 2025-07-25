@@ -1,9 +1,12 @@
+import { useState } from "react";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
 import { Helmet } from "react-helmet-async";
 
 const Career = () => {
+  const [selectedFileName, setSelectedFileName] = useState("No file chosen");
+
   return (
     <>
       <Helmet>
@@ -13,10 +16,7 @@ const Career = () => {
       <LayoutV1>
         <Breadcrumb title="Careers" breadCrumb="Careers" />
         <div style={{ padding: "10px 20px" }} className="container">
-          <div
-            style={{ paddingBottom: "20px", paddingTop: "40px" }}
-            className="mt-5"
-          >
+          <div style={{ paddingBottom: "20px", paddingTop: "40px" }} className="mt-5">
             <div className="card shadow bg-dark text-white">
               <div
                 style={{
@@ -27,6 +27,7 @@ const Career = () => {
                   alignItems: "center",
                 }}
               >
+                {/* Left Image */}
                 <div
                   style={{
                     minHeight: "550px",
@@ -44,10 +45,9 @@ const Career = () => {
                   />
                 </div>
 
+                {/* Form */}
                 <div className="careerform p-4">
-                  <h2 className="fw-bold fs-3 text-center fs-md-2 text-white">
-                    Join Our Team
-                  </h2>
+                  <h2 className="fw-bold fs-3 text-center fs-md-2 text-white">Join Our Team</h2>
 
                   <form
                     method="POST"
@@ -59,11 +59,7 @@ const Career = () => {
                       name="_next"
                       value="https://marketgrowthexperts.vercel.app/"
                     />
-                    <input
-                      type="hidden"
-                      name="_captcha"
-                      value="false"
-                    />
+                    <input type="hidden" name="_captcha" value="false" />
 
                     <div className="mb-4">
                       <label className="form-label text-white">Name</label>
@@ -74,6 +70,7 @@ const Career = () => {
                         required
                       />
                     </div>
+
                     <div className="mb-4">
                       <label className="form-label text-white">Email</label>
                       <input
@@ -84,6 +81,7 @@ const Career = () => {
                         required
                       />
                     </div>
+
                     <div className="mb-4">
                       <label className="form-label text-white">Applying For</label>
                       <input
@@ -94,6 +92,8 @@ const Career = () => {
                         required
                       />
                     </div>
+
+                    {/* File Upload */}
                     <div className="mb-4">
                       <label className="form-label text-white" htmlFor="fileUpload">
                         Upload Resume
@@ -129,6 +129,11 @@ const Career = () => {
                           name="attachment"
                           id="fileUpload"
                           style={{ display: "none" }}
+                          onChange={(e) =>
+                            setSelectedFileName(
+                              e.target.files.length > 0 ? e.target.files[0].name : "No file chosen"
+                            )
+                          }
                           required
                         />
                         <span
@@ -137,10 +142,11 @@ const Career = () => {
                             fontSize: "0.9rem",
                           }}
                         >
-                          File selected
+                          {selectedFileName}
                         </span>
                       </div>
                     </div>
+
                     <div className="text-center">
                       <button
                         type="submit"

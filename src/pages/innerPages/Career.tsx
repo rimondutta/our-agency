@@ -52,12 +52,12 @@ const Career = () => {
                   <form
                     method="POST"
                     encType="multipart/form-data"
-                    action="https://formsubmit.co/info.rimondutta@gmail.com"
+                    action="https://formsubmit.co/connect.rimondutta@gmail.com"
                   >
                     <input
                       type="hidden"
                       name="_next"
-                      value="https://http://localhost:5173/"
+                      value="https://marketgrowthexperts.vercel.app/"
                     />
                     <input
                       type="hidden"

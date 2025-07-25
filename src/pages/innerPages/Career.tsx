@@ -131,7 +131,9 @@ const Career = () => {
                           style={{ display: "none" }}
                           onChange={(e) =>
                             setSelectedFileName(
-                              e.target.files.length > 0 ? e.target.files[0].name : "No file chosen"
+                              e.target.files && e.target.files.length > 0
+                                ? e.target.files[0].name
+                                : "No file chosen"
                             )
                           }
                           required

@@ -114,7 +114,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
               </div>
               <div className="col-lg-6 text-end">
                 <p>
-                  Copyright &copy; {new Date().getFullYear()} Market Growth Experts. All Rights Reserved 2025 Develop By RIMON
+                  Copyright &copy; {new Date().getFullYear()} Market Growth Experts. All Rights Reserved 2025. By <a href="https://www.facebook.com/dutta.rimon/" target="_blank" rel="noopener noreferrer" style={{ color: "#c9f31d" }}>Rimon Dutta</a>
                 </p>
               </div>
             </div>

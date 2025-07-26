@@ -46,7 +46,7 @@ const HeaderV1 = ({ lightMode }: DataType) => {
                             <div className="attr-nav flex">
                                 <ul>
                                     <li className="button">
-                                        <Link to="/contact-us">Get in touch</Link>
+                                        <Link to="https://wa.me/8801404587727">Chat On WhatsApp</Link>
                                     </li>
                                 </ul>
                             </div>

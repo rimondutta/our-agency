@@ -8,7 +8,7 @@ const ContactUsLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Contact Us - Quirktix</title>
+                <title>Contact Us - Market Growth Experts</title>
             </Helmet>
 
             <LayoutV1Light>

@@ -37,9 +37,9 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                     <h4>
                     </h4>
                       <h4>Phone</h4>
-                    <p>
+                    {/* <p>
                       <a href="tel:+880 1404587727">+880 1404587727</a>
-                    </p>
+                    </p> */}
                     <p>
                       <a href="tel:+880 1860-042757">+880 1614-696977</a>
                     </p>
@@ -90,14 +90,14 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                 </ul>
                 <div className="footer-contact">
                   <ul>
-                    <li>
-                      <a href="mailto:info@quirktix.com">info.marketgrowthexperts@gmail.com</a>
-                    </li>
-                    <li>
+                    {/* <li>
+                      <a href="mailto:info@quirktix.com">mgexperts@gmail.com</a>
+                    </li> */}
+                    {/* <li>
                      <a target="_blank" href="https://rimondutta.vercel.app/">
-                      DEVELOP BY RIMON DUTTA
+                      
                     </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
               </div>
               <div className="col-lg-6 text-end">
                 <p>
-                  Copyright &copy; {new Date().getFullYear()} Market Growth Experts. All Rights Reserved 2025
+                  Copyright &copy; {new Date().getFullYear()} Market Growth Experts. All Rights Reserved 2025 Develop By RIMON
                 </p>
               </div>
             </div>

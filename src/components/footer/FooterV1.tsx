@@ -30,20 +30,33 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                     <p>We help businesses grow online with smart design, strong branding, and digital marketing. Our goal is to build modern brands that stand out and succeed.</p>
                   </li>
                   <li>
-                    <h4>Location</h4>
+                    <h4>Location.</h4>
                     <p>
                       Chattogram, Bangladesh.
                     </p>
+                    <h4>
+                    </h4>
+                      <h4>Phone</h4>
+                    <p>
+                      <a href="tel:+880 1404587727">+880 1404587727</a>
+                    </p>
+                    <p>
+                      <a href="tel:+880 1860-042757">+880 1614-696977</a>
+                    </p>
+                    <p>
+                      <a href="tel:+880 1860-042757">+880 1860-042757</a>
+                    </p>
+                    <p>
+                      <a href="tel:+880 1707-673248">+880 1707-673248</a>
+                    </p>
                   </li>
                 </ul>
-                <ul>
-                  {/* <li style={{ width: "70%", marginTop: "10px" }}>
-                    <h4>Dhaka</h4>
-                    <p>
-                      Comohoni
-                    </p>
-                  </li> */}
-                </ul>
+                {/* <ul>
+                  <li style={{ width: "70%", marginTop: "10px" }}>
+                    <h4></h4>
+                    <a href="tel:+880 1404-587727">+880 1404-587727</a>
+                  </li>
+                </ul> */}
               </div>
               <div className="col-lg-5 offset-lg-1 footer-item">
                 <h4 className="widget-title">Useful Link</h4>
@@ -78,7 +91,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                 <div className="footer-contact">
                   <ul>
                     <li>
-                      <a href="mailto:info@quirktix.com">info@quirktix.com</a>
+                      <a href="mailto:info@quirktix.com">info.marketgrowthexperts@gmail.com</a>
                     </li>
                     <li>
                      <a target="_blank" href="https://rimondutta.vercel.app/">
@@ -101,7 +114,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
               </div>
               <div className="col-lg-6 text-end">
                 <p>
-                  Copyright &copy; {new Date().getFullYear()} Quirktix. All Rights Reserved 2025
+                  Copyright &copy; {new Date().getFullYear()} Market Growth Experts. All Rights Reserved 2025
                 </p>
               </div>
             </div>

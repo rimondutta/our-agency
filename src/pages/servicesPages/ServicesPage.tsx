@@ -12,7 +12,7 @@ const ServicesPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Services</title>
+                <title>Market Growth Experts - Services</title>
             </Helmet>
 
             <LayoutV1>

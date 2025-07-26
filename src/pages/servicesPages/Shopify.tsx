@@ -16,8 +16,8 @@ const Shopify = () => {
   return (
     <>
       <Helmet>
-        <title>Expert Shopify Development Services & Website Design | Quirktix</title>
-        <meta name="description" content="Quirktix is a leading Shopify development company offering expert Shopify Plus development services, custom theme design, and web development for your online store."></meta>
+        <title>Expert Shopify Development Services & Website Design | Market Growth Experts</title>
+        <meta name="description" content="Market Growth Experts is a leading Shopify development company offering expert Shopify Plus development services, custom theme design, and web development for your online store."></meta>
       </Helmet>
 
       <LayoutV1>

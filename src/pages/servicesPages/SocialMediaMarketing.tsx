@@ -12,8 +12,8 @@ const LocalSeo = () => {
     return (
         <>
             <Helmet>
-                <title>Expert Social Media Marketing Ageny | Quirktix</title>
-                <meta name="description" content="Quirktix offers social media marketing packages and expert SMM services for small businesses to enhance social media presence with advantages of SMO strategy."></meta>
+                <title>Expert Social Media Marketing Ageny | Market Growth Experts</title>
+                <meta name="description" content="Market Growth Experts offers social media marketing packages and expert SMM services for small businesses to enhance social media presence with advantages of SMO strategy."></meta>
             </Helmet>
             
             <LayoutV1>

@@ -18,7 +18,7 @@ const Woocommerce = () => {
     <>
       <Helmet>
         <title>WooCommerce Development Services & Integration | WooCommerce Agency</title>
-        <meta name="description" content="Quirktix offers expert WooCommerce development services and integration for your online store. Partner with a leading WooCommerce development agency now."></meta>
+        <meta name="description" content="Market Growth Experts offers expert WooCommerce development services and integration for your online store. Partner with a leading WooCommerce development agency now."></meta>
       </Helmet>
 
       <LayoutV1>

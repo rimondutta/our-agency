@@ -13,8 +13,8 @@ const WebApplication = () => {
     return (
         <>
             <Helmet>
-                <title>Custom Web Application Development Services | Quirktix</title>
-                <meta name="description" content=" Quirktix offers expert web application development services, including custom web app development and website application solutions to enhance your business."></meta>
+                <title>Custom Web Application Development Services | Market Growth Experts</title>
+                <meta name="description" content=" Market Growth Experts offers expert web application development services, including custom web app development and website application solutions to enhance your business."></meta>
             </Helmet>
             
             <LayoutV1>

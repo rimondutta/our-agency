@@ -8,7 +8,7 @@ const Services3Page = () => {
   return (
     <>
       <Helmet>
-        <title>Services | Quirktix</title>
+        <title>Services | Market Growth Experts</title>
       </Helmet>
 
       <LayoutV1>

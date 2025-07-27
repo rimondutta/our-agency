@@ -8,7 +8,7 @@ const Terms = () => {
   return (
     <>
       <Helmet>
-        <title>Terms and Conditions | Quirktix</title>
+        <title>Terms and Conditions | Market Growth Experts</title>
       </Helmet>
 
       <LayoutV1>
@@ -49,7 +49,7 @@ const Terms = () => {
           <h2>2. Intellectual Property </h2>
           <p>
             All content on this website, including logos, graphics, text,
-            designs, and other materials, is the property of Quirktix
+            designs, and other materials, is the property of Market Growth Experts
             Technologies unless stated otherwise. You may not reproduce or use
             any content without prior written consent.
           </p>
@@ -68,7 +68,7 @@ const Terms = () => {
           </p>
           <h2>5. Limitation of Liability </h2>
           <p>
-            Quirktix Technologies will not be held liable for any direct,
+            Market Growth Experts will not be held liable for any direct,
             indirect, or consequential loss or damage resulting from your use of
             this website or any of our services. We provide all content and
             services “as is” without warranties of any kind.
@@ -114,7 +114,7 @@ const Terms = () => {
           <h2>10. Messaging Terms & Conditions</h2>
           <p>
             By providing your contact information and using our services, you
-            agree to receive informational messages from Quirktix
+            agree to receive informational messages from Market Growth Experts
             Technologies. These may include updates such as appointment
             reminders, service notifications, offers, or other relevant
             communications.
@@ -123,7 +123,7 @@ const Terms = () => {
           </p>
           <ul style={{ paddingLeft: "20px" }} className="listitem mb-4">
             <li className="listitem">
-              <strong>Brand Name</strong> : Quirktix
+              <strong>Brand Name</strong> : Market Growth Experts
             </li>
 
             <li className="listitem">
@@ -143,7 +143,7 @@ const Terms = () => {
 
             <li className="listitem">
               <strong>Support </strong> : For help, reply HELP or contact us at
-              info@quirktix.com
+              info.marketgrowthexperts@gmail.com
             </li>
             <li className="listitem">
               <strong> Opt-Out</strong> : You can opt out at any time by
@@ -157,7 +157,7 @@ const Terms = () => {
           <h2>Contact Us</h2>
           <p>
             If you have any questions about these Terms & Conditions, feel free
-            to reach out to us at: info@quirktix.com
+            to reach out to us at: info.marketgrowthexperts@gmail.com
           </p>
           <p>
             <span style={{ fontWeight: "bold" }}>Last updated</span>: 25/04/25

@@ -16,7 +16,7 @@ const Home3 = () => {
     return (
         <>
             <Helmet>
-                <title>Quirktix - Home 3</title>
+                <title>Market Growth  Experts - Home 3</title>
             </Helmet>
 
             <div className="smooth-scroll-container">

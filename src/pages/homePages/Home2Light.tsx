@@ -15,7 +15,7 @@ const Home2Light = () => {
     return (
         <>
             <Helmet>
-                <title>Quirktix - Home 2 Light</title>
+                <title>Market Growth Experts - Home 2 Light</title>
             </Helmet>
 
             <div className="smooth-scroll-container">

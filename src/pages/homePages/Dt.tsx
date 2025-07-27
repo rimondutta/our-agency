@@ -62,8 +62,8 @@ const Dt = () => {
   return (
     <>
       <Helmet>
-        <title>Quirktix</title>
-        <meta title="Top Digital Marketing Agency | Quirktix" content="Quirktix is a top digital marketing agency for small businesses, offering AI growth marketing services, expert digital marketing management, and development services​."></meta>
+        <title>Market Growth Experts</title>
+        <meta title="Top Digital Marketing Agency | Market Growth Experts" content="Market Growth Experts is a top digital marketing agency for small businesses, offering AI growth marketing services, expert digital marketing management, and development services​."></meta>
       </Helmet>
       <div className="smooth-scroll-container">
         <HeaderV1 lightMode={false} />

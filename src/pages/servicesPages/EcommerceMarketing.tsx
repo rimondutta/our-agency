@@ -14,8 +14,8 @@ const EcommerceMarketing = () => {
     return (
         <>
             <Helmet>
-                <title>Ecommerce Marketing Agency & Digital Marketing Services | Quirktix</title>
-                <meta name="description" content="Quirktix is a certified ecommerce marketing agency offering ecommerce marketing, Amazon marketing, and expert ecommerce marketing services to boost your online sales."></meta>
+                <title>Ecommerce Marketing Agency & Digital Marketing Services | Market Growth Experts</title>
+                <meta name="description" content="Market Growth Experts is a certified ecommerce marketing agency offering ecommerce marketing, Amazon marketing, and expert ecommerce marketing services to boost your online sales."></meta>
             </Helmet>
             
             <LayoutV1>

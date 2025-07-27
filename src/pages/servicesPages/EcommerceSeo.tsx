@@ -15,8 +15,8 @@ const EcommerceSeo = () => {
     return (
         <>
             <Helmet>
-                <title>Ecommerce SEO Services to Boost Online Sales & Visibility | Quirktix</title>
-                <meta  name="description" content="Quirktix offers expert ecommerce SEO services to enhance online store visibility, increase sales, and optimize product listings for better search engine performance." />
+                <title>Ecommerce SEO Services to Boost Online Sales & Visibility | Market Growth Experts</title>
+                <meta  name="description" content="Market Growth Experts offers expert ecommerce SEO services to enhance online store visibility, increase sales, and optimize product listings for better search engine performance." />
             </Helmet>
             
             <LayoutV1>

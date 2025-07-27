@@ -8,7 +8,7 @@ const FaqPage = () => {
     return (
         <>
             <Helmet>
-                <title>Faqs | Quirktix</title>
+                <title>Faqs | Market Growth Experts</title>
             </Helmet>
 
             <LayoutV1>

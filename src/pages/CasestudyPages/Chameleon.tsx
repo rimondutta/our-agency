@@ -12,7 +12,7 @@ const Chameleon = () => {
   return (
     <>
       <Helmet>
-        <title>Case Studies | Quirktix</title>
+        <title>Case Studies | Market Growth Experts</title>
       </Helmet>
 
       <LayoutV1>

@@ -72,12 +72,12 @@ const AboutUsPage2 = () => {
   return (
     <>
       <Helmet>
-        <title> About Us | Quirktix  </title>
-        <meta title="About Quirktix | Transforming Startups into Brands" content="Quirktix is a passionate team of designers, strategists, and experts committed to helping startups become recognized brands for their business solutions."></meta>
+        <title> About Us | Market Growth Experts</title>
+        <meta title="About Market Growth Experts | Transforming Startups into Brands" content="Market Growth Experts is a passionate team of designers, strategists, and experts committed to helping startups become recognized brands for their business solutions."></meta>
       </Helmet>
 
       <LayoutV1>
-        <Breadcrumb title="About Quirktix" breadCrumb="About" />
+        <Breadcrumb title="About Market Growth Experts" breadCrumb="About" />
         <div className="py-5 bg-gray">
           <div className="container">
             <div className="row align-center">
@@ -124,7 +124,7 @@ const AboutUsPage2 = () => {
           <h2>Our Vision</h2>
           <div className="mt-4">
             Our vision is simple–to transform your Startup into a BRAND. At
-            Quirktix, we understand the struggle of building a
+            Market Growth Experts, we understand the struggle of building a
             brand from the ground up. Like many of our clients, our journey
             began as a dream fueled by passion, creativity, and determination.
             Through relentless hard work and innovative thinking, that dream

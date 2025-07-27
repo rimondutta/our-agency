@@ -13,8 +13,8 @@ const CPAPA = () => {
     return (
         <>
             <Helmet>
-                <title>Content Personalization And Predictive Analysis | Quirktix</title>
-                <meta name="description" content="Quirktix leverages AI in marketing automation, business intelligence, and small business marketing. Explore AI tools and machine learning to boost efficiency."></meta>
+                <title>Content Personalization And Predictive Analysis | Market Growth Experts</title>
+                <meta name="description" content="Market Growth Experts leverages AI in marketing automation, business intelligence, and small business marketing. Explore AI tools and machine learning to boost efficiency."></meta>
             </Helmet>
             
             <LayoutV1>

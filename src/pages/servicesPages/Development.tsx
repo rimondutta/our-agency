@@ -34,7 +34,7 @@ const Development = () => {
     <>
       <Helmet>
         <title>Custom Web & Ecommerce Development Services | AI & Web Development</title>
-        <meta name="description" content="Quirktix offers expert development services including AI development, custom web development and ecommerce website development to enhance your online presence."></meta>
+        <meta name="description" content="Market Growth Experts offers expert development services including AI development, custom web development and ecommerce website development to enhance your online presence."></meta>
       </Helmet>
 
       <LayoutV1>

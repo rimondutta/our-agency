@@ -8,7 +8,7 @@ const Privacy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Quirktix</title>
+        <title>Privacy Policy | Market Growth Experts</title>
       </Helmet>
 
       <LayoutV1>
@@ -17,9 +17,9 @@ const Privacy = () => {
           
           <h2>Privacy Policy</h2>
           <p>
-            At Quirktix, your privacy matters to us. This
+            At Market Growth Experts, your privacy matters to us. This
             document outlines how we collect, use, and protect any information
-            you share while interacting with our website:quirktix.com By
+            you share while interacting with our website:marketgrowthexperts.pro By
             visiting or using our website, you’re agreeing to the terms laid out
             in this policy
           </p>
@@ -103,7 +103,7 @@ const Privacy = () => {
             by outside parties.
             <br /> If you no longer wish to receive mobile updates or alerts,
             you can unsubscribe anytime by replying with STOP or by emailing us
-            at <a href="mailto:info@quirktix.com">info@quirktix.com</a>
+            at <a href="mailto:mge.official@gmail.com">mge.official@gmail.com</a>
           </p>
           <h2>Third-Party Links</h2>
           <p>
@@ -121,13 +121,13 @@ const Privacy = () => {
           </p>
           <h2>Your Agreement</h2>
           <p>
-            By using quirktix.com, you agree to this Privacy Policy. If you
+            By using marketgrowthexperts.pro, you agree to this Privacy Policy. If you
             don’t agree, we recommend not using the site. Your continued use
             after any changes to this policy will be considered your acceptance
             of those changes.
             <br />
             If you have any questions or concerns, feel free to reach out at
-            info@quirktix.com
+            mge.official@gmail.com
           </p>
           <p>
             <span style={{ fontWeight: "bold" }}>Last updated</span>: 25/04/25

@@ -12,8 +12,8 @@ const CLLMPAGE = () => {
     return (
         <>
             <Helmet>
-                <title>Custom LLM and Fine Tuning | Quirktix</title>
-                <meta name="description" content="Quirktix leverages AI in marketing automation, business intelligence, and small business marketing. Explore AI tools and machine learning to boost efficiency."></meta>
+                <title>Custom LLM and Fine Tuning | Market Growth Experts</title>
+                <meta name="description" content="Market Growth Experts leverages AI in marketing automation, business intelligence, and small business marketing. Explore AI tools and machine learning to boost efficiency."></meta>
             </Helmet>
             
             <LayoutV1>

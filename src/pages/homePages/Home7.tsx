@@ -17,7 +17,7 @@ const Home7 = () => {
     return (
         <>
             <Helmet>
-                <title>Quirktix - Home 7</title>
+                <title>Market Growth Experts - Home 7</title>
             </Helmet>
 
             <HeaderV2 />

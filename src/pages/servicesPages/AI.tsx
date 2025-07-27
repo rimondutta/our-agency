@@ -12,8 +12,8 @@ const AI = () => {
     return (
         <>
             <Helmet>
-                <title>AI for Business Automation & Marketing Strategy | Quirktix</title>
-                <meta name="description" content="Quirktix leverages AI in marketing automation, business intelligence, and small business marketing. Explore AI tools and machine learning to boost efficiency."></meta>
+                <title>AI for Business Automation & Marketing Strategy | Market Growth Experts</title>
+                <meta name="description" content="Market Grwoth Experts leverages AI in marketing automation, business intelligence, and small business marketing. Explore AI tools and machine learning to boost efficiency."></meta>
             </Helmet>
             
             <LayoutV1>

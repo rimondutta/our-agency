@@ -9,7 +9,7 @@ const ProjectPage2 = () => {
         <>
             <Helmet>
                 <title>Portfolio: Showcasing Our Digital Marketing & Development Successes</title>
-                <meta name="description" content="Explore Quirktix's portfolio featuring successful projects in SEO, web design, branding, and more. See how we've helped businesses achieve their digital goals."></meta>
+                <meta name="description" content="Explore Market Growth Expert's portfolio featuring successful projects in SEO, web design, branding, and more. See how we've helped businesses achieve their digital goals."></meta>
             </Helmet>
 
             <LayoutV1>

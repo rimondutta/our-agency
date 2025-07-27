@@ -13,7 +13,7 @@ const LocalSeo = () => {
         <>
             <Helmet>
                 <title>Local SEO Services & Expert Solutions to Grow Google Business Profile</title>
-                <meta name="description" content="Quirktix offers affordable local SEO services to increase Google Business Profile traffic, perform local SEO audits, and generate organic visits to grow your audience."></meta>
+                <meta name="description" content="Market Growth Experts offers affordable local SEO services to increase Google Business Profile traffic, perform local SEO audits, and generate organic visits to grow your audience."></meta>
             </Helmet>
             
             <LayoutV1>

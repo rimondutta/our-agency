@@ -12,7 +12,7 @@ const BrewTheBlend = () => {
   return (
     <>
       <Helmet>
-        <title>Case Studies | Quirktix</title>
+        <title>Case Studies | </title>
       </Helmet>
 
       <LayoutV1>

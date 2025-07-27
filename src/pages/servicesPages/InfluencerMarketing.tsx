@@ -12,7 +12,7 @@ const InfluencerMarketing = () => {
     return (
         <>
             <Helmet>
-                <title>Influencer Marketing | Quirktix</title>
+                <title>Influencer Marketing | Market Growth Experts</title>
             </Helmet>
             
             <LayoutV1>

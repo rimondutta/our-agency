@@ -156,8 +156,8 @@ const Dropshipping = () => {
   return (
     <>
       <Helmet>
-        <title>Explore Dropshipping Services for Entrepreneurs | Quirktix</title>
-        <meta name="description" content="Quirktix offers comprehensive dropshipping services, including product research, supplier sourcing, custom store development, and branding, to help entrepreneurs."></meta>
+        <title>Explore Dropshipping Services for Entrepreneurs | Market Growth Experts</title>
+        <meta name="description" content="Market Growth Experts offers comprehensive dropshipping services, including product research, supplier sourcing, custom store development, and branding, to help entrepreneurs."></meta>
       </Helmet>
 
       <LayoutV1>
@@ -183,7 +183,7 @@ const Dropshipping = () => {
             <p style={{ fontSize: "20px" }}>
               Dropshipping isn't just about selling products—it's about selling
               the right products from trusted suppliers who support long-term
-              profitability. At Quirktix, we connect you with the same
+              profitability. At Market Growth Experts, we connect you with the same
               high-performing suppliers used by top sellers worldwide. Each
               supplier is carefully vetted to ensure quality, reliability, fast
               fulfillment, and strong profit margins.

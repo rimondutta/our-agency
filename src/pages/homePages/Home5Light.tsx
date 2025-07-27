@@ -7,7 +7,7 @@ const Home5Light = () => {
     return (
         <>
             <Helmet>
-                <title>Quirktix - Home 5 Light</title>
+                <title>Market Growth Experts - Home 5 Light</title>
             </Helmet>
 
             <HeaderV5 lightMode={true} />

@@ -12,7 +12,7 @@ const EyeCandy = () => {
   return (
     <>
       <Helmet>
-        <title>Case Studies | Quirktix</title>
+        <title>Case Studies | Market Growth Expets</title>
       </Helmet>
 
       <LayoutV1>

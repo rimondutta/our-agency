@@ -10,7 +10,7 @@ const ContactUsPage = () => {
         <>
             <Helmet>
                 <title>Contact Market Growth Experts | Speak with Our Digital Marketing Experts</title>
-                <meta name="description" content="Get in touch with Quirktix to discuss your digital marketing needs. Reach us at info.marketgrowthexperts@gmail.com or call +8801404587727." ></meta>
+                <meta name="description" content="Get in touch with Market Growth Experts to discuss your digital marketing needs. Reach us at info.marketgrowthexperts@gmail.com or call +8801404587727." ></meta>
             </Helmet>
 
             <LayoutV1>

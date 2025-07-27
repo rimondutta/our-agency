@@ -57,19 +57,19 @@ const NewCareers = () => {
   return (
     <>
       <Helmet>
-        <title>Careers | Quirktix</title>
+        <title>Careers | Qu</title>
       </Helmet>
 
       <LayoutV1Light>
         <Breadcrumb LightMode={true} title="Careers" breadCrumb="Careers" />
         <div className="container">
           <div style={{ marginTop: "40px" }}>
-            <h1 className="text-center">Why Choose Quirktix?</h1>
+            <h1 className="text-center">Why Choose Market Growth Experts?</h1>
             <div
               style={{ width: "60%", margin: "auto", fontSize: "20px" }}
               className="text-center"
             >
-              Quirktix is awarded as the “Most Trusted Brand in Digital
+              Market Growth Experts is awarded as the “Most Trusted Brand in Digital
               Education” by WCRC (Leading Marketing Research Firm and Magazine).
             </div>
             <div

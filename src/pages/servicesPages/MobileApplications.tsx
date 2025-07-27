@@ -14,7 +14,7 @@ const MobileApplication = () => {
         <>
             <Helmet>
                 <title>Custom Mobile App Development Services & Cross-Platform Solutions</title>
-                <meta name="description" content="Quirktix offers custom mobile app development services, including cross-platform app development, mobile application design, and the best phone apps for Android."></meta>
+                <meta name="description" content="Market Growth Experts offers custom mobile app development services, including cross-platform app development, mobile application design, and the best phone apps for Android."></meta>
             </Helmet>
             
             <LayoutV1>

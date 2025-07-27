@@ -63,7 +63,7 @@ const AdminLogin = () => {
   return (
     <>
       <Helmet>
-        <title>Login | Quirktix</title>
+        <title>Login | Market Growth Experts</title>
       </Helmet>
 
       <LayoutV1>

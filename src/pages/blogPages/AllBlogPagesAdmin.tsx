@@ -8,7 +8,7 @@ const AllBlogPagesAdmin = () => {
     return (
         <>
             <Helmet>
-                <title>Blogs | Quirktix</title>
+                <title>Blogs | Market Growth EXperts</title>
             </Helmet>
 
             <LayoutV1>

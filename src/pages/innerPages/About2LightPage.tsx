@@ -12,7 +12,7 @@ const About2LightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Quirktix - About 2 Light</title>
+                <title>Market Growth Experts - About 2 Light</title>
             </Helmet>
 
             <LayoutV1Light>

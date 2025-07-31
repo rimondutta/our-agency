@@ -85,7 +85,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                     <Link to="/careers">Careers</Link>
                   </li>
                   <li>
-                    <a target="_blank" href="/explor">
+                    <a target="_blank" href="/explore">
                       Explore
                     </a>
                   </li>

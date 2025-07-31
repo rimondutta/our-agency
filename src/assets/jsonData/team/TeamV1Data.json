@@ -2,121 +2,103 @@
     {
         "id": 1,
         "thumb": "1.jpg",
-        "name": "James Baker",
-        "designation": "CEO & Founder",
+        "name": "Anup Barua",
+         "slug": "rimon-dutta",
+        "designation": "Digital Marketing Expert",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "28",
-        "email": "James@digital.com",
-        "phone": "+44-20-7328-4499"
+        "age": "40",
+        "email": "",
+        "phone": ""
+        
     },
     {
         "id": 2,
         "thumb": "2.jpg",
-        "name": "Dalton Gran",
-        "designation": "Chairman",
+        "name": "comming soon",
+        "designation": "CMS Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "29",
-        "email": "Dalton@digital.com",
-        "phone": "+44-20-7328-4500"
+        "age": "23",
+        "email": "",
+        "phone": ""
     },
     {
         "id": 3,
         "thumb": "3.jpg",
-        "name": "Ryan Ricketts",
-        "designation": "Manager",
+        "name": "Fahim Kobir",
+        "designation": "SEO Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "30",
-        "email": "Ryan@digital.com",
-        "phone": "+44-20-7328-4501"
+        "age": "23",
+        "email": "",
+        "phone": ""
     },
     {
         "id": 4,
         "thumb": "4.jpg",
-        "name": "Danny Russell",
-        "designation": "Head of Marketing",
+        "name": "Fahim Kobir",
+        "designation": "SEO Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "31",
-        "email": "Danny@digital.com",
-        "phone": "+44-20-7328-4502"
+        "age": "22",
+        "email": "",
+        "phone": ""
     },
     {
         "id": 5,
         "thumb": "5.jpg",
-        "name": "James Baker",
-        "designation": "Product Developer",
+        "name": "Joy Devnath",
+        "designation": "SEO And SMM Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "32",
-        "email": "James@digital.com",
-        "phone": "+44-20-7328-4503"
+        "email": "",
+        "phone": ""
     },
     {
         "id": 6,
         "thumb": "6.jpg",
-        "name": "Sark Hunnen",
+        "name": "coming soon",
         "designation": "Project Manager",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "33",
-        "email": "Sark@digital.com",
-        "phone": "+44-20-7328-4504"
+        "email": "",
+        "phone": ""
     },
     {
         "id": 7,
         "thumb": "7.jpg",
-        "name": "Rusa Jinuh",
-        "designation": "Web Developer",
+        "name": "Rimon Dutta",
+        "designation": "Developer And Marketer",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "34",
-        "email": "Rusa@digital.com",
-        "phone": "+44-20-7328-4505"
+        "age": "23",
+        "email": "info.rimondutta@gmail.com",
+        "phone": "+880 1404-587727"
     },
     {
         "id": 8,
         "thumb": "8.jpg",
-        "name": "Dalton Grant",
-        "designation": "UI Designer",
+        "name": "coming soon",
+        "designation": "Video Editor",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "35",
-        "email": "Dalton@digital.com",
-        "phone": "+44-20-7328-4506"
+        "email": "",
+        "phone": ""
     },
     {
         "id": 9,
         "thumb": "9.jpg",
-        "name": "Megh Grant",
+        "name": "coming soon",
         "designation": "Content Creator",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "36",
-        "email": "Megh@digital.com",
-        "phone": "+44-20-7328-4507"
+        "email": "",
+        "phone": ""
     },
     {
         "id": 10,
         "thumb": "2.jpg",
-        "name": "Dalton Gran",
-        "designation": "Chairman",
+        "name": "coming soon",
+        "designation": "Google Ads Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "29",
-        "email": "Dalton@digital.com",
-        "phone": "+44-20-7328-4500"
-    },
-    {
-        "id": 11,
-        "thumb": "3.jpg",
-        "name": "Ryan Ricketts",
-        "designation": "Manager",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "30",
-        "email": "Ryan@digital.com",
-        "phone": "+44-20-7328-4501"
-    },
-    {
-        "id": 15,
-        "thumb": "4.jpg",
-        "name": "Danny Russell",
-        "designation": "Head of Marketing",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "31",
-        "email": "Danny@digital.com",
-        "phone": "+44-20-7328-4502"
+        "email": "",
+        "phone": ""
     }
 ]

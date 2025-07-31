@@ -66,13 +66,14 @@ const SidebarMenu = ({ isInfoOpen, closeInfoBar, openInfoBar }: DataType) => {
                                                     <li>
                                                         <div className="content">
                                                             <p>Email</p>
-                                                            <strong>support@validtheme.com</strong>
+                                                            <strong>marketgrowthexperts.pro@gmail.com</strong>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="content">
                                                             <p>Contact</p>
-                                                            <strong>+44-20-7328-4499</strong>
+                                                            <strong>+880 01404-587727
+                                                            </strong>
                                                         </div>
                                                     </li>
                                                 </ul>

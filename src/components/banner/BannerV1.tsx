@@ -27,7 +27,7 @@ const BannerV1 = ({ lightMode }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Designing
+                                            Brand
                                         </SplitText>
                                     </h2>
 
@@ -40,7 +40,7 @@ const BannerV1 = ({ lightMode }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Creative
+                                            Boosters
                                         </SplitText>
                                     </h2>
                                 </div>
@@ -60,14 +60,14 @@ const BannerV1 = ({ lightMode }: DataType) => {
                                     <div className="top-info">
                                         <h4>Based On Bangladesh</h4>
                                         <p>
-                                           Kotowali, Chattogram, Bangladesh.
+                                           Chattogram, Bangladesh.
                                         </p>
                                     </div>
                                     <div className="bottom">
                                         <p>
                                             Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic.
                                         </p>
-                                        <Link to="/project" className="btn-style-two mt-30"><i className="fas fa-long-arrow-right" /> Our <br /> Projects</Link>
+                                        <Link to="/portfolio" className="btn-style-two mt-30"><i className="fas fa-long-arrow-right" /> Our <br /> Projects</Link>
                                     </div>
                                 </div>
                             </Animate>

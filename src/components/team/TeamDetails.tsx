@@ -43,7 +43,7 @@ const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
                                         </li>
                                         <li>
                                             <strong>Location:</strong>
-                                            <p>Baird House, 15-17 St Cross St London EC1N 8UW</p>
+                                            <p>Chattogram, Bangladesh</p>
                                         </li>
                                         <li>
                                             <strong>Email:</strong>

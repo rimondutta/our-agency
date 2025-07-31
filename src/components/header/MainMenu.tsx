@@ -13,7 +13,7 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                 <li className="dropdown">
                     <Link to="#" className="dropdown-toggle active" data-toggle="dropdown" onClick={toggleSubMenu}>Home</Link>
                     <ul className="dropdown-menu">
-                        <li><Link to="/">Home Main</Link></li>
+                        <li><Link to="/">Home</Link></li>
                         <li><Link to="/home-2">Creative Agency</Link></li>
                         <li><Link to="/home-3">Startup Agency</Link></li>
                         <li><Link to="/home-4">Showcase Carousel</Link></li>
@@ -116,12 +116,12 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                         <li className="dropdown">
                             <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Blog Light Version</Link>
                             <ul className="dropdown-menu">
-                                <li><Link to="/blog-standard-light">Blog Standard</Link></li>
-                                <li><Link to="/blog-with-sidebar-light">Blog With Sidebar</Link></li>
-                                <li><Link to="/blog-2-column-light">Blog Grid Two column</Link></li>
-                                <li><Link to="/blog-3-column-light">Blog Grid Three column</Link></li>
-                                <li><Link to="/blog-single-light/1">Blog Single</Link></li>
-                                <li><Link to="/blog-single-with-sidebar-light/1">Blog Single With Sidebar</Link>
+                                <li><Link to="/blog-1">Blog Standard</Link></li>
+                                <li><Link to="/blog-2">Blog With Sidebar</Link></li>
+                                <li><Link to="/blog-3">Blog Grid Two column</Link></li>
+                                <li><Link to="/blog-4">Blog Grid Three column</Link></li>
+                                <li><Link to="/blog-5">Blog Single</Link></li>
+                                <li><Link to="/single-blog/1">Blog Single With Sidebar</Link>
                                 </li>
                             </ul>
                         </li>

@@ -22,6 +22,7 @@ import Dependency from "./components/utilities/Dependency";
 import { useEffect, useState } from "react";
 import Preloader from "./components/utilities/Preloader";
 
+
 function App() {
   //  Preloader
   const [isLoading, setIsLoading] = useState(true);

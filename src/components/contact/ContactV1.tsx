@@ -8,10 +8,10 @@ interface DataType {
 }
 
 const ContactV1 = ({ sectionClass }: DataType) => {
-  const location=useLocation()  
+  const location = useLocation()
   const contactFormRef = useRef<HTMLDivElement | null>(null);
-  
-  
+
+
   useEffect(() => {
     if (contactFormRef.current) {
       contactFormRef.current.scrollIntoView({ block: "start" });
@@ -21,9 +21,8 @@ const ContactV1 = ({ sectionClass }: DataType) => {
   return (
     <>
       <div
-        className={`contact-area overflow-hidden relative ${
-          sectionClass ? sectionClass : ""
-        }`}
+        className={`contact-area overflow-hidden relative ${sectionClass ? sectionClass : ""
+          }`}
       >
         <div className="container">
           <div className="contact-style-one-items">
@@ -38,9 +37,9 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                     </li>
                     <li>
                       <div className="info">
-                        <h4>Bangladesh</h4>
+                        <h4>Location</h4>
                         <p>
-                          8 The Green, Kotowali <br /> Chattogram
+                          Chattogram<br /> Bangladesh
                         </p>
                       </div>
                     </li>
@@ -65,8 +64,8 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                     <li>
                       <div className="info">
                         <h4>Email</h4>
-                        <a href="mailto:info@quirktix.com">
-                          info@quirktix.com
+                        <a href="mailto:marketgrowthexperts.pro@gmail.com">
+                          marketgrowthexperts.pro@gmail.com
                         </a>
                       </div>
                     </li>

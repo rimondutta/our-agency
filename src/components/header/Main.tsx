@@ -135,6 +135,9 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
           </ul>
         </li>
         <li>
+          <Link to="/blog">Blog</Link>
+        </li>
+        <li>
           <Link to="/contact-us">contact</Link>
         </li>
       </ul>

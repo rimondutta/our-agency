@@ -42,10 +42,10 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                         <div className="left">
                                             <ul className="list-style-one">
                                                 <li>
-                                                    <strong>Work</strong> info@quirktix.com
+                                                    <strong>Work</strong> marketgrowthexperts.pro@gmail.com
                                                 </li>
                                                 <li>
-                                                    <strong>Company</strong> +8801913801447
+                                                    <strong>Phone</strong> +880 1913-801447
                                                 </li>
                                             </ul>
                                             <p>

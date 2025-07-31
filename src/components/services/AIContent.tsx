@@ -169,13 +169,13 @@ const AIContent = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
     },
   ];
 
-  
-  
+
+
   const contactRef = useRef<HTMLDivElement | null>(null);
 
-  const handleClick=()=>{
-    if(contactRef.current){
-      contactRef.current.scrollIntoView({behavior:"smooth"})
+  const handleClick = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" })
     }
   }
   return (
@@ -222,7 +222,7 @@ const AIContent = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
                     href=""
                   >
                     {" "}
-                 
+
                   </a>
                   <div>
                     <h3
@@ -319,14 +319,16 @@ const AIContent = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
 
                     <button className="btn" onClick={handleClick}>Contact Now</button>
                   </div>
-                  <div  className="finetuneimage text-center p-2">
+                  <div className="finetuneimage text-center p-2">
                     <img
                       src="/assets/img/team/rimon dutta 2.png"
                       alt="Blog"
                       className="img-fluid"
                       style={{
-                        width: "450px",
-                        height:'550px'
+                        width: "max-width: 500px",
+                        height: 'm',
+                        borderRadius: "10px",
+
                       }}
                     />
                   </div>
@@ -503,7 +505,7 @@ const AIContent = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
               </div>
             </div>
           </div>
-          <div 
+          <div
             ref={contactRef}
             style={{ paddingBottom: "20px", paddingTop: "40px" }}
             className="mt-5"

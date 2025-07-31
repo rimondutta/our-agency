@@ -1,178 +1,84 @@
-import { useState } from "react";
+import { useRef } from "react";
 import { toast } from "react-toastify";
 
 const ContactForm = () => {
-  const [loading, setLoading] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const [formState, setFormState] = useState({
-    name: "",
-    website: "",
-    company_name: "",
-    email: "",
-    phone: "",
-    additional: "",
-  });
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormState((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
+    const form = formRef.current;
+    if (!form) return;
 
-  const handleForm = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+    const formData = new FormData(form);
+
     try {
-      setLoading(true);
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/api/v1/sendcontactformmail`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formState),
-        }
-      );
+      const response = await fetch("https://formsubmit.co/ajax/marketgrowthexperts.pro@gmail.com", {
+        method: "POST",
+        body: formData,
+      });
 
-      const data = await response.json();
+      const result = await response.json();
 
-      if (data?.success) {
-        setFormState({
-          name: "",
-          website: "",
-          company_name: "",
-          email: "",
-          phone: "",
-          additional: "",
-        });
-        toast.success("Form Saved Successfully");
+      if (result.success === "true") {
+        toast.success("Message sent successfully!");
+        form.reset(); // clear form fields
+      } else {
+        toast.error("Something went wrong!");
       }
-      else throw new Error(data?.message);
-    } catch (err: any) {
-      toast.warn(err.message);
-    } finally {
-      setLoading(false);
+    } catch (err) {
+      toast.error("Network error. Try again later.");
     }
   };
 
   return (
-    <>
-      <form className="contact-form" onSubmit={handleForm}>
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="form-group">
-              <input
-                className="form-control"
-                id="name"
-                name="name"
-                placeholder="Name*"
-                type="text"
-                required
-                value={formState.name}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-        </div>
+    <form className="contact-form" ref={formRef} onSubmit={handleSubmit}>
+      <div className="form-group">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name*"
+          required
+          className="form-control"
+        />
+      </div>
 
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="form-group">
-              <input
-                className="form-control"
-                id="website"
-                name="website"
-                placeholder="Website url*"
-                type="url"
-                required
-                value={formState.website}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
+      <div className="form-group">
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email*"
+          required
+          className="form-control"
+        />
+      </div>
 
-          <div className="col-lg-6">
-            <div className="form-group">
-              <input
-                className="form-control no-arrows"
-                id="company_name"
-                name="company_name"
-                placeholder="Company Name"
-                type="text"
-                autoComplete="off"
-                value={formState.company_name}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-        </div>
+      <div className="form-group">
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Your Phone*"
+          required
+          className="form-control"
+        />
+      </div>
 
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="form-group">
-              <input
-                className="form-control"
-                id="email"
-                name="email"
-                placeholder="Email*"
-                type="email"
-                required
-                value={formState.email}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
+      <div className="form-group">
+        <textarea
+          name="additional"
+          placeholder="Tell us about your project"
+          className="form-control"
+          rows={4}
+        />
+      </div>
 
-          <div className="col-lg-6">
-            <div className="form-group">
-              <input
-                className="form-control no-arrows"
-                id="phone"
-                name="phone"
-                placeholder="Phone*"
-                type="tel"
-                required
-                autoComplete="off"
-                value={formState.phone}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-        </div>
+      {/* Hidden input to disable captcha (optional) */}
+      <input type="hidden" name="_captcha" value="false" />
 
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="form-group comments">
-              <textarea
-                className="form-control"
-                id="additional"
-                name="additional"
-                placeholder="Tell Us About Project"
-            
-                value={formState.additional}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-lg-12">
-            <button disabled={loading} type="submit" name="submit" id="submit">
-              <i className="fa fa-paper-plane" /> {loading?"Loading":"Get in Touch"}
-            </button>
-          </div>
-        </div>
-
-        <div className="col-lg-12 alert-notification">
-          <div id="message" className="alert-msg" />
-        </div>
-      </form>
-    </>
+      <button type="submit">
+        <i className="fa fa-paper-plane" /> {`Send Message`}
+      </button>
+    </form>
   );
 };
 

@@ -21,7 +21,7 @@ const TeamV1 = ({ sectionClass, hasTitle }: DataType) => {
                             <div className="row">
                                 <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 text-center">
                                     <div className="site-heading">
-                                        <h4 className="sub-title">Team members</h4>
+                                        <h4 className="sub-title">Team Members</h4>
                                         <h2 className="title split-text">
                                             <SplitText
                                                 delay={40}
@@ -48,20 +48,20 @@ const TeamV1 = ({ sectionClass, hasTitle }: DataType) => {
                                 <ul className="nav nav-tabs" role="tablist">
                                     <li className="nav-item" role="presentation">
                                         <button className="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
-                                            <strong>Managing Director</strong>
-                                            <span>Head of department</span>
+                                            <strong>Business Analyst</strong>
+                                            <span></span>
                                         </button>
                                     </li>
                                     <li className="nav-item" role="presentation">
                                         <button className="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
                                             <strong>Marketing Manager</strong>
-                                            <span>Sales Department</span>
+                                            <span></span>
                                         </button>
                                     </li>
                                     <li className="nav-item" role="presentation">
                                         <button className="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
                                             <strong>Software Developer</strong>
-                                            <span>App Department</span>
+                                            {/* <span>Ap</span> */}
                                         </button>
                                     </li>
                                 </ul>
@@ -135,13 +135,13 @@ const TeamV1 = ({ sectionClass, hasTitle }: DataType) => {
                                             }}
                                             modules={[Keyboard]}
                                         >
-                                           
-                                                {TeamV1Data.slice(6, 10).map(team =>
-                                                    <SwiperSlide key={team.id}>
-                                                        <SingleTeamV1 team={team} />
-                                                    </SwiperSlide>
-                                                )}
-                                          
+
+                                            {TeamV1Data.slice(6, 10).map(team =>
+                                                <SwiperSlide key={team.id}>
+                                                    <SingleTeamV1 team={team} />
+                                                </SwiperSlide>
+                                            )}
+
                                         </Swiper>
                                     </div>
                                 </div>

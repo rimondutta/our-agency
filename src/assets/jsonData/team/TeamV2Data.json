@@ -2,25 +2,27 @@
   {
     "id": 1,
     "thumb": "14.jpg",
-    "name": "Shubhranshu Srivastava",
-    "designation": "Founder, Director & CEO"
+    "name": "Anup Barua",
+    "designation": "Digital Marketing Expert"
   },
   {
     "id": 2,
     "thumb": "15.jpg",
-    "name": "Sunny Kumar",
-    "designation": "Co-Founder, Director & COO"
+    "name": "Rimon Dutta",
+    "designation": "Developer And Marketer",
+    "text": "",
+    "age": "23"
   },
   {
     "id": 3,
     "thumb": "16.jpg",
-    "name": "Apoorv Dwivedi",
-    "designation": "Chief Technology Officer"
+    "name": "Joy Devnath",
+    "designation": "SEO And SMM Specialist"
   },
   {
     "id": 4,
     "thumb": "16.jpg",
-    "name": "Sidharth Anant Shiv",
-    "designation": "Assistant Director"
+    "name": "Fahim Kobir",
+    "designation": "SEO Specialist"
   }
 ]

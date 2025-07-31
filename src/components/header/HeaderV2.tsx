@@ -37,7 +37,7 @@ const HeaderV2 = ({ lightMode }: DataType) => {
                         <div className="col-xl-7 col-lg-6">
                             <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
                                 <div className="left-info">
-                                    <p><strong>Contact</strong> <a href="mailto:support@avrix.com">support@avrix.com</a></p>
+                                    <p><strong>Contact</strong> <a href="mailto:support@avrix.com">marketgrowthexperts.pro@gmail.com</a></p>
                                 </div>
                                 <div className="right-info">
                                     <ul>

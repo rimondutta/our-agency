@@ -13,6 +13,7 @@ import ArchiveWidget from '../widgets/ArchiveWidget';
 import FollowWidget from '../widgets/FollowWidget';
 import TagsWidget from '../widgets/TagsWidget';
 
+
 interface DataType {
     id?: number;
     date?: string;
@@ -56,7 +57,7 @@ const BlogSingleWithSidebarContent = ({ blogInfo, totalBlogs, sectionClass }: Bl
                                 <div className="blog-style-one item">
                                     <div className="blog-item-box">
                                         <div className="thumb">
-                                                <img src={`/assets/img/blog/${thumbFull}`} width={1075} height={546} alt="Thumb" />
+                                            <img src={`/assets/img/blog/${thumbFull}`} width={1075} height={546} alt="Thumb" />
                                         </div>
                                         <div className="info">
                                             <div className="meta">
@@ -69,29 +70,39 @@ const BlogSingleWithSidebarContent = ({ blogInfo, totalBlogs, sectionClass }: Bl
                                                     </li>
                                                 </ul>
                                             </div>
+
+                                            <h1>How to Work with SQL Databases: A Beginner-Friendly Guide</h1>
                                             <p>
-                                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+                                                AI is evolving fast, and at the center of this change are Large Language Models (LLMs)—tools that can understand and generate human-like language. You may have already seen them in action through tools like ChatGPT or AI chatbots on websites.
+
+                                                At [Market Growth Experts], we help businesses use LLMs to save time, improve customer service, and create content faster.
                                             </p>
+                                            <h2>What Is an LLM?</h2>
                                             <p>
-                                                New had happen unable uneasy. Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                                An LLM is an AI system trained on a huge amount of text data. It can write blog posts, answer questions, summarize documents, generate code, and even hold real-time conversations.
+
+                                                These models don’t just copy text—they understand tone, intent, and context. That’s what makes them so powerful.
                                             </p>
-                                            <blockquote>
-                                                Celebrated share of first to worse. Weddings and any opinions suitable smallest nay. Houses or months settle remove ladies appear. Engrossed suffering supposing he recommend do eagerness.
-                                            </blockquote>
+                                            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="LLM" />
+                                            <h3>Why Use LLMs for Your Business?</h3>
+                                            <h5>Smarter Customer Support</h5>
                                             <p>
-                                                Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                                TLLM-powered chatbots can handle FAQs, bookings, and support 24/7, freeing up your team for complex tasks.
                                             </p>
-                                            <h3>Conduct replied off led whether?</h3>
+                                            <h5>Faster Content Creation</h5>
+                                            <p>From blog articles to product descriptions, LLMs can create content that fits your brand’s voice—quickly and at scale.</p>
+                                            <h5>Improved Productivity</h5>
+                                            <p>
+                                                They can summarize long documents, assist in research, or help developers write clean, efficient code.
+                                            </p>
+                                            <h4>We don’t just add AI—we build solutions that work for you:</h4>
                                             <ul>
-                                                <li>Pretty merits waited six</li>
-                                                <li>General few civilly amiable pleased account carried.</li>
-                                                <li>Continue indulged speaking</li>
-                                                <li>Narrow formal length my highly</li>
-                                                <li>Occasional pianoforte alteration unaffected impossible</li>
+                                                <li>We find real opportunities where AI can help.</li>
+                                                <li>We fine-tune models to match your tone and goals.</li>
+                                                <li>We handle integration, privacy, and testing—so it just works.</li>
                                             </ul>
-                                            <p>
-                                                Surrounded to me occasional pianoforte alteration unaffected impossible ye. For saw half than cold. Pretty merits waited six talked pulled you. Conduct replied off led whether any shortly why arrived adapted. Numerous ladyship so raillery humoured goodness received an. So narrow formal length my highly longer afford oh. Tall neat he make or at dull ye. Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Iure, laudantium, tempore. Autem dolore repellat, omnis quam? Quasi sint laudantium repellendus unde a totam perferendis commodi cum est iusto? Minima, laborum.
-                                            </p>
+                                            <h4>Ready to buil Ai</h4>
+                                            <p>LLMs are already reshaping how teams work, communicate, and grow. Want to see what they can do for your business?</p>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +113,7 @@ const BlogSingleWithSidebarContent = ({ blogInfo, totalBlogs, sectionClass }: Bl
                                         <img src={team1Thumb} alt="Thumb" />
                                     </div>
                                     <div className="info">
-                                        <h4><Link to="#" onClick={handleSmoothScroll}>Md Sohag</Link></h4>
+                                        <h4><Link to="https://www.facebook.com/dutta.rimon/" onClick={handleSmoothScroll}>Rimon Dutta</Link></h4>
                                         <p>
                                             Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All the Lorem Ipsum generators on the Internet tend.
                                         </p>

@@ -35,7 +35,7 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
                                     </h2>
                                 </div>
                                 <div className="col-lg-6 text-end">
-                                    <Link to="/services" className="btn-circle">
+                                    <Link to="/about-us" className="btn-circle">
                                         <div className="button-content">
                                             <span><img src={arrowLongRight} alt="Image Not Found" /></span> <strong>All Members</strong>
                                         </div>

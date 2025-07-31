@@ -7,7 +7,7 @@ const BlogStandardLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog Standard Light</title>
+                <title>Market Growth Experts - Blog Standard Light</title>
             </Helmet>
 
             <LayoutV1Light>

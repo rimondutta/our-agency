@@ -65,7 +65,7 @@ const BlogSingleContentLight = ({ blogInfo, totalBlogs, sectionClass }: BlogSing
                                                     </ul>
                                                 </div>
                                                 <p>
-                                                    Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+                                                    
                                                 </p>
                                                 <p>
                                                     New had happen unable uneasy. Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
@@ -97,7 +97,7 @@ const BlogSingleContentLight = ({ blogInfo, totalBlogs, sectionClass }: BlogSing
                                             <img src={team1Thumb} alt="Thumb" />
                                         </div>
                                         <div className="info">
-                                            <h4><Link to="#" onClick={handleSmoothScroll}>Md Sohag</Link></h4>
+                                            <h4><Link to="#" onClick={handleSmoothScroll}>Rimon Dutta</Link></h4>
                                             <p>
                                                 Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All the Lorem Ipsum generators on the Internet tend.
                                             </p>

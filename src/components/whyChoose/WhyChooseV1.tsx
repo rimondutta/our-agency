@@ -19,7 +19,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
             <div className="col-lg-7">
               <div className="choose-us-style-one">
                 <div className="pl-80 pl-md-0 pl-xs-0">
-                  <h4 className="sub-title">Why Quirktix</h4>
+                  <h4 className="sub-title">Why Market Growth Experts</h4>
                   <h2 className="title">Unlock Revenue Growth</h2>
                   <div
                     className="faq-style-one accordion mt-30"

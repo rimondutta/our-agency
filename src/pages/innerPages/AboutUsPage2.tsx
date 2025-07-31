@@ -4,6 +4,7 @@ import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 
+
 import SplitText from "../../components/animation/SplitText.jsx";
 import TeamV2Data from "../../../src/assets/jsonData/team/TeamNew.json";
 
@@ -77,7 +78,7 @@ const AboutUsPage2 = () => {
       </Helmet>
 
       <LayoutV1>
-        <Breadcrumb title="About Market Growth Experts" breadCrumb="About" />
+        <Breadcrumb title="About Us" breadCrumb="About" />
         <div className="py-5 bg-gray">
           <div className="container">
             <div className="row align-center">

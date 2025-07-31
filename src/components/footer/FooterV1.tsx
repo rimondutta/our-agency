@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import FooterSocial from "../social/FooterSocial";
 import logoLight from "/assets/img/logo-light.png";
 import logo from "/assets/img/logo.png";
+import CursorEffect from "../../components/animation/CursorEffect";
+
 
 interface DataType {
   sectionClass?: string;
@@ -36,7 +38,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                     </p>
                     <h4>
                     </h4>
-                      <h4>Phone</h4>
+                    <h4>Phone</h4>
                     {/* <p>
                       <a href="tel:+880 1404587727">+880 1404587727</a>
                     </p> */}
@@ -62,7 +64,7 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                 <h4 className="widget-title">Useful Link</h4>
                 <ul className="useful-link">
                   <li>
-                    <Link to="/about-us">About Us</Link>
+                    <Link to="/about">About</Link>
                   </li>
                   <li>
                     <Link to="/contact-us">Contact</Link>
@@ -83,8 +85,8 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
                     <Link to="/careers">Careers</Link>
                   </li>
                   <li>
-                    <a target="_blank" href="#">
-                      Help Desk
+                    <a target="_blank" href="/explor">
+                      Explore
                     </a>
                   </li>
                 </ul>
@@ -115,11 +117,12 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
               <div className="col-lg-6 text-end">
                 <p>
                   Copyright &copy; {new Date().getFullYear()} Market Growth Experts. All Rights Reserved 2025. By <a href="https://www.facebook.com/dutta.rimon/" target="_blank" rel="noopener noreferrer" style={{ color: "#c9f31d" }}>Rimon Dutta</a>
-                 </p>
+                </p>
               </div>
             </div>
           </div>
         </div>
+        <CursorEffect />
       </footer>
     </>
   );

@@ -26,9 +26,9 @@ const FooterV2 = ({ lightMode, sectionClass }: DataType) => {
                                 </div>
                                 <ul className="address-list">
                                 <li>
-                                        <h4>Bangladesh</h4>
+                                        <h4>Location</h4>
                                         <p>
-                                            8 The Green, Kotowali
+                                        Chattogram, Bangladesh
                                         </p>
                                     </li>
                                     {/* <li>
@@ -82,8 +82,8 @@ const FooterV2 = ({ lightMode, sectionClass }: DataType) => {
                             </div>
                             <div className="col-lg-6 text-end">
                                 <p>
-                                    Copyright &copy; {(new Date().getFullYear())} Quirktix. All Rights Reserved 2025 By Rimon Dutta
-                                </p>
+                  Copyright &copy; {new Date().getFullYear()} Market Growth Experts. All Rights Reserved 2025. By <a href="https://www.facebook.com/dutta.rimon/" target="_blank" rel="noopener noreferrer" style={{ color: "#c9f31d" }}>Rimon Dutta</a>
+                 </p>
                             </div>
                         </div>
                     </div>

@@ -71,7 +71,7 @@ const Home9Light = () => {
     return (
         <>
             <Helmet>
-                <title>Market Growth Experts - Home 9 Light</title>
+                <title>Market Growth Experts - Home </title>
             </Helmet>
 
             <HeaderV1 lightMode={true} />

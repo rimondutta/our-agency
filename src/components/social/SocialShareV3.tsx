@@ -5,7 +5,7 @@ const SocialShareV3 = () => {
     return (
         <>
             <li>
-                <Link className="facebook" to="https://www.facebook.com/" target="_blank">
+                <Link className="facebook" to="https://www.facebook.com/sharer/sharer" target="_blank">
                     <i className="fab fa-facebook-f" />
                 </Link>
             </li>

@@ -2,41 +2,41 @@
     {
         "id": 1,
         "thumb": "1.jpg",
-        "name": "Istiak Ahmed",
-        "designation": "CEO & Founder",
+        "name": "Anup Barua",
+        "designation": "Digital Marketing Expert",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "28",
-        "email": "Istiak@digital.com",
-        "phone": "+44-20-7328-4499"
+        "age": "23",
+        "email": "info.rimondutta@gmail.com",
+        "phone": "+880 1404-587727"
     },
     {
-        "id": 2,
+        "id": 7,
         "thumb": "7.jpg",
-        "name": "Kevin Martin",
-        "designation": "Product Manager",
+        "name": "Rimon Dutta",
+        "designation": "Devloper And Marketer",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "29",
-        "email": "Kevin@digital.com",
-        "phone": "+44-20-7328-4500"
+        "age": "40",
+        "email": "",
+        "phone": ""
     },
     {
-        "id": 3,
-        "thumb": "3.jpg",
-        "name": "Sarah Albert",
-        "designation": "Financial Consultant",
+        "id": 5,
+        "thumb": "5.jpg",
+        "name": "Joy Devnath",
+        "designation": "SEO And SMM Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "30",
-        "email": "Sarah@digital.com",
-        "phone": "+44-20-7328-4501"
+        "email": "joydevnath8888@gmail.com",
+        "phone": "+880 1614-696977"
     },
     {
         "id": 4,
         "thumb": "4.jpg",
-        "name": "Jason Joey",
-        "designation": "Developer",
+        "name": "Fahim Kobir",
+        "designation": "SEO Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "31",
-        "email": "Jason@digital.com",
-        "phone": "+44-20-7328-4502"
+        "email": "",
+        "phone": ""
     }
 ]

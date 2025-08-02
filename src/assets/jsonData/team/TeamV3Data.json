@@ -5,9 +5,9 @@
         "name": "Anup Barua",
         "designation": "Digital Marketing Expert",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "23",
-        "email": "info.rimondutta@gmail.com",
-        "phone": "+880 1404-587727"
+        "age": "40",
+        "email": "",
+        "phone": ""
     },
     {
         "id": 7,
@@ -15,9 +15,9 @@
         "name": "Rimon Dutta",
         "designation": "Devloper And Marketer",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "40",
-        "email": "",
-        "phone": ""
+        "age": "23",
+        "email": "info.rimondutta@gmail.com",
+        "phone": "+880 1404-587727"
     },
     {
         "id": 5,
@@ -25,7 +25,7 @@
         "name": "Joy Devnath",
         "designation": "SEO And SMM Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "30",
+        "age": "22",
         "email": "joydevnath8888@gmail.com",
         "phone": "+880 1614-696977"
     },
@@ -35,7 +35,7 @@
         "name": "Fahim Kobir",
         "designation": "SEO Specialist",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "31",
+        "age": "23",
         "email": "",
         "phone": ""
     }

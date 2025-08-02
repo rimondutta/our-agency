@@ -3,7 +3,6 @@
         "id": 1,
         "thumb": "1.jpg",
         "name": "Anup Barua",
-         "slug": "rimon-dutta",
         "designation": "Digital Marketing Expert",
         "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
         "age": "40",
@@ -46,8 +45,8 @@
         "thumb": "5.jpg",
         "name": "Joy Devnath",
         "designation": "SEO And SMM Specialist",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "32",
+        "text": "I am a passionate and data-driven Digital Marketing Expert with proven expertise in Search Engine Optimization (SEO), Social Media Marketing (SMM), and advanced Growth Hacking strategies. With years of hands-on experience in scaling businesses digitally, I help brands increase their visibility, engagement, and conversion rates across multiple channels.",
+        "age": "22",
         "email": "",
         "phone": ""
     },
@@ -64,9 +63,9 @@
     {
         "id": 7,
         "thumb": "7.jpg",
-        "name": "Rimon Dutta",
+        "name": "RIMON DUTTA",
         "designation": "Developer And Marketer",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
+        "text": "Hi, I’m Rimon Dutta a passionate Full stack developer, mobile app developer, and SEO expert with a focus on performance, usability, and automation. I specialize in building high-quality web and mobile applications using modern JavaScript frameworks like React, React Native, and Three.js including advanced shaders, raymarching, and real-time rendering. Beyond development, I’m deeply involved in automation from workflow optimization with tools like n8n and Zapier, to custom-coded solutions that streamline repetitive tasks and boost productivity for teams and businesses.",
         "age": "23",
         "email": "info.rimondutta@gmail.com",
         "phone": "+880 1404-587727"

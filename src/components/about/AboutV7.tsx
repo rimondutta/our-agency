@@ -31,7 +31,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                             Building the right foundation of your business
                                         </SplitText>
                                     </h2>
-                                    <Link className="btn-animation mt-10" to="/about-2">
+                                    <Link className="btn-animation mt-10" to="/about-us">
                                         <i className="fas fa-arrow-right" /> <span>Know More</span>
                                     </Link>
                                 </div>
@@ -49,7 +49,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                                 </li>
                                             </ul>
                                             <p>
-                                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeite. Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an
+                                                Market Growth Experts is a full-service digital agency focused on accelerating your brand’s online growth. From SEO and paid ads to conversion focused web design and strategic marketing, we help businesses scale smarter and faster. Let’s grow your market, together.
                                             </p>
                                         </div>
                                         <div className="award-style-one">

@@ -73,7 +73,7 @@ const AboutUsPage2 = () => {
   return (
     <>
       <Helmet>
-        <title> About Us | Market Growth Experts</title>
+        <title> About | Market Growth Experts</title>
         <meta title="About Market Growth Experts | Transforming Startups into Brands" content="Market Growth Experts is a passionate team of designers, strategists, and experts committed to helping startups become recognized brands for their business solutions."></meta>
       </Helmet>
 
@@ -305,11 +305,10 @@ const AboutUsPage2 = () => {
                         key={industry}
                         className="d-flex justify-content-between align-items-center pb-2 cursor-pointer"
                         style={{
-                          borderBottom: `1px solid ${
-                            selectedIndustry === industry
+                          borderBottom: `1px solid ${selectedIndustry === industry
                               ? "#C9F31D"
                               : "#D9D9D9"
-                          }`,
+                            }`,
                           color:
                             selectedIndustry === industry ? "white" : "#D9D9D9",
                           cursor: "pointer",
@@ -405,12 +404,12 @@ const AboutUsPage2 = () => {
             </div>
           </div>
         </div>
-       
+
         <WhyChooseV3 />
 
         <div className="container">
-         
-          <Countries/>
+
+          <Countries />
 
           <MostPopularServices />
         </div>

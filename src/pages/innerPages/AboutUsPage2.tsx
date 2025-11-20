@@ -306,8 +306,8 @@ const AboutUsPage2 = () => {
                         className="d-flex justify-content-between align-items-center pb-2 cursor-pointer"
                         style={{
                           borderBottom: `1px solid ${selectedIndustry === industry
-                              ? "#C9F31D"
-                              : "#D9D9D9"
+                            ? "#C9F31D"
+                            : "#D9D9D9"
                             }`,
                           color:
                             selectedIndustry === industry ? "white" : "#D9D9D9",

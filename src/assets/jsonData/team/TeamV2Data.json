@@ -9,7 +9,7 @@
     "id": 2,
     "thumb": "15.jpg",
     "name": "Rimon Dutta",
-    "designation": "Developer And Marketer",
+    "designation": "Software Developer And DevopOps Engineer",
     "text": "",
     "age": "23"
   },
@@ -18,11 +18,5 @@
     "thumb": "16.jpg",
     "name": "Joy Devnath",
     "designation": "SEO And SMM Specialist"
-  },
-  {
-    "id": 4,
-    "thumb": "16.jpg",
-    "name": "Fahim Kobir",
-    "designation": "SEO Specialist"
   }
 ]

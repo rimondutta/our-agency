@@ -17,7 +17,7 @@ import AboutV7 from "../../components/about/AboutV7";
 // import WhyChooseV2 from "../../components/whyChoose/WhyChooseV2";
 import BannerV1 from "../../components/banner/BannerV1";
 // import Team2Page from "../innerPages/Team2Page";
-import TeamV1 from "../../components/team/TeamV1";
+// import TeamV1 from "../../components/team/TeamV1";
 // import BlogV1 from "../../components/blog/BlogV1";
 import HeaderV1 from "../../components/header/HeaderV1";
 // import BlogV1 from "../../components/blog/BlogV1";
@@ -42,7 +42,7 @@ const Dt = () => {
         <AboutV7 />
         <ClientsV1 sectionClass="bg-gray" />
         <ServicesV1 sectionClass="bg-gray" hasTitle={true} />
-        <TeamV1 />
+        {/* <TeamV1 /> */}
         <MultiSection />
         <PortfolioV5 />
         <TestimonialV3 />

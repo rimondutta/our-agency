@@ -1,3 +1,4 @@
+"use client";
 import { ScrollToTop } from 'react-simple-scroll-up';
 import { ToastContainer } from 'react-toastify';
 

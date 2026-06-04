@@ -26,7 +26,7 @@ const ContactForm = () => {
       } else {
         toast.error("Something went wrong!");
       }
-    } catch (err) {
+    } catch {
       toast.error("Network error. Try again later.");
     }
   };

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SplitTextV2 from "../animation/SplitTextV2.jsx"
+import SplitTextV2 from '../animation/SplitTextV2'
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 
 interface DataType {

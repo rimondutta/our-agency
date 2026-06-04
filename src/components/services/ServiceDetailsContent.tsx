@@ -1,20 +1,14 @@
-import banner6 from "/assets/img/banner/6.jpg";
-import portfolio45 from "/assets/img/portfolio/45.jpg";
-import portfolio46 from "/assets/img/portfolio/46.jpg";
-import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json";
-import { Link } from "react-router-dom";
-
-interface DataType {
-    title?: string;
-}
+import { ServiceData } from "@/hooks/useServices";
 
 interface ServiceDetailsProps {
-    serviceInfo?: DataType;
+    serviceInfo?: ServiceData;
     sectionClass?: string;
 }
 
 const ServiceDetailsContent = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
-    const { title } = serviceInfo || {};
+    if (!serviceInfo) return null;
+
+    const { title, fullDescription, features, coverImage } = serviceInfo;
 
     return (
         <>
@@ -24,142 +18,78 @@ const ServiceDetailsContent = ({ serviceInfo, sectionClass }: ServiceDetailsProp
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="service-single-thumb">
-                                    <img src={banner6} alt="Thumb" />
+                                    <img 
+                                        src={coverImage || "/assets/img/banner/6.jpg"} 
+                                        alt={title} 
+                                        style={{ width: "100%", maxHeight: "600px", objectFit: "cover" }}
+                                    />
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row mt-50">
                             <div className="col-lg-7">
                                 <h2>{title}</h2>
-                                <p>
-                                    We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology. Dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble.
+                                <p style={{ whiteSpace: "pre-line" }}>
+                                    {fullDescription}
                                 </p>
                             </div>
                             <div className="col-lg-5 pl-60 pl-md-15 pl-xs-15">
-                                <p>
-                                    New had happen unable uneasy. Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. These cases are perfectly simple and easy to distinguish.
-                                </p>
-                                <ul className="feature-list-item">
-                                    <li>Social media marketing</li>
-                                    <li>Search engine optimization (seo)</li>
-                                    <li>Public Relations</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="mt-50 mt-xs-20">
-                            <div className="process-style-two">
-                                <div className="process-style-two-item">
-                                    <span>01</span>
-                                    <h4>Project Research</h4>
-                                    <p>
-                                        Excuse Deal say over contain performance from comparison new melancholy themselves.
-                                    </p>
-                                </div>
-                                <div className="process-style-two-item">
-                                    <span>02</span>
-                                    <h4>Best Concept</h4>
-                                    <p>
-                                        Excuse Deal say over contain performance from comparison new melancholy themselves.
-                                    </p>
-                                </div>
-                                <div className="process-style-two-item">
-                                    <span>03</span>
-                                    <h4>Design Implement</h4>
-                                    <p>
-                                        Excuse Deal say over contain performance from comparison new melancholy themselves.
-                                    </p>
-                                </div>
-                                <div className="process-style-two-item">
-                                    <span>04</span>
-                                    <h4>Final Result</h4>
-                                    <p>
-                                        Excuse Deal say over contain performance from comparison new melancholy themselves.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt-80 mt-xs-50 gallery-two-columns">
-                            <div className="col-md-6">
-                                <img src={portfolio45} alt="Image Not Found" />
-                            </div>
-                            <div className="col-md-6">
-                                <img src={portfolio46} alt="Image Not Found" />
-                            </div>
-                        </div>
-                        <div className="d-grid colums-2 mt-50">
-                            <div className="item">
-                                <div className="faq-style-one faq-style-two">
-                                    <h2 className="mb-30">Any questions find here.</h2>
-                                    <div className="accordion" id="faqAccordion">
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingOne">
-                                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Business Innovation
-                                                </button>
-                                            </h2>
-                                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                                                <div className="accordion-body">
-                                                    <p>
-                                                        Bennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments are off under folly death.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingTwo">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Search Engine Optimization
-                                                </button>
-                                            </h2>
-                                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-                                                <div className="accordion-body">
-                                                    <p>
-                                                        Regularity appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments are off under folly death.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingThree">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Thinking Differently
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                                                <div className="accordion-body">
-                                                    <p>
-                                                        Permanent appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments are off under folly death.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <h2>What we do?</h2>
-                                <p>
-                                    Regular libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda.
-                                </p>
-                                <p>
-                                    Momnis voluptas assumenda est, omnis dolor repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="services-more mt-100 mt-xs-30">
-                            <h2 className="mb-20">Most popular services</h2>
-                            <div className="row">
-                                {ServicesV1Data.slice(0, 3).map(service =>
-                                    <div className="col-lg-4 col-md-6" key={service.id}>
-                                        <div className="item">
-                                            <img src={`/assets/img/icon/${service.icon}`} alt="Image Not Found" width={75} height={60} />
-                                            <h4><Link to={`/service-details/${service.id}`}>{service.title}</Link></h4>
-                                            <p>{service.text}</p>
-                                        </div>
-                                    </div>
+                                <h3>What We Offer:</h3>
+                                {features && features.length > 0 ? (
+                                    <ul className="feature-list-item">
+                                        {features.map((feature, idx) => (
+                                            <li key={idx}>{feature}</li>
+                                        ))}
+                                    </ul>
+                                ) : (
+                                    <p>No specific features listed.</p>
                                 )}
                             </div>
                         </div>
+
+                        {serviceInfo.faqs && serviceInfo.faqs.length > 0 && (
+                            <div className="d-grid colums-2 mt-50">
+                                <div className="item">
+                                    <div className="faq-style-one faq-style-two">
+                                        <h2 className="mb-30">Any questions find here.</h2>
+                                        <div className="accordion" id="faqAccordion">
+                                            {serviceInfo.faqs.map((faq, index) => (
+                                                <div className="accordion-item" key={index}>
+                                                    <h2 className="accordion-header" id={`heading${index}`}>
+                                                        <button 
+                                                            className={`accordion-button ${index !== 0 ? 'collapsed' : ''}`} 
+                                                            type="button" 
+                                                            data-bs-toggle="collapse" 
+                                                            data-bs-target={`#collapse${index}`} 
+                                                            aria-expanded={index === 0 ? "true" : "false"} 
+                                                            aria-controls={`collapse${index}`}
+                                                        >
+                                                            {faq.q}
+                                                        </button>
+                                                    </h2>
+                                                    <div 
+                                                        id={`collapse${index}`} 
+                                                        className={`accordion-collapse collapse ${index === 0 ? 'show' : ''}`} 
+                                                        aria-labelledby={`heading${index}`} 
+                                                        data-bs-parent="#faqAccordion"
+                                                    >
+                                                        <div className="accordion-body">
+                                                            <p>{faq.a}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <h2>Need more help?</h2>
+                                    <p>
+                                        If you have any other questions regarding our services, feel free to contact our support team. We're always here to assist you and ensure your success.
+                                    </p>
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>

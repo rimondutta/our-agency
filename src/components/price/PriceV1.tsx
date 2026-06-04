@@ -1,6 +1,6 @@
-import SplitText from "../animation/SplitText.jsx";
+import SplitText from '../animation/SplitText';
 import PriceV1Data from "../../assets/jsonData/price/PriceV1Data.json"
-import SinglePriceV1 from "./SinglePriceV1.js";
+import SinglePriceV1 from './SinglePriceV1';
 import { useState } from "react";
 
 interface DataType {

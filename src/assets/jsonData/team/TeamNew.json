@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "thumb": "anupdada 1.png",
-    "name": "ANUP BARUA",
-    "designation": "Digital Marketer | Business Analyst ",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/anupbaruaseoexpert/",
-      "instagram": "https://www.instagram.com/anupbarua.ctg/#"
-    }
-  },
-  {
-    "id": 2,
-    "thumb": "joy devnath.png",
-    "name": "JOY DEVNATH",
-    "designation": "SEO & SMM Specialist Growth Strategist",
+    "thumb": "rigan-dutta.jpg",
+    "name": "Rigan Dutta",
+    "designation": "App Developer",
     "social": {
       "linkedin": "",
       "instagram": ""
     }
   },
   {
-    "id": 3,
-    "thumb": "rimon dutta 2.png",
-    "name": "RIMON DUTTA",
-    "designation": "Software Developer And DevopOps Engineer",
+    "id": 2,
+    "thumb": "rimon-dutta.jpg",
+    "name": "Rimon Dutta",
+    "designation": "Cloud Engineer",
     "social": {
-      "linkedin": "https://www.linkedin.com/in/rimon-dutta/",
-      "instagram": "https://www.instagram.com/rimon_dutta0/"
+      "linkedin": "",
+      "instagram": "https://www.instagram.com/rimon_dutta.py"
+    }
+  },
+  {
+    "id": 3,
+    "thumb": "2.jpg",
+    "name": "Comming Soon",
+    "designation": "Software Engineer",
+    "social": {
+      "linkedin": "",
+      "instagram": ""
     }
   }
 ]

@@ -10,50 +10,64 @@ const MainMenuV2 = ({ toggleSubMenu2, closeInfoBar }: DataType) => {
     return (
         <>
             <ul className="simple-menu-list">
+                <li><Link to="/" onClick={closeInfoBar}>Home</Link></li>
+
                 <li>
-                    <Link to="#" >Home </Link>
+                    <Link to="#" >Services </Link>
                     <i className="fas fa-plus" onClick={toggleSubMenu2} />
                     <ul className="sub-menu">
-                        <li><Link to="/" onClick={closeInfoBar}>Home Main</Link></li>
-                        {/* <li><Link to="/home-2" onClick={closeInfoBar}>Creative Agency</Link></li>
-                        <li><Link to="/home-3" onClick={closeInfoBar}>Startup Agency</Link></li>
-                        <li><Link to="/home-4" onClick={closeInfoBar}>Showcase Carousel</Link></li>
-                        <li><Link to="/home-5" onClick={closeInfoBar}>Showcase Slider</Link></li>
-                        <li><Link to="/home-6" onClick={closeInfoBar}>Modern Agency</Link></li>
-                        <li><Link to="/home-7" onClick={closeInfoBar}>Digital Agency</Link></li>
-                        <li><Link to="/home-8" onClick={closeInfoBar}>Modern Startup</Link></li>
-                        <li><Link to="/home-9" onClick={closeInfoBar}>Design Studio</Link></li> */}
+                        <li><Link to="/services" onClick={closeInfoBar}>All Services</Link></li>
                         <li className="menu-dropdown">
-                            <Link to="#">Light Version</Link>
+                            <Link to="#">Marketing</Link>
                             <i className="fas fa-plus" onClick={toggleSubMenu2} />
                             <ul className="sub-menu">
-                                <li><Link to="/home-1-light" onClick={closeInfoBar}>Home Main</Link></li>
-                                {/* <li><Link to="/home-2-light" onClick={closeInfoBar}>Creative Agency</Link></li>
-                                <li><Link to="/home-3-light" onClick={closeInfoBar}>Startup Agency</Link></li>
-                                <li><Link to="/home-4-light" onClick={closeInfoBar}>Showcase Carousel</Link></li>
-                                <li><Link to="/home-5-light" onClick={closeInfoBar}>Showcase Slider</Link></li>
-                                <li><Link to="/home-6-light" onClick={closeInfoBar}>Modern Agency</Link></li>
-                                <li><Link to="/home-7-light" onClick={closeInfoBar}>Digital Agency</Link></li>
-                                <li><Link to="/home-8-light" onClick={closeInfoBar}>Modern Startup</Link></li>
-                                <li><Link to="/home-9-light" onClick={closeInfoBar}>Design Studio</Link></li> */}
+                                <li><Link to="/service/marketing" onClick={closeInfoBar}>Marketing Overview</Link></li>
+                                <li><Link to="/service/ecommerce-seo" onClick={closeInfoBar}>Ecommerce SEO</Link></li>
+                                <li><Link to="/service/local-seo" onClick={closeInfoBar}>Local SEO</Link></li>
+                                <li><Link to="/service/performance-marketing" onClick={closeInfoBar}>Performance Marketing</Link></li>
+                                <li><Link to="/service/social-media-marketing" onClick={closeInfoBar}>Social Media Marketing</Link></li>
+                                <li><Link to="/service/influencer-marketing" onClick={closeInfoBar}>Influencer Marketing</Link></li>
+                                <li><Link to="/service/ecommerce-marketing" onClick={closeInfoBar}>Ecommerce Marketing</Link></li>
+                            </ul>
+                        </li>
+                        <li className="menu-dropdown">
+                            <Link to="#">Development</Link>
+                            <i className="fas fa-plus" onClick={toggleSubMenu2} />
+                            <ul className="sub-menu">
+                                <li><Link to="/service/development" onClick={closeInfoBar}>Development Overview</Link></li>
+                                <li><Link to="/service/shopify-development" onClick={closeInfoBar}>Shopify Development</Link></li>
+                                <li><Link to="/service/woocommerce-development" onClick={closeInfoBar}>WooCommerce Development</Link></li>
+                                <li><Link to="/service/web-application-development" onClick={closeInfoBar}>Web Application Development</Link></li>
+                                <li><Link to="/service/wordpress-development" onClick={closeInfoBar}>WordPress Development</Link></li>
+                                <li><Link to="/service/mobile-application-development" onClick={closeInfoBar}>Mobile Application Development</Link></li>
+                                <li><Link to="/service/dropshipping" onClick={closeInfoBar}>Dropshipping</Link></li>
+                            </ul>
+                        </li>
+                        <li className="menu-dropdown">
+                            <Link to="#">AI Solutions</Link>
+                            <i className="fas fa-plus" onClick={toggleSubMenu2} />
+                            <ul className="sub-menu">
+                                <li><Link to="/service/artificial-intelligence" onClick={closeInfoBar}>Artificial Intelligence</Link></li>
+                                <li><Link to="/service/content-personalization-and-predictive-analysis" onClick={closeInfoBar}>Content Personalization & Predictive Analysis</Link></li>
+                                <li><Link to="/service/agentic-process-automation" onClick={closeInfoBar}>Agentic Process Automation</Link></li>
+                                <li><Link to="/service/custom-llm-and-fine-tuning" onClick={closeInfoBar}>Custom LLM & Fine-Tuning</Link></li>
+                                <li><Link to="/service/custom-ai-tool-development" onClick={closeInfoBar}>Custom AI Tool Development</Link></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
+
                 <li>
-                    <Link to="#">Blog </Link>
+                    <Link to="#" >Portfolio </Link>
                     <i className="fas fa-plus" onClick={toggleSubMenu2} />
                     <ul className="sub-menu">
-                        <li><Link to="/blog-standard" onClick={closeInfoBar}>Blog Standard</Link></li>
-                        <li><Link to="/blog-with-sidebar" onClick={closeInfoBar}>Blog With Sidebar</Link></li>
-                        <li><Link to="/blog-2-column" onClick={closeInfoBar}>Blog Grid Two column</Link></li>
-                        <li><Link to="/blog-3-column" onClick={closeInfoBar}>Blog Grid Three column</Link></li>
-                        <li><Link to="/blog-single/1" onClick={closeInfoBar}>Blog Single</Link></li>
-                        <li><Link to="/blog-single-with-sidebar/1" onClick={closeInfoBar}>Blog Single With Sidebar</Link></li>
+                        <li><Link to="/portfolio" onClick={closeInfoBar}>All Projects</Link></li>
                     </ul>
                 </li>
-                <li><Link to="/services" onClick={closeInfoBar}>Services </Link></li>
-                <li><Link to="/about-us" onClick={closeInfoBar}>About</Link> </li>
+
+                <li><Link to="/blogs" onClick={closeInfoBar}>Blog</Link></li>
+                <li><Link to="/team" onClick={closeInfoBar}>Team</Link></li>
+                <li><Link to="/about-us" onClick={closeInfoBar}>About</Link></li>
                 <li><Link to="/contact-us" onClick={closeInfoBar}>Contact</Link></li>
             </ul>
         </>

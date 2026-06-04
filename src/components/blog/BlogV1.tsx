@@ -1,6 +1,6 @@
 import BlogV1Data from '../../../src/assets/jsonData/blog/BlogV1Data.json';
 import SingleBlogV1 from './SingleBlogV1';
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 
 interface DataType {
     sectionClass?: string

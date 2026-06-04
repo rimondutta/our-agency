@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Pagination, Navigation } from "swiper/modules";
 import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json";
-import shape14 from "/assets/img/shape/14.png";
+
 import SingleTestimonialV3 from "./SingleTestimonialV3";
 
 interface DataType {
@@ -17,7 +17,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
         }`}
       >
         <div className="shape-style-one">
-          <img className="upDownScrol" src={shape14} alt="Image Not Found" />
+          <img className="upDownScrol" src="/assets/img/shape/14.png" alt="Image Not Found" />
         </div>
         <div className="container">
           <div className="testimonial-heading">
@@ -48,7 +48,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
             <div className="col-lg-12">
               <Swiper
                 className="testimonial-style-three-carousel swiper"
-                loop={true}
+                loop={false}
                 slidesPerView={1}
                 spaceBetween={30}
                 autoplay={false}

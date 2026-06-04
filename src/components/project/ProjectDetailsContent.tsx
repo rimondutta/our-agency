@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import portfolio13 from "/assets/img/portfolio/13.jpg";
-import portfolio14 from "/assets/img/portfolio/14.jpg";
-import portfolio15 from "/assets/img/portfolio/15.jpg";
-import portfolio44 from "/assets/img/portfolio/44.jpg";
+
+
+
+
 
 interface DataType {
     id?: number;
@@ -83,8 +83,8 @@ const ProjectDetailsContent = ({ projectInfo, sectionClass,}: ProjectDetailsProp
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="thumb-grid">
-                                <img src={portfolio13} alt="Thumb" />
-                                <img src={portfolio14} alt="Thumb" />
+                                <img src="/assets/img/portfolio/13.jpg" alt="Thumb" />
+                                <img src="/assets/img/portfolio/14.jpg" alt="Thumb" />
                             </div>
                         </div>
                         <div className="col-lg-5 pl-50 pl-md-15 pl-xs-15">
@@ -131,7 +131,7 @@ const ProjectDetailsContent = ({ projectInfo, sectionClass,}: ProjectDetailsProp
                                             </p>
                                         </div>
                                     </div>
-                                    <img src={portfolio15} alt="Image Not Found" />
+                                    <img src="/assets/img/portfolio/15.jpg" alt="Image Not Found" />
                                 </div>
                                 <div className="single-grid">
                                     <div className="item-grid-colum">
@@ -151,7 +151,7 @@ const ProjectDetailsContent = ({ projectInfo, sectionClass,}: ProjectDetailsProp
                                                 <li>Search engine optimization (seo)</li>
                                                 <li>Public Relations</li>
                                             </ul>
-                                            <img src={portfolio44} alt="Image Not Found" />
+                                            <img src="/assets/img/portfolio/44.jpg" alt="Image Not Found" />
                                         </div>
                                     </div>
                                 </div>

@@ -1,5 +1,5 @@
 import ProcessV1 from "./ProcessV1";
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 
 const ProcessWrapper = () => {
     return (

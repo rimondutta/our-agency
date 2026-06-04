@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Navigation, FreeMode } from "swiper/modules";
 import PortfolioV4Data from "../../../src/assets/jsonData/portfolio/PortfolioV4Data.json";
 import SinglePortfolioV4 from "./SinglePortfolioV4";
-import SplitText from "../animation/SplitText.jsx";
+import SplitText from '../animation/SplitText';
 
 interface DataType {
   sectionClass?: string;
@@ -54,7 +54,7 @@ const PortfolioV4 = ({ sectionClass, hasTitle }: DataType) => {
               {/* Navigation */}
               <Swiper
                 className="project-center-stage-carousel swiper"
-                loop={true}
+                loop={false}
                 freeMode={true}
                 grabCursor={true}
                 slidesPerView={1}

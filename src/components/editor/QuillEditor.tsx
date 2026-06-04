@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Quill from "quill";
 import "quill/dist/quill.snow.css";
-import PreviewBlog from "../../pages/blogPages/PreviewBlog";
+import PreviewBlog from "../../legacy/blogPages/PreviewBlog";
 import { useAuthContext } from "../../context/AuthContext";
 
 // Replace with your Cloudinary config for image uploads
@@ -9,7 +9,8 @@ const CLOUDINARY_UPLOAD_PRESET = "Quill Image";
 const CLOUDINARY_CLOUD_NAME = "dteglgu3w";
 
 interface QuillToolbar {
-  addHandler(eventName: string, handler: (...args: any[]) => void): void;
+  // eslint-disable-next-line no-unused-vars
+  addHandler(_eventName: string, _handler: (..._args: any[]) => void): void;
 }
 
 interface FormData {
@@ -46,12 +47,12 @@ const QuillEditor = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/api/v1/addblog`,
+        `/api/v1/addblog`,
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization:authUser||""
+            Authorization:typeof authUser === 'string' ? authUser : ""
           },
           body: JSON.stringify({ content, formData }),
         }
@@ -352,11 +353,14 @@ const QuillEditor = () => {
 
     quillRef.current = quill;
 
+    const handlesCopy = resizeRef.current.handles;
+
     // Cleanup
     return () => {
       quill.root.removeEventListener("click", handleImageClick);
-      resizeRef.current.handles.forEach((handle) => handle.remove());
+      handlesCopy.forEach((handle) => handle.remove());
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [preview]);
 
   // Handle input changes

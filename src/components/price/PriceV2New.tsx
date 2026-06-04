@@ -1,5 +1,5 @@
-import SplitText from "../animation/SplitText.jsx";
-import SinglePriceV2New from "./SinglePriceV2New.js";
+import SplitText from '../animation/SplitText';
+import SinglePriceV2New from './SinglePriceV2New';
 
 interface pricingType {
   monthlyPlans?: PricingPlan[];

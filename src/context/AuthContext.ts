@@ -1,9 +1,10 @@
-// AuthContext.ts
+"use client";
 import { createContext, useContext } from "react";
+import { Session } from "next-auth";
 
 interface AuthContextType {
-  authUser: string | null;
-  setAuthUser: (user: string | null) => void;
+  authUser: Session["user"] | null;
+  status: "authenticated" | "loading" | "unauthenticated";
 }
 
 export const AuthContext = createContext<AuthContextType | undefined>(undefined);

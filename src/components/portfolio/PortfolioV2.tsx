@@ -1,6 +1,6 @@
 import PortfolioV2Data from "../../../src/assets/jsonData/portfolio/PortfolioV2Data.json";
 import SinglePortfolioV2 from "./SinglePortfolioV2";
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 import { Link } from "react-router-dom";
 
 interface DataType {

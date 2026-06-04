@@ -1,7 +1,7 @@
-import thumb2 from "/assets/img/about/values.png";
-import thumb12 from "/assets/img/thumb/12.jpg";
-// import arrowIcon from "/assets/img/icon/arrow.png";
-// import arrowTheme from "/assets/img/icon/arrow-theme.png";
+
+
+// 
+// 
 import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
 import ServiceList from "../services/ServiceList";
 import { Link } from "react-router-dom";
@@ -41,7 +41,7 @@ const AboutV6 = ({ lightMode, sectionClass }: DataType) => {
           <div className="row">
             <div className="col-xl-5 col-lg-5">
               <div className="thumb-style-four">
-                <img src={lightMode ? thumb12 : thumb2} alt="Image Not Found" />
+                <img src={lightMode ? "/assets/img/thumb/12.jpg" : "/assets/img/about/values.png"} alt="Image Not Found" />
               </div>
             </div>
             <div className="col-xl-6 offset-xl-1 col-lg-7">
@@ -53,7 +53,7 @@ const AboutV6 = ({ lightMode, sectionClass }: DataType) => {
                   <div className="d-flex">
                     {/* <Link to="/about-us">
                       <img
-                        src={lightMode ? arrowTheme : arrowIcon}
+                        src={lightMode ? "/assets/img/icon/arrow-theme.png" : "/assets/img/icon/arrow.png"}
                         alt="Image Not Found"
                       />
                     </Link> */}
@@ -91,7 +91,7 @@ const AboutV6 = ({ lightMode, sectionClass }: DataType) => {
                         nextEl: ".right",
                         prevEl: ".left",
                       }}
-                      loop={true}
+                      loop={false}
                       breakpoints={{
                         0: {
                           slidesPerView: 2,

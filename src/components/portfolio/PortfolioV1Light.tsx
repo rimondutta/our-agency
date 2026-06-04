@@ -9,7 +9,7 @@ const PortfolioV1Light = () => {
             <div className="portfolio-style-one-content">
                 <Swiper className="portfolio-style-two-carousel swiper"
                     direction="horizontal"
-                    loop={true}
+                    loop={false}
                     autoplay={false}
                     effect={"fade"}
                     fadeEffect={{ crossFade: true }}

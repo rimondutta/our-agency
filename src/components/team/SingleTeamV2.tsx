@@ -1,5 +1,13 @@
 import { Link } from "react-router-dom";
 
+// Helper function to create slug from name
+const createSlug = (name: string): string => {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+};
+
 interface socialType {
     linkedin?: string;
     instagram?: string;
@@ -14,6 +22,9 @@ interface DataType {
 
 const SingleTeamV2 = ({ team }: { team: DataType }) => {
   const {thumb, name, designation,social } = team;
+
+  // Generate slug from name
+  const slug = createSlug(name || "");
 
   return (
     <>
@@ -52,7 +63,7 @@ const SingleTeamV2 = ({ team }: { team: DataType }) => {
         >
           <div>
             <h2>
-              <Link to={`#`}>{name}</Link>
+              <Link to={`/team/${slug}`}>{name}</Link>
             </h2>
             <span>{designation}</span>
           </div>

@@ -1,6 +1,6 @@
 import AwardV1Data from '../../../src/assets/jsonData/award/AwardV1Data.json'
 import SingleAwardV1 from './SingleAwardV1';
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 
 interface DataType {
     sectionClass?: string

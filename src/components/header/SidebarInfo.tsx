@@ -1,7 +1,7 @@
 import SocialShareV3 from '../social/SocialShareV3';
 import { Link } from "react-router-dom";
 import HeaderNewsLetter from './HeaderNewsLetter';
-import logoLight from '/assets/img/logo-light.png';
+
 
 interface SidebarInfoProps {
     openInfoBar?: () => void;
@@ -30,7 +30,7 @@ const SidebarInfo = ({ openInfoBar, isInfoOpen, closeInfoBar }: SidebarInfoProps
                     <div className="top">
                         <div className="widget">
                             <div className="logo">
-                                <img src={logoLight} alt="Logo" />
+                                <img src="/assets/img/logo-light.png" alt="Logo" />
                             </div>
                         </div>
                         <div className="widget address">

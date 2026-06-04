@@ -1,8 +1,8 @@
-import arrowLongRight from '/assets/img/icon/arrow-long-right.png';
+
 import ServicesV3Data from "../../../src/assets/jsonData/services/ServicesV3Data.json";
 import { Link } from "react-router-dom";
 import SingleServiceV3Light from './SingleServiceV3Light';
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 import useActiveIndex from '../../hooks/useActiveIndex';
 
 interface DataType {
@@ -52,7 +52,7 @@ const ServicesV3Light = ({ sectionClass, hasTitle }: DataType) => {
                                 <div className="col-lg-4 text-end">
                                     <Link to="/services" className="btn-circle">
                                         <div className="button-content">
-                                            <span><img src={arrowLongRight} alt="Image Not Found" /></span> <strong>All Members</strong>
+                                            <span><img src="/assets/img/icon/arrow-long-right.png" alt="Image Not Found" /></span> <strong>All Members</strong>
                                         </div>
                                     </Link>
                                 </div>

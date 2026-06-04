@@ -1,7 +1,7 @@
 import PortfolioV5Data from '../../../src/assets/jsonData/portfolio/PortfolioV5Data.json';
 import useUpDownScroll from '../../hooks/useUpDownScroll';
 import SinglePortfolioV5 from './SinglePortfolioV5';
-import shape2 from "/assets/img/shape/2.png"
+
 
 interface DataType {
     hasShape?: boolean
@@ -18,7 +18,7 @@ const PortfolioV5 = ({ hasShape }: DataType) => {
                 {/* Moving Shape */}
                 {hasShape ?
                     <div className="upDownScrol">
-                        <img src={shape2} alt="Image Not Found" />
+                        <img src="/assets/img/shape/2.png" alt="Image Not Found" />
                     </div> : <></>
                 }
 

@@ -1,7 +1,7 @@
-import illustration6 from '/assets/img/illustration/6.png';
-import thumb10 from '/assets/img/thumb/10.jpg';
-import icon12 from '/assets/img/icon/12.png';
-import icon13 from '/assets/img/icon/13.png';
+
+
+
+
 import { Link } from 'react-router-dom';
 import useUpDownScroll from '../../hooks/useUpDownScroll';
 
@@ -16,7 +16,7 @@ const AboutV5 = ({ sectionClass }: DataType) => {
         <>
             <div className={`about-style-five-area default-padding overflow-hidden ${sectionClass ? sectionClass : ""}`}>
                 <div className="shape-right-bottom upDownScrol">
-                    <img src={illustration6} alt="Image Not Found" />
+                    <img src="/assets/img/illustration/6.png" alt="Image Not Found" />
                 </div>
                 <div className="container">
                     <div className="about-five-one-info">
@@ -36,12 +36,12 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                                 <div className="banner-style-five-info">
                                     <div className="d-grid">
                                         <div className="thumb">
-                                            <img src={thumb10} alt="Image Not Found" />
+                                            <img src="/assets/img/thumb/10.jpg" alt="Image Not Found" />
                                         </div>
                                         <ul className="list-style-four">
                                             <li>
                                                 <div className="icon">
-                                                    <img src={icon12} alt="Image Not Found" />
+                                                    <img src="/assets/img/icon/12.png" alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
                                                     <h4>Motion Graphics</h4>
@@ -52,7 +52,7 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                                             </li>
                                             <li>
                                                 <div className="icon">
-                                                    <img src={icon13} alt="Image Not Found" />
+                                                    <img src="/assets/img/icon/13.png" alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
                                                     <h4>3D Rendering</h4>

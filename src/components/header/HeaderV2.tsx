@@ -1,6 +1,6 @@
 import FooterSocial from '../social/FooterSocial';
-import logo from "/assets/img/logo.png"
-import logoLight from "/assets/img/logo-light.png"
+
+import logoLight from '/assets/img/logo-light.png';
 import { Link } from "react-router-dom";
 import SidebarMenu from './SidebarMenu';
 import useSidebarMenu from '../../hooks/useSidebarMenu';
@@ -28,8 +28,8 @@ const HeaderV2 = ({ lightMode }: DataType) => {
                             <div className="navbar-header">
                                 <Link className="navbar-brand" to="/">
                                     {lightMode ?
-                                        <img src={logo} className="logo logo-scrolled" alt="Logo" /> :
-                                        <img src={logoLight} className="logo logo-scrolled" alt="Logo" />
+                                        <img src="/assets/img/logo.png" className="logo logo-scrolled" alt="Logo" /> :
+                                        <img src="/assets/img/logo-light.png" className="logo logo-scrolled" alt="Logo" />
                                     }
                                 </Link>
                             </div>

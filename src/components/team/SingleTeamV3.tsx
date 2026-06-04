@@ -1,26 +1,31 @@
 import { Link } from "react-router-dom";
+import { TeamMember } from "@/hooks/useTeam";
+import { createSlug } from "@/hooks/useTeamMember";
 
-interface DataType {
-    id?: number;
-    thumb?: string;
-    name?: string;
-    designation?: string;
-}
+const SingleTeamV3 = ({ team }: { team: TeamMember }) => {
+    const { profilePhoto, name, jobTitle } = team;
 
-const SingleTeamV3 = ({ team }: { team: DataType }) => {
-    const { id, thumb, name, designation } = team
+    // Use a placeholder if no profile photo exists
+    const imageUrl = profilePhoto || "/assets/img/team/placeholder.jpg";
+
+    // Generate slug from name
+    const slug = createSlug(name || "");
 
     return (
         <>
             <div className="team-style-three-item">
                 <div className="thumb">
-                    <Link to={`/team-details/${id}`}>
-                        <img src={`/assets/img/team/${thumb}`} alt="Image Not Found" width={600} height={650} />
+                    <Link to={`/team/${slug}`}>
+                        <img
+                            src={imageUrl}
+                            alt={name || "Team Member"}
+                            style={{ width: "100%", height: "400px", objectFit: "cover" }}
+                        />
                     </Link>
                 </div>
                 <div className="info">
-                    <h4><Link to={`/team-details/${id}`}>{name}</Link></h4>
-                    <span>{designation}</span>
+                    <h4><Link to={`/team/${slug}`}>{name}</Link></h4>
+                    <span>{jobTitle || "Team Member"}</span>
                 </div>
             </div>
         </>

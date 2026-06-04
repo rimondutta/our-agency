@@ -1,9 +1,11 @@
-import arrowLongRight from '/assets/img/icon/arrow-long-right.png';
-import ServicesV3Data from "../../../src/assets/jsonData/services/ServicesV3Data.json";
+"use client";
+
 import SingleServiceV3 from './SingleServiceV3';
 import { Link } from "react-router-dom";
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 import useActiveIndex from '../../hooks/useActiveIndex';
+import { useServices } from '@/hooks/useServices';
+import Preloader from '../utilities/Preloader';
 
 interface DataType {
     sectionClass?: string;
@@ -12,6 +14,10 @@ interface DataType {
 
 const ServicesV3 = ({ sectionClass, hasTitle }: DataType) => {
     const { activeIndex, handleMouseEnter, handleTouchStart } = useActiveIndex()
+    const { services, loading, error } = useServices();
+
+    if (loading) return <div className="text-center py-5"><Preloader /></div>;
+    if (error) return <div className="text-center py-5 text-danger">{error}</div>;
 
     return (
         <>
@@ -52,7 +58,7 @@ const ServicesV3 = ({ sectionClass, hasTitle }: DataType) => {
                                 <div className="col-lg-4 text-end">
                                     <Link to="/services" className="btn-circle">
                                         <div className="button-content">
-                                            <span><img src={arrowLongRight} alt="Image Not Found" /></span> <strong>All Members</strong>
+                                            <span><img src="/assets/img/icon/arrow-long-right.png" alt="Image Not Found" /></span> <strong>All Services</strong>
                                         </div>
                                     </Link>
                                 </div>
@@ -65,15 +71,15 @@ const ServicesV3 = ({ sectionClass, hasTitle }: DataType) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <ul className="service-style-three-items" id="accordion">
-                                {ServicesV3Data.map((service, index) =>
+                                {services.map((service, index) =>
                                     <li
                                         className={activeIndex === index ? 'out' : ''}
                                         onMouseEnter={() => handleMouseEnter(index)}
                                         onClick={() => handleTouchStart(index)}
                                         onTouchStart={() => handleTouchStart(index)}
-                                        key={service.id}
+                                        key={service._id}
                                     >
-                                        <SingleServiceV3 service={service} />
+                                        <SingleServiceV3 service={service} index={index} />
                                     </li>
                                 )}
                             </ul>

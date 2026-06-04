@@ -1,5 +1,5 @@
 import FooterV1 from "../footer/FooterV1";
-import HeaderV1 from "../header/HeaderV1";
+import HeaderV2 from "../header/HeaderV2";
 
 interface LayoutProps {
     children?: React.ReactNode;
@@ -10,7 +10,7 @@ const LayoutV1Light = ({ children }: LayoutProps) => {
         <>
             
             <div className="smooth-scroll-container">
-                <HeaderV1 lightMode={true}/>
+                <HeaderV2 lightMode={true}/>
                 {children}
                 <FooterV1 lightMode={true} sectionClass='bg-gray' />
             </div>

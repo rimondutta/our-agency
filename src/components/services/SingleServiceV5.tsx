@@ -17,7 +17,7 @@ const SingleServiceV5 = ({ service }: { service: DataType }) => {
         <>
             <li>
                 <Link
-                    to={`/service-details/${id}`}
+                    to={`/service/${id}`}
                     className="image-hover-item"
                     onMouseMove={handleMouseMove}
                     onMouseLeave={handleMouseLeave}

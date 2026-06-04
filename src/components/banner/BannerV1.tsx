@@ -1,8 +1,8 @@
-import illustration5 from '/assets/img/illustration/5.png';
-import illustration8 from '/assets/img/illustration/8.png';
+
+
 import { Link } from "react-router-dom";
-import SplitText from "../animation/SplitText.jsx"
-import Animate from '../animation/Animate.js';
+import SplitText from '../animation/SplitText'
+import Animate from '../animation/Animate';
 
 interface DataType {
     lightMode?: boolean;
@@ -47,8 +47,8 @@ const BannerV1 = ({ lightMode }: DataType) => {
                                 <Animate className='animate__animated animate__fadeInRight'>
                                     <div className="thumb">
                                         {lightMode ?
-                                            <img src={illustration8} alt="Image Not Found" /> :
-                                            <img src={illustration5} alt="Image Not Found" />
+                                            <img src="/assets/img/illustration/8.png" alt="Image Not Found" /> :
+                                            <img src="/assets/img/illustration/5.png" alt="Image Not Found" />
                                         }
                                     </div>
                                 </Animate>

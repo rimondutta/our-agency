@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import icon16 from "/assets/img/icon/16.png"
-import team10 from "/assets/img/team/10.jpg"
-import team11 from "/assets/img/team/11.jpg"
-import team12 from "/assets/img/team/12.jpg"
-import team13 from "/assets/img/team/13.jpg"
-import SplitText from "../animation/SplitText.jsx"
+
+
+
+
+
+import SplitText from '../animation/SplitText'
 
 interface DataType {
     sectionClass?: string
@@ -55,7 +55,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                         <div className="award-style-one">
                                             <div className="top">
                                                 <div className="icon">
-                                                    <img src={icon16} alt="Image Not Found" />
+                                                    <img src="/assets/img/icon/16.png" alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
                                                     <h4>Award winning creative digital agency</h4>
@@ -63,10 +63,10 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                             </div>
                                             <div className="user-card-two">
                                                 <div className="thumb">
-                                                    <img src={team10} alt="Image Not Found" />
-                                                    <img src={team11} alt="Image Not Found" />
-                                                    <img src={team12} alt="Image Not Found" />
-                                                    <img src={team13} alt="Image Not Found" />
+                                                    <img src="/assets/img/team/10.jpg" alt="Image Not Found" />
+                                                    <img src="/assets/img/team/11.jpg" alt="Image Not Found" />
+                                                    <img src="/assets/img/team/12.jpg" alt="Image Not Found" />
+                                                    <img src="/assets/img/team/13.jpg" alt="Image Not Found" />
                                                     <Link to="/about-us">
                                                         <i className="fas fa-plus" />
                                                     </Link>

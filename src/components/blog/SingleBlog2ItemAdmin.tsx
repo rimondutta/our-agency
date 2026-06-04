@@ -24,12 +24,12 @@ const SingleBlog2Item = ({ blog }: { blog: DataType }) => {
 
       setLoading(true);
       const res = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/api/v1/deleteblog`,
+        `/api/v1/deleteblog`,
         {
           method: "DELETE",
           headers: {
             "Content-Type": "application/json",
-            Authorization: authUser || "",
+            Authorization: typeof authUser === 'string' ? authUser : "",
           },
           body: JSON.stringify({ id }),
         }

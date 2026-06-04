@@ -1,30 +1,33 @@
-// AuthProvider.tsx
-import { useState, useEffect, ReactNode } from "react";
-import { AuthContext} from "./AuthContext";
+"use client";
+import { ReactNode } from "react";
+import { SessionProvider, useSession } from "next-auth/react";
+import { AuthContext } from "./AuthContext";
 
 interface AuthProviderProps {
   children: ReactNode;
 }
 
-const AuthContextProvider = ({ children }: AuthProviderProps) => {
-  const [authUser, setAuthUser] = useState<string | null>(() => {
-    const storedUser = localStorage.getItem("user");
-    return storedUser ? JSON.parse(storedUser) : null;
-  });
-
-  // Optional: keep localStorage in sync
-  useEffect(() => {
-    if (authUser) {
-      localStorage.setItem("user", JSON.stringify(authUser));
-    } else {
-      localStorage.removeItem("user");
-    }
-  }, [authUser]);
+// Inner provider that uses the session
+const AuthStateProvider = ({ children }: { children: ReactNode }) => {
+  const { data: session, status } = useSession();
 
   return (
-    <AuthContext.Provider value={{ authUser, setAuthUser }}>
+    <AuthContext.Provider 
+      value={{ 
+        authUser: session?.user || null, 
+        status 
+      }}
+    >
       {children}
     </AuthContext.Provider>
+  );
+};
+
+const AuthContextProvider = ({ children }: AuthProviderProps) => {
+  return (
+    <SessionProvider>
+      <AuthStateProvider>{children}</AuthStateProvider>
+    </SessionProvider>
   );
 };
 

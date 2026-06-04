@@ -1,8 +1,8 @@
-import thumb9 from '/assets/img/thumb/9.jpg';
-import thumb8 from '/assets/img/thumb/8.jpg';
+
+
 import { Link } from "react-router-dom";
 import CountUp from 'react-countup';
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 
 interface DataType {
     lightMode?: boolean;
@@ -50,8 +50,8 @@ const BannerV7 = ({ lightMode }: DataType) => {
                         <div className="row">
                             <div className="col-xl-6 col-lg-5">
                                 <div className="banner-seven-thumb">
-                                    <img src={thumb8} alt="Image Not Found" />
-                                    <img src={thumb9} alt="Image Not Found" />
+                                    <img src="/assets/img/thumb/8.jpg" alt="Image Not Found" />
+                                    <img src="/assets/img/thumb/9.jpg" alt="Image Not Found" />
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">

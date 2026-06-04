@@ -1,6 +1,6 @@
 import PriceV2Data from "../../../src/assets/jsonData/price/PriceV2Data.json"
 import SinglePriceV2 from "./SinglePriceV2";
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 
 const PriceV2 = () => {
     return (

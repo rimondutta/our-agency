@@ -1,32 +1,30 @@
 [
   {
     "id": 1,
-    "thumb": "1.jpg",
-    "name": "Anup Barua",
-    "designation": "Digital Marketing Expert",
-    "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-    "age": "40",
-    "email": "",
-    "phone": ""
+    "thumb": "rigan-dutta.jpg",
+    "name": "Rigan Dutta",
+    "designation": "App Developer",
+    "text": "Skilled app developer passionate about building modern, user-friendly, and high-performance applications. Experienced in creating responsive interfaces, integrating APIs, and delivering smooth digital experiences with a focus on quality and innovation.",
+    "email": "rigandutta@gmail.com",
+    "phone": "+880 1879-881015"
   },
   {
-    "id": 7,
-    "thumb": "7.jpg",
+    "id": 2,
+    "thumb": "rimon-dutta.jpg",
     "name": "Rimon Dutta",
-    "designation": "Software Developer And DevopOps Engineer",
-    "text": "He is Rimon Dutta, a Software Developer and DevOps Engineer at Market Growth Experts, specializing in building fast, scalable, and reliable applications that drive real results for our clients.",
-    "age": "23",
+    "designation": "Cloud Engineer",
+    "text": "Dedicated cloud engineer experienced in building, managing, and optimizing scalable cloud infrastructure. Skilled in cloud deployment, server management, automation, and ensuring secure, reliable, and high-performance systems for modern applications.",
     "email": "info.rimondutta@gmail.com",
     "phone": "+880 1404-587727"
   },
   {
-    "id": 5,
-    "thumb": "5.jpg",
-    "name": "Joy Devnath",
-    "designation": "SEO And SMM Specialist",
-    "text": "He is Joy Devnath, an SEO and SMM Specialist at Market Growth Experts, helping brands grow through smart search optimization and high-impact social media strategies.",
+    "id": 3,
+    "thumb": "2.jpg",
+    "name": "Comming Soon",
+    "designation": "Software Engineer",
+    "text": "Passionate software engineer focused on developing efficient, scalable, and user-friendly digital solutions. Experienced in software development, problem-solving, and building high-quality applications with clean and reliable code.",
     "age": "22",
-    "email": "joydevnath8888@gmail.com",
-    "phone": "+880 1614-696977"
+    "email": "info.mge@gmail.com",
+    "phone": "+880 1913-801447"
   }
 ]

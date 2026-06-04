@@ -13,7 +13,7 @@ const SplitTextV2 = ({
     threshold = 0.1,
     rootMargin = '-100px',
     textAlign = 'center',
-    onLetterAnimationComplete,
+    onLetterAnimationComplete = () => {},
 }) => {
     const ref = useRef();
     const animatedCount = useRef(0);

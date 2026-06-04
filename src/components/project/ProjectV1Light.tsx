@@ -1,4 +1,4 @@
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 import PortfolioV1Light from "../portfolio/PortfolioV1Light";
 
 const ProjectV1Light = () => {

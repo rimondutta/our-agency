@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 // import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from "../social/FooterSocial";
-import logoLight from "/assets/img/logo-light.png";
-import logo from "/assets/img/logo.png";
+
+
 import CursorEffect from "../../components/animation/CursorEffect";
 
 
@@ -21,9 +21,9 @@ const FooterV1 = ({ sectionClass, lightMode }: DataType) => {
               <div className="col-lg-6 footer-item about pr-120 pr-md-15 pr-xs-15 pr-md-15 pr-xs-15">
                 <div className="top">
                   {lightMode ? (
-                    <img src={logo} alt="Image Not Found" />
+                    <img src="/assets/img/logo.png" alt="Image Not Found" />
                   ) : (
-                    <img src={logoLight} alt="Image Not Found" />
+                    <img src="/assets/img/logo-light.png" alt="Image Not Found" />
                   )}
                 </div>
                 <ul className="address-list">

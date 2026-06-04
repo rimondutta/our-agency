@@ -1,7 +1,8 @@
-import PortfolioV5Data from "../../../src/assets/jsonData/portfolio/PortfolioV5Data.json";
+import { useEffect, useState } from "react";
 import useUpDownScroll from "../../hooks/useUpDownScroll";
 import SinglePortfolioV5 from "./SinglePortfolioV5";
-import shape2 from "/assets/img/shape/2.png";
+
+import { CaseStudyData, getAllCaseStudies } from "../../data/caseStudyData";
 
 interface DataType {
   hasShape?: boolean;
@@ -9,6 +10,25 @@ interface DataType {
 
 const PortfolioV5 = ({ hasShape }: DataType) => {
   useUpDownScroll(".upDownScrol");
+  const [portfolioData, setPortfolioData] = useState<any[]>([]);
+
+  useEffect(() => {
+    // In a real application, you might fetch this from an API:
+    // fetch(`${import.meta.env.VITE_BACKEND_URL}/api/v1/getallcasestudies`)
+    //   .then(res => res.json())
+    //   .then(data => setPortfolioData(data))
+    
+    // For now, we simulate an API call using the structured data we extracted
+    const data = getAllCaseStudies();
+    // Transform to match the shape expected by SinglePortfolioV5
+    const formattedData = data.map(cs => ({
+      id: cs.slug,
+      thumb: cs.images.hero,
+      title: cs.breadcrumbTitle,
+      tag: cs.tag
+    }));
+    setPortfolioData(formattedData);
+  }, []);
 
   return (
     <>
@@ -16,7 +36,7 @@ const PortfolioV5 = ({ hasShape }: DataType) => {
         {/* Moving Shape */}
         {hasShape ? (
           <div className="upDownScrol">
-            <img src={shape2} alt="Image Not Found" />
+            <img src="/assets/img/shape/2.png" alt="Image Not Found" />
           </div>
         ) : (
           <></>
@@ -29,58 +49,18 @@ const PortfolioV5 = ({ hasShape }: DataType) => {
             </div>
             <div className="portfolio-style-five-items">
               <div className="row gutter-xl">
-                {PortfolioV5Data.slice(4, 6).map((portfolio) => (
-                  <div
-                    className="col-lg-6 portfolio-style-five-item"
-                    key={portfolio.id}
-                  >
-                    <SinglePortfolioV5 portfolio={portfolio} />
-                  </div>
-                ))}
-                <div className="col-lg-10 offset-lg-1">
-                  <div className="row gutter-xl">
-                    {PortfolioV5Data.slice(6, 8).map((portfolio) => (
-                      <div
-                        className="col-lg-6 portfolio-style-five-item"
-                        key={portfolio.id}
-                      >
-                        <SinglePortfolioV5 portfolio={portfolio} />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                {PortfolioV5Data.slice(8, 10).map((portfolio) => (
-                  <div
-                    className="col-lg-6 portfolio-style-five-item"
-                    key={portfolio.id}
-                  >
-                    <SinglePortfolioV5 portfolio={portfolio} />
-                  </div>
-                ))}
-                {PortfolioV5Data.slice(10, 12).map((portfolio) => (
-                  <div
-                    className="col-lg-6 portfolio-style-five-item"
-                    key={portfolio.id}
-                  >
-                    <SinglePortfolioV5 portfolio={portfolio} />
-                  </div>
-                ))}
-                {PortfolioV5Data.slice(12, 14).map((portfolio) => (
-                  <div
-                    className="col-lg-6 portfolio-style-five-item"
-                    key={portfolio.id}
-                  >
-                    <SinglePortfolioV5 portfolio={portfolio} />
-                  </div>
-                ))}
-                  {PortfolioV5Data.slice(14, 16).map((portfolio) => (
-                  <div
-                    className="col-lg-6 portfolio-style-five-item"
-                    key={portfolio.id}
-                  >
-                    <SinglePortfolioV5 portfolio={portfolio} />
-                  </div>
-                ))}
+                {portfolioData.map((portfolio, index) => {
+                  // We can create a dynamic grid layout similar to the original by alternating column spans or wrappers
+                  // But for simplicity and to handle any number of items from the API:
+                  return (
+                    <div
+                      className="col-lg-6 portfolio-style-five-item"
+                      key={portfolio.id || index}
+                    >
+                      <SinglePortfolioV5 portfolio={portfolio} />
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

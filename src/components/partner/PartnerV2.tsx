@@ -1,9 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import thumb15 from "/assets/img/partner/trusted partners.jpg";
+
 // import PartnerV2Data from "../../../src/assets/jsonData/partner/PartnerV2Data.json";
 // import SinglePartnerV2 from "./SinglePartnerV2";
 import { Keyboard } from "swiper/modules";
-import SplitText from "../animation/SplitText.jsx";
+import SplitText from '../animation/SplitText';
 
 interface DataType {
   sectionClass?: string;
@@ -21,7 +21,7 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
           <div className="row">
             <div className="col-lg-6 pr-110 pr-md-15 pr-xs-15">
               <div className="partner-two-thumb">
-                <img src={thumb15} alt="Image Not Found" />
+                <img src="/assets/img/partner/trusted partners.jpg" alt="Image Not Found" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -53,7 +53,7 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
                   results for our clients.
                 </p>
                 {/* <Swiper className="brand-two-carousel swiper mt-60"
-                                    loop={true}
+                                    loop={false}
                                     slidesPerView={1}
                                     spaceBetween={30}
                                     autoplay={false}
@@ -80,7 +80,7 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
                                 </Swiper> */}
                 <Swiper
                   className="brand-two-carousel swiper mt-60"
-                  loop={true}
+                  loop={false}
                   slidesPerView={1}
                   spaceBetween={30}
                   autoplay={false}

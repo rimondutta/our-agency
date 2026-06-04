@@ -1,8 +1,11 @@
+"use client";
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard } from 'swiper/modules';
-import SplitText from "../animation/SplitText.jsx";
+import SplitText from '../animation/SplitText';
 import SingleTeamV1 from './SingleTeamV1';
-import TeamV1Data from '../../../src/assets/jsonData/team/TeamV1Data.json';
+import { useTeam } from '@/hooks/useTeam';
+import Preloader from '../utilities/Preloader';
 
 interface DataType {
     sectionClass?: string;
@@ -10,6 +13,11 @@ interface DataType {
 }
 
 const TeamV1 = ({ sectionClass, hasTitle }: DataType) => {
+    const { teamMembers, loading, error } = useTeam();
+
+    if (loading) return <div className="text-center py-5"><Preloader /></div>;
+    if (error) return <div className="text-center py-5 text-danger">{error}</div>;
+
     return (
         <>
             <div className={`team-style-one-area relative overflow-hidden default-padding-bottom ${sectionClass ? sectionClass : ""}`}>
@@ -44,107 +52,32 @@ const TeamV1 = ({ sectionClass, hasTitle }: DataType) => {
                 <div className="container">
                     <div className="team-style-one-items">
                         <div className="row">
-                            <div className="col-xl-4">
-                                <ul className="nav nav-tabs" role="tablist">
-                                    <li className="nav-item" role="presentation">
-                                        <button className="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
-                                            <strong>Business Analyst</strong>
-                                            <span></span>
-                                        </button>
-                                    </li>
-                                    <li className="nav-item" role="presentation">
-                                        <button className="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
-                                            <strong>Marketing Manager</strong>
-                                            <span></span>
-                                        </button>
-                                    </li>
-                                    <li className="nav-item" role="presentation">
-                                        <button className="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
-                                            <strong>Software Developer</strong>
-                                            {/* <span>Ap</span> */}
-                                        </button>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="col-xl-7 offset-xl-1">
-                                <div className="tab-content">
-
-                                    {/* Tab 1  */}
-                                    <div className="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                                        <Swiper className="team-style-one-carousel"
-                                            loop={true}
-                                            slidesPerView={1}
-                                            spaceBetween={30}
-                                            autoplay={false}
-                                            breakpoints={{
-                                                768: {
-                                                    slidesPerView: 2,
-                                                    spaceBetween: 60
-                                                },
-                                            }}
-                                            modules={[Keyboard]}
-                                        >
-                                            <div className="swiper-wrapper">
-                                                {TeamV1Data.slice(0, 4).map(team =>
-                                                    <SwiperSlide key={team.id}>
-                                                        <SingleTeamV1 team={team} />
-                                                    </SwiperSlide>
-                                                )}
-                                            </div>
-                                        </Swiper>
+                            <div className="col-xl-12">
+                                <Swiper className="team-style-one-carousel"
+                                    loop={false}
+                                    slidesPerView={1}
+                                    spaceBetween={30}
+                                    autoplay={false}
+                                    breakpoints={{
+                                        768: {
+                                            slidesPerView: 2,
+                                            spaceBetween: 30
+                                        },
+                                        1024: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 40
+                                        }
+                                    }}
+                                    modules={[Keyboard]}
+                                >
+                                    <div className="swiper-wrapper">
+                                        {teamMembers.map(team =>
+                                            <SwiperSlide key={team._id}>
+                                                <SingleTeamV1 team={team} />
+                                            </SwiperSlide>
+                                        )}
                                     </div>
-
-                                    {/* Tab 2  */}
-                                    <div className="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-                                        <Swiper className="team-style-one-carousel"
-                                            loop={true}
-                                            slidesPerView={1}
-                                            spaceBetween={30}
-                                            autoplay={false}
-                                            breakpoints={{
-                                                768: {
-                                                    slidesPerView: 2,
-                                                    spaceBetween: 60
-                                                },
-                                            }}
-                                            modules={[Keyboard]}
-                                        >
-                                            <div className="swiper-wrapper">
-                                                {TeamV1Data.slice(3, 9).map(team =>
-                                                    <SwiperSlide key={team.id}>
-                                                        <SingleTeamV1 team={team} />
-                                                    </SwiperSlide>
-                                                )}
-                                            </div>
-                                        </Swiper>
-                                    </div>
-
-                                    {/* Tab 3 */}
-                                    <div className="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab" >
-                                        <Swiper className="team-style-one-carousel"
-                                            loop={true}
-                                            slidesPerView={1}
-                                            spaceBetween={30}
-                                            autoplay={false}
-                                            breakpoints={{
-                                                768: {
-                                                    slidesPerView: 2,
-                                                    spaceBetween: 60
-                                                },
-                                            }}
-                                            modules={[Keyboard]}
-                                        >
-
-                                            {TeamV1Data.slice(6, 10).map(team =>
-                                                <SwiperSlide key={team.id}>
-                                                    <SingleTeamV1 team={team} />
-                                                </SwiperSlide>
-                                            )}
-
-                                        </Swiper>
-                                    </div>
-                                </div>
+                                </Swiper>
                             </div>
                         </div>
                     </div>

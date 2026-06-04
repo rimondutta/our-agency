@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper";
 import { Navigation, Controller, FreeMode } from "swiper/modules";
-import shape3 from "/assets/img/shape/3.png";
-import SplitText from "../animation/SplitText.jsx";
+
+import SplitText from '../animation/SplitText';
 import TestimonialV2Data from "../../../src/assets/jsonData/testimonial/TestimonialV2Data.json";
 import SingleTestimonialV2 from "./SingleTestimonialV2";
 import { useState } from "react";
@@ -52,7 +52,7 @@ const TestimonialDevelopment = ({ sectionClass }: DataType) => {
             <div className="col-lg-8 offset-lg-2">
               <div className="testimonials-quote">
                 <div className="icon">
-                  <img src={shape3} alt="Image Not Found" />
+                  <img src="/assets/img/shape/3.png" alt="Image Not Found" />
                 </div>
               </div>
               <Swiper
@@ -64,7 +64,7 @@ const TestimonialDevelopment = ({ sectionClass }: DataType) => {
                   nextEl: ".swiper-button-next",
                   prevEl: ".swiper-button-prev",
                 }}
-                loop={true}
+                loop={false}
                 onSwiper={setMainSwiper}
                 controller={{ control: thumbsSwiper }}
               >
@@ -86,7 +86,7 @@ const TestimonialDevelopment = ({ sectionClass }: DataType) => {
                 slidesPerView={3}
                 touchRatio={0.2}
                 slideToClickedSlide={true}
-                loop={true}
+                loop={false}
                 initialSlide={2}
                 centeredSlides={true}
                 onSwiper={setThumbsSwiper}

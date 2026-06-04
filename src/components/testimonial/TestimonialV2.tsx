@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Swiper as SwiperType } from 'swiper';
 import { Navigation, Controller, FreeMode } from 'swiper/modules';
-import shape3 from '/assets/img/shape/3.png';
-import SplitText from "../animation/SplitText.jsx"
+
+import SplitText from '../animation/SplitText'
 import TestimonialV2Data from "../../../src/assets/jsonData/testimonial/TestimonialV2Data.json"
 import SingleTestimonialV2 from './SingleTestimonialV2';
 import { useState } from 'react';
@@ -43,7 +43,7 @@ const TestimonialV2 = ({ sectionClass }: DataType) => {
                         <div className="col-lg-8 offset-lg-2">
                             <div className="testimonials-quote">
                                 <div className="icon">
-                                    <img src={shape3} alt="Image Not Found" />
+                                    <img src="/assets/img/shape/3.png" alt="Image Not Found" />
                                 </div>
                             </div>
                             <Swiper className="testimonial-style-two-carousel"
@@ -54,7 +54,7 @@ const TestimonialV2 = ({ sectionClass }: DataType) => {
                                     nextEl: '.swiper-button-next',
                                     prevEl: '.swiper-button-prev',
                                 }}
-                                loop={true}
+                                loop={false}
                                
                                 onSwiper={setMainSwiper}
                                 controller={{ control: thumbsSwiper }}
@@ -74,7 +74,7 @@ const TestimonialV2 = ({ sectionClass }: DataType) => {
                                 slidesPerView={'auto'}
                                 touchRatio={0.2}
                                 slideToClickedSlide={true}
-                                loop={true}
+                                loop={false}
                                
                                 centeredSlides={true}
                                 onSwiper={setThumbsSwiper}

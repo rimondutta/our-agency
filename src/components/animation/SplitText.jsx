@@ -11,7 +11,7 @@ const SplitText = ({
     threshold = 0.1,
     rootMargin = '-100px',
     textAlign = 'center',
-    onLetterAnimationComplete,
+    onLetterAnimationComplete = () => {},
 }) => {
     // Extract text from children
     const text = typeof children === 'string' ? children : children.props.children || '';

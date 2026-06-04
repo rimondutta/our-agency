@@ -1,29 +1,27 @@
 import { Link } from "react-router-dom";
+import { ServiceData } from "@/hooks/useServices";
 
-interface DataType {
-    id?: number;
-    icon?: string;
-    titleFirst?: string;
-    titleLast?: string;
-    text?: string;
-    number?: string;
-    serviceid?:string
-}
+const SingleServiceV3 = ({ service, index }: { service: ServiceData; index: number }) => {
+    const { icon, title, shortDescription, slug } = service;
 
-const SingleServiceV3 = ({ service }: { service: DataType }) => {
-    const { icon, titleFirst, text, number,serviceid } = service
+    // Format number like "01", "02", etc.
+    const number = String(index + 1).padStart(2, "0");
 
     return (
         <>
             <div className="service-three-content">
                 <div className="top">
                     <div className="icon">
-                        <img src={`/assets/img/icon/${icon}`} alt="Image Not Found" width={130} height={130} />
+                        {icon && (
+                            icon.startsWith("http") || icon.startsWith("/")
+                                ? <img src={icon} alt="Image Not Found" width={130} height={130} />
+                                : <img src={`/assets/img/icon/${icon}`} alt="Image Not Found" width={130} height={130} />
+                        )}
                     </div>
                 </div>
                 <div className="info">
-                    <h4><Link to={`/${serviceid}`}>{titleFirst} </Link></h4>
-                    <p>{text}</p>
+                    <h4><Link to={`/service/${slug}`}>{title} </Link></h4>
+                    <p>{shortDescription}</p>
                 </div>
                 <div className="bottom">
                     {number}

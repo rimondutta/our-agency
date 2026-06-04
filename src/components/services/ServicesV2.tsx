@@ -1,6 +1,9 @@
-import ServicesV2Data from "../../../src/assets/jsonData/services/ServicesV2Data.json"
-import SplitText from "../animation/SplitText.jsx"
+"use client";
+
+import SplitText from '../animation/SplitText'
 import SingleServiceV2 from "./SingleServiceV2";
+import { useServices } from "@/hooks/useServices";
+import Preloader from "../utilities/Preloader";
 
 interface DataType {
     sectionClass?: string;
@@ -8,6 +11,11 @@ interface DataType {
 }
 
 const ServicesV2 = ({ sectionClass, hasTitle }: DataType) => {
+    const { services, loading, error } = useServices();
+
+    if (loading) return <div className="text-center py-5"><Preloader /></div>;
+    if (error) return <div className="text-center py-5 text-danger">{error}</div>;
+
     return (
         <>
             <div id="services" className={`services-style-two-area overflow-hidden ${sectionClass ? sectionClass : ""}`}>
@@ -53,8 +61,8 @@ const ServicesV2 = ({ sectionClass, hasTitle }: DataType) => {
                         <div className="col-lg-12">
                             <div className="service-hover-items">
                                 <ul>
-                                    {ServicesV2Data.map(service =>
-                                        <SingleServiceV2 service={service} key={service.id} />
+                                    {services.map((service, index) =>
+                                        <SingleServiceV2 service={service} index={index} key={service._id} />
                                     )}
                                 </ul>
                             </div>

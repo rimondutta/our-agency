@@ -1,5 +1,5 @@
 import Animate from "../animation/Animate";
-import thumb3 from "/assets/img/services/unlock revenue growth.jpg";
+
 
 interface DataType {
   sectionClass?: string;
@@ -13,7 +13,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
           <div className="row align-center">
             <div className="col-lg-5">
               <div className="thumb-style-one">
-                <img src={thumb3} alt="Image Not Found" />
+                <img src="/assets/img/services/unlock revenue growth.jpg" alt="Image Not Found" />
               </div>
             </div>
             <div className="col-lg-7">

@@ -26,7 +26,7 @@ const PortfolioV6 = ({ sectionClass }: DataType) => {
                                 </div>
 
                                 <Swiper className="project-center-stage-carousel"
-                                    loop={true}
+                                    loop={false}
                                     freeMode={true}
                                     grabCursor={true}
                                     slidesPerView={1}

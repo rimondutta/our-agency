@@ -15,22 +15,14 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
         data-out="fadeOutUp"
       >
         <li className="dropdown">
-                    <Link to="/#" className=" active" data-toggle="dropdown" onClick={toggleSubMenu}>Home</Link>
-                    
-                </li>
+          <Link to="/" className=" active" data-toggle="dropdown" onClick={toggleSubMenu}>Home</Link>
+        </li>
         <li className="dropdown">
-          <Link
-            to="/about-us"
-            className=" active"
-            data-toggle="dropdown"
-            onClick={toggleSubMenu}
-          >
-            About
-          </Link>
+          <Link to="/about-us" className=" active" data-toggle="dropdown" onClick={toggleSubMenu}>About</Link>
         </li>
         <li className="dropdown">
           <Link
-            to="/marketing"
+            to="/service/marketing"
             className="dropdown-toggle"
             data-toggle="dropdown"
             onClick={toggleSubMenu}
@@ -38,29 +30,17 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
             Marketing
           </Link>
           <ul className="dropdown-menu">
-            <li>
-              <Link to="/local-seo">Local SEO</Link>
-            </li>
-            <li>
-              <Link to="/ecommerce-seo">Ecommerce SEO</Link>
-            </li>
-            <li>
-              <Link to="/performance-marketing">Performance Marketing</Link>
-            </li>
-            <li>
-              <Link to="/social-media-marketing">Social Media Marketing</Link>
-            </li>
-            <li>
-              <Link to="/influencer-marketing">Influencer Marketing</Link>
-            </li>
-            <li>
-              <Link to="/ecommerce-marketing">Ecommerce Marketing</Link>
-            </li>
+            <li><Link to="/service/local-seo">Local SEO</Link></li>
+            <li><Link to="/service/ecommerce-seo">Ecommerce SEO</Link></li>
+            <li><Link to="/service/performance-marketing">Performance Marketing</Link></li>
+            <li><Link to="/service/social-media-marketing">Social Media Marketing</Link></li>
+            <li><Link to="/service/influencer-marketing">Influencer Marketing</Link></li>
+            <li><Link to="/service/ecommerce-marketing">Ecommerce Marketing</Link></li>
           </ul>
         </li>
         <li className="dropdown">
           <Link
-            to="/development"
+            to="/service/development"
             className="dropdown-toggle"
             data-toggle="dropdown"
             onClick={toggleSubMenu}
@@ -68,77 +48,38 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
             Development
           </Link>
           <ul className="dropdown-menu">
-            <li>
-              <Link to="/shopify-development">Shopify</Link>
-            </li>
-            <li>
-              <Link to="/woocommerce-development">WooCommerce</Link>
-            </li>
-            <li>
-              <Link to="/wordpress-development">WordPress</Link>
-            </li>
-            <li>
-              <Link to="/web-application-development">Web Applications</Link>
-            </li>
-            <li>
-              <Link to="/mobile-application-development">
-                Mobile Applications
-              </Link>
-            </li>
-            {/* <li>
-              <Link to="/artificial-intelligence">Artificial Intelligence</Link>
-            </li> */}
+            <li><Link to="/service/shopify-development">Shopify</Link></li>
+            <li><Link to="/service/woocommerce-development">WooCommerce</Link></li>
+            <li><Link to="/service/wordpress-development">WordPress</Link></li>
+            <li><Link to="/service/web-application-development">Web Applications</Link></li>
+            <li><Link to="/service/mobile-application-development">Mobile Applications</Link></li>
           </ul>
         </li>
         <li className="dropdown">
-          <Link
-            to="/dropshipping"
-            className="active"
-            data-toggle="dropdown"
-            onClick={toggleSubMenu}
-          >
+          <Link to="/service/dropshipping" className="active" data-toggle="dropdown" onClick={toggleSubMenu}>
             Dropshipping
           </Link>
+          
+        </li>
+
+        <li className="dropdown">
+          <Link to="/service/artificial-intelligence" className="active" data-toggle="dropdown" onClick={toggleSubMenu}>
+            Artificial Intelligence
+          </Link>
+        </li>
+        <li>
+            <Link to="/services">All Services</Link>
         </li>
         <li className="dropdown">
-          <Link
-            to="/portfolio"
-            className=" active"
-            data-toggle="dropdown"
-            onClick={toggleSubMenu}
-          >
+          <Link to="/portfolio" className=" active" data-toggle="dropdown" onClick={toggleSubMenu}>
             Portfolio
           </Link>
         </li>
-        <li className="dropdown">
-          <Link
-            to="/artificial-intelligence"
-            className="dropdown-toggle"
-            data-toggle="dropdown"
-            onClick={toggleSubMenu}
-          >
-            Artificial Intelligence
-          </Link>
-          <ul className="dropdown-menu">
-            <li>
-              <Link to="/content-personalization-and-predictive-Analysis">Content Personalization and Predictive Analysis</Link>
-            </li>
-            <li>
-              <Link to="/custom-llm-and-fine-tuning">Custom LLM and Fine Tuning</Link>
-            </li>
-            <li>
-              <Link to="/custom-ai-tool-development">Custom AI Tool Development</Link>
-            </li>
-            <li>
-              <Link to="/agentic-processs-automation">Agentic Process Automation</Link>
-            </li>
-          </ul>
+        <li>
+          <Link to="/blogs">Blog</Link>
         </li>
         <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <Link to="/contact-us">contact</Link>
+          <Link to="/contact-us">Contact</Link>
         </li>
       </ul>
     </>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoLight from "/assets/img/logo-light.png"
+
 import MainMenuV2 from './MainMenuV2';
 import SocialShareV3 from '../social/SocialShareV3';
 import HeaderNewsLetter from './HeaderNewsLetter';
@@ -39,7 +39,7 @@ const SidebarMenu = ({ isInfoOpen, closeInfoBar, openInfoBar }: DataType) => {
                         <div className="widget">
                             <div className="logo">
                                 <Link to="/home-2">
-                                    <img src={logoLight} alt="Logo" />
+                                    <img src="/assets/img/logo-light.png" alt="Logo" />
                                 </Link>
                             </div>
                         </div>

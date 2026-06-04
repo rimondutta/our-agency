@@ -1,8 +1,8 @@
-import about1 from "/assets/img/about/1.jpg";
-import about4 from "/assets/img/about/4.jpg";
+
+
 import SkillProgressData from "../../../src/assets/jsonData/progress/SkillProgressData.json";
 import SkillProgress from "../process/SkillProgress";
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from '../animation/SplitText'
 import useUpDownScrollV2 from "../../hooks/useUpDownScrollV2";
 
 interface DataType {
@@ -20,7 +20,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                     <div className="row align-center">
                         <div className="col-lg-5">
                             <div className="about-style-four-thumb">
-                                <img src={about1} alt="Image Not Found" />
+                                <img src="/assets/img/about/1.jpg" alt="Image Not Found" />
                             </div>
                         </div>
                         <div className="col-lg-6 offset-lg-1">
@@ -35,6 +35,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                                             easing="easeOutCubic"
                                             threshold={0.2}
                                             rootMargin="-50px"
+                                            onLetterAnimationComplete={() => {}}
                                         >
                                             Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.
                                         </SplitText>
@@ -48,7 +49,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                                         )}
                                     </div>
                                     <div className="thumb upDownScrolSlow">
-                                        <img src={about4} alt="Image Not Found" />
+                                        <img src="/assets/img/about/4.jpg" alt="Image Not Found" />
                                     </div>
                                 </div>
                             </div>

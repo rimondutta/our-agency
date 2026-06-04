@@ -1,103 +1,29 @@
 [
-    {
-        "id": 1,
-        "thumb": "1.jpg",
-        "name": "Anup Barua",
-        "designation": "Digital Marketing Expert",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "40",
-        "email": "",
-        "phone": ""
-        
-    },
-    {
-        "id": 2,
-        "thumb": "2.jpg",
-        "name": "comming soon",
-        "designation": "CMS Specialist",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "23",
-        "email": "",
-        "phone": ""
-    },
-    {
-        "id": 3,
-        "thumb": "3.jpg",
-        "name": "Fahim Kobir",
-        "designation": "SEO Specialist",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "23",
-        "email": "",
-        "phone": ""
-    },
-    {
-        "id": 4,
-        "thumb": "4.jpg",
-        "name": "Fahim Kobir",
-        "designation": "SEO Specialist",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "22",
-        "email": "",
-        "phone": ""
-    },
-    {
-        "id": 5,
-        "thumb": "5.jpg",
-        "name": "Joy Devnath",
-        "designation": "SEO And SMM Specialist",
-        "text": "I am a passionate and data-driven Digital Marketing Expert with proven expertise in Search Engine Optimization (SEO), Social Media Marketing (SMM), and advanced Growth Hacking strategies. With years of hands-on experience in scaling businesses digitally, I help brands increase their visibility, engagement, and conversion rates across multiple channels.",
-        "age": "22",
-        "email": "",
-        "phone": ""
-    },
-    {
-        "id": 6,
-        "thumb": "6.jpg",
-        "name": "coming soon",
-        "designation": "Project Manager",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "33",
-        "email": "",
-        "phone": ""
-    },
-    {
-        "id": 7,
-        "thumb": "7.jpg",
-        "name": "RIMON DUTTA",
-        "designation": "Developer And Marketer",
-        "text": "Hi, I’m Rimon Dutta a passionate Full stack developer, mobile app developer, and SEO expert with a focus on performance, usability, and automation. I specialize in building high-quality web and mobile applications using modern JavaScript frameworks like React, React Native, and Three.js including advanced shaders, raymarching, and real-time rendering. Beyond development, I’m deeply involved in automation from workflow optimization with tools like n8n and Zapier, to custom-coded solutions that streamline repetitive tasks and boost productivity for teams and businesses.",
-        "age": "23",
-        "email": "info.rimondutta@gmail.com",
-        "phone": "+880 1404-587727"
-    },
-    {
-        "id": 8,
-        "thumb": "8.jpg",
-        "name": "coming soon",
-        "designation": "Video Editor",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "35",
-        "email": "",
-        "phone": ""
-    },
-    {
-        "id": 9,
-        "thumb": "9.jpg",
-        "name": "coming soon",
-        "designation": "Content Creator",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "36",
-        "email": "",
-        "phone": ""
-    },
-    {
-        "id": 10,
-        "thumb": "2.jpg",
-        "name": "coming soon",
-        "designation": "Google Ads Specialist",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "29",
-        "email": "",
-        "phone": ""
-    }
+  {
+    "id": 1,
+    "thumb": "rigan-dutta.jpg",
+    "name": "Rigan Dutta",
+    "designation": "App Developer",
+    "text": "Skilled app developer passionate about building modern, user-friendly, and high-performance applications. Experienced in creating responsive interfaces, integrating APIs, and delivering smooth digital experiences with a focus on quality and innovation.",
+    "email": "rigandutta@gmail.com",
+    "phone": "+880 1879-881015"
+  },
+  {
+    "id": 2,
+    "thumb": "rimon-dutta.jpg",
+    "name": "Rimon Dutta",
+    "designation": "Cloud Engineer",
+    "text": "Dedicated cloud engineer experienced in building, managing, and optimizing scalable cloud infrastructure. Skilled in cloud deployment, server management, automation, and ensuring secure, reliable, and high-performance systems for modern applications.",
+    "email": "info.rimondutta@gmail.com",
+    "phone": "+880 1404-587727"
+  },
+  {
+    "id": 3,
+    "thumb": "2.jpg",
+    "name": "Comming Soon",
+    "designation": "Software Engineer",
+    "text": "Passionate software engineer focused on developing efficient, scalable, and user-friendly digital solutions. Experienced in software development, problem-solving, and building high-quality applications with clean and reliable code.",
+    "email": "info.mge@gmail.com",
+    "phone": "+880 1913-801447"
+  }
 ]

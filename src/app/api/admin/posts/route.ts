@@ -20,7 +20,7 @@ export async function GET() {
 
     await dbConnect();
     const posts = await Post.find({})
-      .populate("author", "name profilePhoto")
+      .populate("author", "name avatar")
       .populate("category", "name slug")
       .populate("tags", "name slug color")
       .sort({ createdAt: -1 });

@@ -57,8 +57,8 @@ export default function TeamListPage() {
       header: "Member",
       accessor: (item: any) => (
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          {item.profilePhoto ? (
-            <img src={item.profilePhoto} alt={item.name} style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} />
+          {item.avatar ? (
+            <img src={item.avatar} alt={item.name} style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} />
           ) : (
             <div style={{ width: 40, height: 40, borderRadius: '50%', backgroundColor: '#334155', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               {item.name.substring(0, 2).toUpperCase()}

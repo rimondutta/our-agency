@@ -4,10 +4,10 @@ import { TeamMember } from "@/hooks/useTeam";
 import { createSlug } from "@/hooks/useTeamMember";
 
 const SingleTeamV1 = ({ team }: { team: TeamMember }) => {
-    const { profilePhoto, name, jobTitle, socialLinks } = team;
+    const { avatar, name, jobTitle, socialLinks } = team;
 
-    // Use a placeholder if no profile photo exists
-    const imageUrl = profilePhoto || "/assets/img/team/placeholder.jpg";
+    // Use placeholder if no avatar provided
+    const imageUrl = avatar || "/assets/img/team/placeholder.jpg";
 
     // Generate slug from name
     const slug = createSlug(name || "");

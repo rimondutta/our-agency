@@ -7,7 +7,7 @@ export interface TeamMember {
   phone?: string;
   jobTitle?: string;
   bio?: string;
-  profilePhoto?: string;
+  avatar?: string;
   skills?: string[];
   socialLinks?: {
     linkedin?: string;

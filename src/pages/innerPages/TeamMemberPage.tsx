@@ -36,7 +36,7 @@ const TeamMemberPage = () => {
   // Transform API data to match TeamDetails component format
   const teamInfo = {
     id: teamMember._id,
-    thumb: teamMember.profilePhoto?.replace("/assets/img/team/", "") || "placeholder.jpg",
+    thumb: teamMember.avatar?.replace("/assets/img/team/", "") || "placeholder.jpg",
     name: teamMember.name,
     designation: teamMember.jobTitle,
     text: "", // Add bio field if available
@@ -60,7 +60,7 @@ const TeamMemberPage = () => {
                 <div className="col-xl-6 col-lg-5 left-info">
                   <div className="thumb">
                     <img
-                      src={teamMember.profilePhoto || "/assets/img/team/placeholder.jpg"}
+                      src={teamMember.avatar || "/assets/img/team/placeholder.jpg"}
                       alt={teamMember.name}
                       width={800}
                       height={900}

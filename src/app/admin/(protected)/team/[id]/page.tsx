@@ -167,8 +167,8 @@ export default function EditTeamMemberPage() {
             <div style={{ flex: '1 1 300px' }}>
               <ImageUploader 
                 label="Profile Photo"
-                value={formData.profilePhoto || ""}
-                onChange={(url) => setFormData({ ...formData, profilePhoto: url })}
+                value={formData.avatar || ""}
+                onChange={(url) => setFormData({ ...formData, avatar: url })}
               />
               
               <div className="admin-form-group">

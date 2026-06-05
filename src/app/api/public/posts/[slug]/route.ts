@@ -16,7 +16,7 @@ export async function GET(
       { $inc: { views: 1 } },
       { new: true }
     )
-      .populate("author", "name profilePhoto")
+      .populate("author", "name avatar bio socialLinks")
       .populate("category", "name slug")
       .populate("tags", "name slug color");
 

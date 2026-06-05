@@ -60,7 +60,7 @@ export default function ProfilePage() {
         // Update NextAuth session if name or photo changed
         await update({
           name: formData.name,
-          profilePhoto: formData.profilePhoto,
+          avatar: formData.avatar,
         });
       } else {
         toast.error(data.message);
@@ -168,8 +168,8 @@ export default function ProfilePage() {
           <div style={{ flex: '1 1 300px' }}>
             <ImageUploader 
               label="Profile Photo"
-              value={formData.profilePhoto || ""}
-              onChange={(url) => setFormData({ ...formData, profilePhoto: url })}
+              value={formData.avatar || ""}
+              onChange={(url) => setFormData({ ...formData, avatar: url })}
             />
             
             <div className="admin-form-group">

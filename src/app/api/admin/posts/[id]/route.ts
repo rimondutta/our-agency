@@ -23,7 +23,7 @@ export async function GET(
     const { id } = await params;
     await dbConnect();
     const post = await Post.findById(id)
-      .populate("author", "name profilePhoto")
+      .populate("author", "name avatar")
       .populate("category", "name slug")
       .populate("tags", "name slug color");
 

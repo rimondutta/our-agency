@@ -14,7 +14,7 @@ const mapApiMemberToCard = (m: TeamMember) => ({
   id: m._id,
   name: m.name,
   designation: m.jobTitle || "Team Member",
-  photo: m.profilePhoto || "/assets/img/team/placeholder.jpg",
+  photo: m.avatar || "/assets/img/team/placeholder.jpg",
   bio: m.bio || "",
   skills: m.skills || [],
   email: m.email || "",

@@ -71,6 +71,7 @@ export async function POST(request: Request) {
         { status: 400 }
       );
     }
+    console.error("Team creation error:", error);
     return NextResponse.json(
       { success: false, message: error.message || "Something went wrong" },
       { status: 500 }

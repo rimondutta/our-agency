@@ -147,7 +147,7 @@ export default function EditTeamMemberPage() {
                   className="admin-form-control"
                   value={formData.password}
                   onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                  minLength={6}
+                  minLength={8}
                 />
               </div>
               

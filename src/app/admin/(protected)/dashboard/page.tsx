@@ -151,8 +151,8 @@ export default function DashboardPage() {
             <button className={`chartTab`} onClick={() => setActiveTab('1Y')}>1Y</button>
           </div>
         </div>
-        <div className="chartContainer">
-          <ResponsiveContainer width="100%" height="100%">
+        <div className="chartContainer" style={{ width: '100%', height: '350px' }}>
+          <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={350}>
             <AreaChart data={revenueData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
               <defs>
                 <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
@@ -183,8 +183,8 @@ export default function DashboardPage() {
         <div className="cardHeader">
           <h3 className="cardTitle">Service Breakdown</h3>
         </div>
-        <div className="chartContainer" style={{ height: '240px' }}>
-          <ResponsiveContainer width="100%" height="100%">
+        <div className="chartContainer" style={{ width: '100%', height: '240px' }}>
+          <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={240}>
             <PieChart>
               <Pie
                 data={serviceData}

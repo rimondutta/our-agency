@@ -2,7 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getToken } from 'next-auth/jwt';
 
 export async function proxy(request: NextRequest) {
-  const token = await getToken({ req: request, secret: process.env.AUTH_SECRET });
+  let token = await getToken({ req: request, secret: process.env.AUTH_SECRET, secureCookie: true });
+  if (!token) {
+    token = await getToken({ req: request, secret: process.env.AUTH_SECRET, secureCookie: false });
+  }
   const { pathname } = request.nextUrl;
 
   // Allow access to public routes
